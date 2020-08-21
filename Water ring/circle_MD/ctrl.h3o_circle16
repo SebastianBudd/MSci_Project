@@ -1,0 +1,163 @@
+% const lmmc=0 tb=1 show=F help=F pv=1
+% const n=16 nbas=49 nspec=4
+% const nsp=1 mom=0 rel=T frz=F xcf=4 gga=3 tpan=0 smear=.005 xcqs=0
+% const verb=30 nmix=5 betamix=0.8 ul=1 io=1 ovlp=0 nitq=99
+% const dyn=0 relax=0 nit=100 temp=300 taup=100 taub=1000 time=1000000 pressure=0 
+% const tstep=1
+% const hess=T xtol=1d-5 gtol=1d-5 step=0.01 nkill=100 nitf=10000
+% const fs=0.048377 K=1/0.6333328d-5 amass=1.09716d-3 aupres=147.116d6  
+% const PRBModel=0 sd=0 so=0 fp=0
+% const amass=1.09716d-3
+% const so=0 oveps=0 fp=0 gga=3 xcf=4
+# pressure 1 a.u. = Ry/Bohr^3 = 147.109561 Mbar (see http://en.wikipedia.org/wiki/Atomic_units)
+# in verlet.f aupres = 147.116d0, so we better use this number to convert from pressure in [bar]
+
+HEADER  15 molecules of h2o and 1 h3o+ arranged in a circle, dipole JCP model
+VERS    LM=7 ASA=7 FP=7 TB=10 MOL=3
+IO      SHOW={show} HELP={help} VERBOS={verb} WKP=F IACTIV=F TIM=F
+CONST   au=0.529177 p=60 alat=1
+        mol=T gamma=T qtol=1d-7 etol=1d-4 ewtol=1d-8
+        h2=1 o=0
+% include /home/seb/Dropbox/grotthuss/128a/CONST22062016
+
+DYN
+% if dyn==1|dyn==2|dyn==3
+        MD[MODE={dyn} TSTEP={tstep/fs} TEMP={temp/K} TAUP={taup/fs}
+           TIME={time/fs} TAUB={taub/fs} P={pressure/aupres}]
+% elseif relax>0
+        MSTAT[MODE={relax} HESS={hess} XTOL={xtol} GTOL={gtol} STEP={step}
+              NKILL={nkill}] NIT={nitf}
+% endif        
+STRUC   NBAS={nbas} NL={lmmc?4:3} NSPEC={nspec} ALAT=alat
+        PLAT=p 0 0 0 p 0  0 0 p
+
+
+HAM     NSPIN={nsp} ELIND=-0.8 GMAX=gmax REL=T SO={so}
+        XCFUN={xcf} GGA={gga} FORCES=12
+        PWMODE=pwmode PWEMIN=1 PWEMAX=pwemax OVEPS={oveps}
+SPEC
+        ATOM=H Z=1 R=RH I=stniH A=0.025 AMASS=1.00794/{amass}
+        LMX=2 LMXL=2 LMXA=2
+        IDU= 0 0 0 0 UH= 0 0 0 0  JH=stniH stniH stniH stniH
+        RSMH=RH/1.5 RH/1.5 RH/1.5 0 EH=-0.1 -0.1 -0.1 -0.1
+        MMOM=1 0 0
+        COLOUR=0.9 0.2 0.2 RADIUS=0.2
+% ifndef fp
+        IDXDN=1 3 3 QPOL= 0 0 0 0 0 0 0 0 0 0
+% endif
+
+        ATOM=O Z=8 R=RO A=0.025 AMASS=15999400/{amass}
+        COLOUR=0.2 0.2 1 RADIUS=1
+        IDXDN=1 1 3 QPOL=dsppO 0 0 0 0 0 0 0 0 0
+
+        ATOM=Fe Z=26 R=RFe I=stniFe A=0.025 AMASS=55.845/{amass}
+        IDU= 0 0 0 0 UH= 0 0 0 0  JH=stniFe stniFe stniFe stniFe
+        COLOUR=0.1 0.1 0.1  RADIUS=0.5
+%  ifdef fp
+        LMX=2 LMXA=4 KMXA=4 LFOCA=1
+        RSMH=0.95 0.95 0.95 0 EH=-0.1 -0.1 -0.1 -0.1
+        RSMH2=0.95 0.95 0.95 EH2=-1.1 -1.1 -1.1
+        Q=2 0 6 MMOM=0 0 2 PZ=0 {cpl?3.9:0}
+%  else
+        IDXDN={sd?1:3} 3 1 QPOL= 0 0 0 0 0 0 0 0 0 0
+%  endif
+
+        ATOM=C Z=6 R=RC I=stniC A=0.025 AMASS=12.0107/{amass}
+        LMX=2 LMXL=2 LMXA=2
+        IDU= 0 0 0 0 UH= 0 0 0 0  JH=stniC stniC stniC stniC
+        COLOUR=0.5 0 0  RADIUS=0.25
+        RSMH=0.9 0.9 0.9 0 EH=-0.1 -0.1 -0.1 -0.1
+        MMOM=0 2 0
+% ifndef fp
+        IDXDN=1 1 3 QPOL= 0 0 0 0 0 0 0 0 0 0
+% endif
+
+START   CNTROL=T
+        ATOM=Fe   P= 4 4 3 4 4 3
+                  Q= q0s/{nsp}            esFe   Us
+                     q0p/{nsp}            epFe   Up
+                     (q0dFe+momFe)/{nsp}  edFe  UdFe
+                     q0s/{nsp}            esFe   Us
+                     q0p/{nsp}            epFe   Up
+                     (q0dFe-momFe)/{nsp}  edFe  UdFe
+        ATOM=C    P= 2 2 3 2 2 3
+                  Q= q0sC/{nsp}           esC    UC
+                     q0pC/{nsp}           epC    UC
+                     0                    0      0
+                     q0sC/{nsp}           esC    UC
+                     q0pC/{nsp}           epC    UC
+                     0                    0      0
+        ATOM=H    P= 1 2 3 1 2 3
+                  Q= (q0H+momH)/{nsp}     esH    UH
+                     0                    0      0
+                     0                    0      0
+                     (q0H-momH)/{nsp}     esH   UH
+                     0                    0      0
+                     0                    0      0
+        ATOM=O    P=2 2 3   2 2 3
+                 Q=q0sO/{nsp}   esO   UO
+                   q0pO/{nsp}   epO   UO
+                   0            0     0
+                   q0sO/{nsp}   esO   UO
+                   q0pO/{nsp}   epO   UO
+                   0            0     0
+OPTIONS ASA[ADNF[0] NSPH[0] TWOC[0] CCOR[1]]
+
+BZ      NKABC=1 TETRA=0 METAL=0 INVIT=1 N=0 W=0.0001 NEVMX=513 ZVAL=128
+SITE  ATOM=O  POS=   45.01394569310236	    30.0	            30.0                RELAX= o  o  o
+      ATOM=H  POS=   46.38616485            30.22324932         31.14133218         RELAX= h3 h3 h3
+      ATOM=H  POS=   44.07079316            31.50789718         29.73134739         RELAX= h3 h3 h3
+      ATOM=H  POS=   45.4984887             29.191719           28.4678888          RELAX= h3 h3 h3
+      ATOM=O  POS=   43.87107712809325	    35.745588271179464	30.0                RELAX= o  o  o
+      ATOM=H  POS=   44.50964396            36.25008972         28.39644331         RELAX= h2 h2 h2
+      ATOM=H  POS=   42.64757896            37.05251968         30.35938707         RELAX= h2 h2 h2
+      ATOM=O  POS=   40.61646281195924	    40.61646281195923	30.0                RELAX= o  o  o
+      ATOM=H  POS=   41.58900194            42.11363716         29.78934092         RELAX= h2 h2 h2
+      ATOM=H  POS=   38.90306847            41.24073233         29.91425277         RELAX= h2 h2 h2
+      ATOM=O  POS=   35.745588271179464	    43.87107712809325	30.0                RELAX= o  o  o
+      ATOM=H  POS=   35.93422740            44.88797111         31.47183630         RELAX= h2 h2 h2
+      ATOM=H  POS=   33.93288471            43.84547701         29.78698140         RELAX= h2 h2 h2
+      ATOM=O  POS=   30.0	                45.01394569310236	30.0                RELAX= o  o  o
+      ATOM=H  POS=   28.32615027            44.34560186         30.29350049         RELAX= h2 h2 h2
+      ATOM=H  POS=   29.74921389            46.06562929         28.56336818         RELAX= h2 h2 h2
+      ATOM=O  POS=   24.254411728820536	    43.87107712809325	30.0                RELAX= o  o  o
+      ATOM=H  POS=   23.02840236            42.52433433         29.87621628         RELAX= h2 h2 h2
+      ATOM=H  POS=   23.23253123            45.34231635         29.84692529         RELAX= h2 h2 h2
+      ATOM=O  POS=   19.38353718804077	    40.61646281195924	30.0                RELAX= o  o  o
+      ATOM=H  POS=   18.68848778            38.95474389         29.70401509         RELAX= h2 h2 h2
+      ATOM=H  POS=   18.66395431            41.04404008         31.59234477         RELAX= h2 h2 h2
+      ATOM=O  POS=   16.128922871906752	    35.745588271179464	30.0                RELAX= o  o  o
+      ATOM=H  POS=   16.17836399            33.92316988         30.09431911         RELAX= h2 h2 h2
+      ATOM=H  POS=   14.76458617            36.03558593         28.86440523         RELAX= h2 h2 h2
+      ATOM=O  POS=   14.986054306897646	    30.000000000000004	30.0                RELAX= o  o  o
+      ATOM=H  POS=   13.83573101            29.77687941         31.36465556         RELAX= h2 h2 h2
+      ATOM=H  POS=   15.70776239            28.33235788         29.82517043         RELAX= h2 h2 h2
+      ATOM=O  POS=   16.128922871906752	    24.254411728820536	30                  RELAX= o  o  o
+      ATOM=H  POS=   17.44192448            22.99395409        30.14058090          RELAX= h2 h2 h2
+      ATOM=H  POS=   15.06936970            23.56329977         28.72136091         RELAX= h2 h2 h2
+      ATOM=O  POS=   19.383537188040762	    19.38353718804077	30                  RELAX= o  o  o
+      ATOM=H  POS=   18.69183765            18.36843761         31.31391048         RELAX= h2 h2 h2
+      ATOM=H  POS=   21.07671454            18.71877305         29.84600967         RELAX= h2 h2 h2
+      ATOM=O  POS=   24.254411728820525	    16.128922871906752	30                  RELAX= o  o  o
+      ATOM=H  POS=   24.00009318            14.91281210         28.69937807         RELAX= h2 h2 h2
+      ATOM=H  POS=   26.07348943            16.16411915         30.14899192         RELAX= h2 h2 h2
+      ATOM=O  POS=   29.999999999999996	    14.986054306897646	30                  RELAX= o  o  o
+      ATOM=H  POS=   31.66743255            15.71397771         29.85077275         RELAX= h2 h2 h2
+      ATOM=H  POS=   30.22891041            13.76893433         31.30440096         RELAX= h2 h2 h2
+      ATOM=O  POS=   35.74558827117947	    16.128922871906752	30                  RELAX= o  o  o
+      ATOM=H  POS=   37.00694502            17.43943817         30.15502261         RELAX= h2 h2 h2
+      ATOM=H  POS=   36.42215572            15.09923119         28.68958569         RELAX= h2 h2 h2
+      ATOM=O  POS=   40.61646281195923	    19.383537188040762	30                  RELAX= o  o  o
+      ATOM=H  POS=   41.65367961            18.66803624         31.28356091         RELAX= h2 h2 h2
+      ATOM=H  POS=   41.28037557            21.07856993         29.86394067         RELAX= h2 h2 h2
+      ATOM=O  POS=   43.87107712809325	    24.254411728820525	30                  RELAX= o  o  o
+      ATOM=H  POS=   45.02513318            24.02910570         28.63894759         RELAX= h2 h2 h2
+      ATOM=H  POS=   43.84057073            26.07007276         30.18733530         RELAX= h2 h2 h2
+
+
+ME
+% include /home/seb/Dropbox/grotthuss/128a/ME22062016
+TB      FORCES=1 EVDISC=F RMAXH=11 RHO=T MOL=mol GAMMA=gamma SCALE=F
+        UL={ul} IODEL={io} OVLP={ovlp} NOUAVG=F U1=F 3PV={pv}
+ITER    CONV=etol CONVC=qtol NIT={nitq} MIX=A{nmix},b={betamix},k={nmix}
+EWALD   NKDMX=1028 TOL=ewtol

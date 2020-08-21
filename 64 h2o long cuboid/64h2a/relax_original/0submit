@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#SBATCH --job-name=relax_original
+#SBATCH --nodelist=soot
+#SBATCH -B 1:1:1
+
+
+#ulimit -l unlimited
+
+./0run_tbe

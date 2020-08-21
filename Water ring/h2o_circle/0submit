@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#SBATCH --job-name=relax_h2o_circle
+#SBATCH --nodelist=tar
+#SBATCH -B 1:4:2
+
+
+#ulimit -l unlimited
+
+./0run_tbe

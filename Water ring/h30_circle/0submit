@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#SBATCH --job-name=relax_circle_h30+
+#SBATCH --nodelist=tar
+#SBATCH -B 1:4:2
+
+./0run_tbe

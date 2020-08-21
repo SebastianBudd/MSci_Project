@@ -1,0 +1,8 @@
+ ---------------  START TBE - ref: f23c4c89 ---------------
+
+ TBE:      nbas = 192  nspec = 2  verb 31
+ TB:       rmaxh = 10, s-c multipoles, read del, rho
+ bz:       nonmetal, invit 
+ bz nq 1 ( 1 1 1 )  shift  F F F
+bz met F  tet F  ef -0.894100  sev -803.198610256  zval 512.0 qval 0.0 gap 5.4855 eV
+ CPU time:  1.044s   Wall clock 1.071s  at  13:18:41 06.02.2020  on  soot

@@ -1,0 +1,89 @@
+% const lmmc=0 tb=1 show=F help=F pv=1
+% const n=16 nbas=3*n nspec=4
+% const nsp=1 mom=0 rel=T frz=F xcf=4 gga=3 tpan=0 smear=.005 xcqs=0
+% const verb=30 nmix=5 betamix=0.8 ul=1 io=1 ovlp=0 nitq=99
+% const dyn=0 relax=0 nit=100 temp=300 taup=100 taub=1000 time=1000000 pressure=0 
+% const tstep=1
+% const hess=T xtol=1d-5 gtol=1d-5 step=0.01 nkill=100 nitf=10000
+% const fs=0.048377 K=1/0.6333328d-5 amass=1.09716d-3 aupres=147.116d6  
+% const PRBModel=0 sd=0 so=0 fp=0
+# pressure 1 a.u. = Ry/Bohr^3 = 147.109561 Mbar (see http://en.wikipedia.org/wiki/Atomic_units)
+# in verlet.f aupres = 147.116d0, so we better use this number to convert from pressure in [bar]
+
+HEADER  128 mols, dipole JCP model
+VERS    LM=7 ASA=7 FP=7 TB=10 MOL=3
+IO      SHOW={show} HELP={help} VERBOS={verb} WKP=F IACTIV=F TIM=F
+CONST   au=0.529177 p=15.736/au alat=1
+        mol=F gamma=T qtol=1d-7 etol=1d-4 ewtol=1d-8
+        h2=1 h3=1 oh=1
+% include /home/seb/Dropbox/grotthuss/128a/CONST22062016
+
+DYN
+% if dyn==1|dyn==2|dyn==3
+        MD[MODE={dyn} TSTEP={tstep/fs} TEMP={temp/K} TAUP={taup/fs}
+           TIME={time/fs} TAUB={taub/fs} P={pressure/aupres}]
+% elseif relax>0
+        MSTAT[MODE={relax} HESS={hess} XTOL={xtol} GTOL={gtol} STEP={step}
+              NKILL={nkill}] NIT={nitf}
+% endif        
+STRUC   NBAS={nbas} NL={lmmc?4:3} NSPEC={nspec} ALAT=alat
+        PLAT=p 0 0 0 p 0  0 0 p
+
+BZ      NKABC=1 TETRA=0 METAL=0 INVIT=1 N=0 W=0.0001 NEVMX=513
+SITE  ATOM=O  POS=   3.9215500   9.8822003  14.0813946  RELAX= o  o  o 
+      ATOM=H  POS=   3.8416148  11.6324976  14.6511542  RELAX= h2 h2 h2
+      ATOM=H  POS=   4.4479358   8.9313149  15.5978683  RELAX= h2 h2 h2
+      ATOM=O  POS=  25.9329652  26.0927020   3.6442085  RELAX= o  o  o 
+      ATOM=H  POS=  26.2184898  26.7892951   1.9815194  RELAX= h2 h2 h2
+      ATOM=H  POS=  24.2433772  25.3433063   3.5532925  RELAX= h2 h2 h2
+      ATOM=O  POS=   0.2212877   4.5072960  26.0802011  RELAX= o  o  o 
+      ATOM=H  POS=   1.6821215   5.6413273  26.2777304  RELAX= h2 h2 h2
+      ATOM=H  POS=  -1.0682855   5.5013215  25.2183828  RELAX= h2 h2 h2
+      ATOM=O  POS=   2.3139591   6.1828745  10.8535570  RELAX= o  o  o 
+      ATOM=H  POS=   2.9979324   7.5333306  11.9312234  RELAX= h2 h2 h2
+      ATOM=H  POS=   0.4974945   6.4898495  10.7906850  RELAX= h2 h2 h2
+      ATOM=O  POS=  16.8036407  13.1102369  19.7694680  RELAX= o  o  o 
+      ATOM=H  POS=  15.4794358  13.1525494  21.0485351  RELAX= h2 h2 h2
+      ATOM=H  POS=  16.3486636  14.3862216  18.4965784  RELAX= h2 h2 h2
+      ATOM=O  POS=  27.1692037  21.3765742  18.7651545  RELAX= o  o  o 
+      ATOM=H  POS=  27.7580402  20.5393098  17.2499717  RELAX= h2 h2 h2
+      ATOM=H  POS=  25.3282223  21.2748486  18.7444766  RELAX= h2 h2 h2
+      ATOM=O  POS=  30.9332586  21.5849960  22.8698822  RELAX= o  o  o 
+      ATOM=H  POS=  29.6176303  21.5378852  21.5890434  RELAX= h2 h2 h2
+      ATOM=H  POS=  31.2532987  19.8274156  23.3426399  RELAX= h2 h2 h2
+      ATOM=O  POS=   6.6912157  -1.6462691  14.3829241  RELAX= o  o  o 
+      ATOM=H  POS=   5.3961175  -0.3791953  13.9924427  RELAX= h2 h2 h2
+      ATOM=H  POS=   7.8213320  -0.9600355  15.6744191  RELAX= h2 h2 h2
+      ATOM=O  POS=   4.4800207  24.1752585  16.9408386  RELAX= o  o  o 
+      ATOM=H  POS=   5.3848019  25.4210661  15.9078222  RELAX= h2 h2 h2
+      ATOM=H  POS=   2.7804718  24.8561449  17.2179063  RELAX= h2 h2 h2
+      ATOM=O  POS=  16.5678357   7.6862299  23.8457381  RELAX= o  o  o 
+      ATOM=H  POS=  18.2507430   7.3844377  23.1452026  RELAX= h2 h2 h2
+      ATOM=H  POS=  16.6991564   9.1754755  24.9330951  RELAX= h2 h2 h2
+      ATOM=O  POS=  21.3005372  24.4340346   1.7145052  RELAX= o  o  o 
+      ATOM=H  POS=  20.0850102  25.7719463   2.0992954  RELAX= h2 h2 h2
+      ATOM=H  POS=  22.2158304  25.0151498   0.2169175  RELAX= h2 h2 h2
+      ATOM=O  POS=   8.4150013   2.9850095   9.3122342  RELAX= o  o  o 
+      ATOM=H  POS=   8.8112733   1.2100971   9.4860882  RELAX= h2 h2 h2
+      ATOM=H  POS=   9.4661355   3.8888386  10.5228749  RELAX= h2 h2 h2
+      ATOM=O  POS=  18.4924876  16.5933630  27.9393954  RELAX= o  o  o 
+      ATOM=H  POS=  17.4357941  17.6635012  26.8539966  RELAX= h2 h2 h2
+      ATOM=H  POS=  18.8232901  17.5807481  29.4713209  RELAX= h2 h2 h2
+      ATOM=O  POS=   8.0774773  26.7150016  28.8729811  RELAX= o  o  o 
+      ATOM=H  POS=   8.6396536  25.1642082  28.0859217  RELAX= h2 h2 h2
+      ATOM=H  POS=   6.2781841  26.4784756  29.1549917  RELAX= h2 h2 h2
+      ATOM=O  POS=   4.5560208   7.2233233  26.3872496  RELAX= o  o  o 
+      ATOM=H  POS=   5.2240224   6.6456958  28.0072131  RELAX= h2 h2 h2
+      ATOM=H  POS=   4.8412659   9.0511800  26.2123591  RELAX= h2 h2 h2
+      ATOM=O  POS=   4.7893027  14.2292822  16.8446242  RELAX= o  o  o 
+      ATOM=H  POS=   5.0125050  16.0295913  16.4779092  RELAX= h2 h2 h2
+      ATOM=H  POS=   6.4187185  13.5624031  17.4044715  RELAX= h2 h2 h2
+
+
+% include /home/seb/Dropbox/grotthuss/128a/SPEC22062016
+ME
+% include /home/seb/Dropbox/grotthuss/128a/ME22062016
+TB      FORCES=1 EVDISC=F RMAXH=11 RHO=T MOL=mol GAMMA=gamma SCALE=F
+        UL={ul} IODEL={io} OVLP={ovlp} NOUAVG=F U1=F 3PV={pv}
+ITER    CONV=etol CONVC=qtol NIT={nitq} MIX=A{nmix},b={betamix},k={nmix}
+EWALD   NKDMX=1028 TOL=ewtol

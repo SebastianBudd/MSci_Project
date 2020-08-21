@@ -1,0 +1,19 @@
+ module purge
+ module load hdf5/1.10.5/openmpi/3.1.0/gcc/8.1.0 libxc/4.3.4/gcc/8.1.0 intel/19.0.3
+ module list
+
+#source /home/lozovoi/bucket/i-pi/i-pi-dev/env.sh
+
+xt=64h2o
+
+
+rm -f {delta,save,band,bnds,hssn,log}.${xt} {bs,mv}.${xt}
+/home/lozovoi/bucket/lm/b/gcc-opt-mpi/tbe --pr31 --xbs --mv --wpos=pos1 \
+                                                       -vdyn=0 -vrelax=0 \
+                                                       ${xt} > out.${xt}
+
+
+#-vntio2=${nlay} -vbmix=0.4 -vrelax=5 -vnosym=t \
+#          -vvfrac=${vfrac} -vqfrac=${qfrac} \
+#          -vxtol=1e-4 -vgtol=1.0e-4 -vnitf=999 --wpos=pos1 ${xt} > out
+

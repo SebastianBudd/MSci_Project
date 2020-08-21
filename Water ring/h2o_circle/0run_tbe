@@ -1,0 +1,16 @@
+module purge
+module load libxc/4.3.4/intel/19.0.3 hdf5/1.10.5/openmpi/4.0.1/intel/19.0.3
+
+xt=circle16
+
+
+rm -f {delta,save,band,bnds,hssn,log}.${xt} {bs,mv,xyz}.${xt}
+/home/seb/lm_lm/lm/b/intel-opt/tbe --pr20 --xyz=10 --wpos=pos1 -vnitq=50 --nit=60\
+                                                       -vdyn=0 -vrelax=5 -vstep=0.01 -vo1=1 -vo=0 \
+                                                       -vh2=1 -vh3=1 -vh1=1 -vs=2\
+                                                       ${xt} > out.${xt}
+
+rm ${xt}.{bs,mv}
+cp ${xt}.bs0 ${xt}.bs
+mv bs.${xt} ${xt}.bs
+mv mv.${xt} ${xt}.mv

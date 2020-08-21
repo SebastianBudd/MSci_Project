@@ -1,0 +1,4150 @@
+ ---------------  START TBE - ref: f23c4c89 ---------------
+ HEADER 64 water molecules
+
+ TBE:      nbas = 192  nspec = 2  verb 31
+ TB:       rmaxh = 10, s-c multipoles, read del, rho
+ bz:       nonmetal, invit 
+
+                Plat                                  Qlat
+  13.723226   0.000000   0.000000        0.072869   0.000000   0.000000
+   0.000000  13.723226   0.000000        0.000000   0.072869   0.000000
+   0.000000   0.000000  68.616132        0.000000   0.000000   0.014574
+   alat = 1  Cell vol = 12922.266123
+
+ xlgen: added missing plat: ivck= 0 0 1  rmax=  53.577  rpad*rmax=   0.000
+
+ LATTC:  as= 2.000   tol=1.00e-8   alat= 1.00000   awald= 0.085   lmax=6
+         r1= 53.577   nkd= 135      q1=  0.110   nkg= 79
+
+ SGROUP: 1 symmetry operations from 0 generators
+ SYMLAT: Bravais system is tetragonal with 16 symmetry operations.
+ SYMCRY: crystal invariant under 1 symmetry operations for tol=1e-5
+ GROUPG: the following are sufficient to generate the space group:
+ MKSYM:  found 1 space group operations; adding inversion generated 2 ops
+ BZMESH: 1 irreducible QP from 1 ( 1 1 1 )  shift= F F F
+
+ TBZINT: use spherical dipole correction
+ SULMXL: lmxl for species 1 is reduced from 2 to 0
+ SULMXL: lmxl for species 2 is reduced from 2 to 1
+ Process grid dims:            1           1           1
+ k-point : process map :  0 1
+
+ TBZINT: zval=512 electrons from START category      
+
+ RDTBH: found global matrix elements with mode 5: Goodwin-Skinner-Pettifor
+
+ SHOTBM: 4 rules for pair potential
+ H,H:
+   type 0 (no pair interaction)
+ H,O:
+   type 0 (no pair interaction)
+ O,H:
+   type 0 (no pair interaction)
+ O,O:
+   type 0 (no pair interaction)
+
+ SHOTBM: 4 rules for Hamiltonian
+ H,H:
+   type 5 (GSP), V(d) = A (r0/d)^n exp{n [(r0/rc)^nc - (d/rc)^nc]}
+             V        n       nc       r0       rc
+   sss:    0.000    0.000    0.000    0.000    0.000
+   sps:    0.000    0.000    0.000    0.000    0.000
+   pps:    0.000    0.000    0.000    0.000    0.000
+   ppp:    0.000    0.000    0.000    0.000    0.000
+   cutoff type 0 (no cutoff)
+ H,O:
+   type 5 (GSP), V(d) = A (r0/d)^n exp{n [(r0/rc)^nc - (d/rc)^nc]}
+             V        n       nc       r0       rc
+   sss:   -0.428    2.000    4.000    1.809    3.257
+   sps:    0.550    2.000    4.000    1.809    3.257
+   pps:    0.990    2.000    4.000    1.809    3.257
+   ppp:   -0.247    2.000    4.000    1.809    3.257
+   cutoff type 0 (no cutoff)
+ O,H:
+   type 5 (GSP), V(d) = A (r0/d)^n exp{n [(r0/rc)^nc - (d/rc)^nc]}
+             V        n       nc       r0       rc
+   sss:   -0.428    2.000    4.000    1.809    3.257
+   sps:    0.550    2.000    4.000    1.809    3.257
+   pps:    0.990    2.000    4.000    1.809    3.257
+   ppp:   -0.247    2.000    4.000    1.809    3.257
+   cutoff type 0 (no cutoff)
+ O,O:
+   type 5 (GSP), V(d) = A (r0/d)^n exp{n [(r0/rc)^nc - (d/rc)^nc]}
+             V        n       nc       r0       rc
+   sss:   -0.072    2.000    0.000    5.600    6.600
+   sps:    0.084    2.000    0.000    5.600    6.600
+   pps:    0.060    3.000    0.000    5.600    6.600
+   ppp:   -0.010    3.000    0.000    5.600    6.600
+   cutoff type 0 (no cutoff)
+ IODELL: error reading delta's from delta file
+         setting delta's to zero ..
+
+ pairc, ib=  1:  51 neighbors in range 10.000
+ pairc, ib=  2:  48 neighbors in range 10.000
+ pairc, ib=  3:  46 neighbors in range 10.000
+ pairc, ib=  4:  74 neighbors in range 10.000
+ pairc, ib=  5:  73 neighbors in range 10.000
+ pairc, ib=  6:  77 neighbors in range 10.000
+ pairc, ib=  7:  64 neighbors in range 10.000
+ pairc, ib=  8:  58 neighbors in range 10.000
+ pairc, ib=  9:  59 neighbors in range 10.000
+ pairc, ib= 10:  55 neighbors in range 10.000
+ pairc, ib= 11:  58 neighbors in range 10.000
+ pairc, ib= 12:  52 neighbors in range 10.000
+ pairc, ib= 13:  67 neighbors in range 10.000
+ pairc, ib= 14:  62 neighbors in range 10.000
+ pairc, ib= 15:  69 neighbors in range 10.000
+ pairc, ib= 16:  80 neighbors in range 10.000
+ pairc, ib= 17:  82 neighbors in range 10.000
+ pairc, ib= 18:  77 neighbors in range 10.000
+ pairc, ib= 19:  74 neighbors in range 10.000
+ pairc, ib= 20:  73 neighbors in range 10.000
+ pairc, ib= 21:  78 neighbors in range 10.000
+ pairc, ib= 22:  67 neighbors in range 10.000
+ pairc, ib= 23:  69 neighbors in range 10.000
+ pairc, ib= 24:  75 neighbors in range 10.000
+ pairc, ib= 25:  65 neighbors in range 10.000
+ pairc, ib= 26:  67 neighbors in range 10.000
+ pairc, ib= 27:  72 neighbors in range 10.000
+ pairc, ib= 28:  70 neighbors in range 10.000
+ pairc, ib= 29:  63 neighbors in range 10.000
+ pairc, ib= 30:  73 neighbors in range 10.000
+ pairc, ib= 31:  42 neighbors in range 10.000
+ pairc, ib= 32:  46 neighbors in range 10.000
+ pairc, ib= 33:  47 neighbors in range 10.000
+ pairc, ib= 34:  67 neighbors in range 10.000
+ pairc, ib= 35:  66 neighbors in range 10.000
+ pairc, ib= 36:  66 neighbors in range 10.000
+ pairc, ib= 37:  53 neighbors in range 10.000
+ pairc, ib= 38:  58 neighbors in range 10.000
+ pairc, ib= 39:  56 neighbors in range 10.000
+ pairc, ib= 40:  49 neighbors in range 10.000
+ pairc, ib= 41:  53 neighbors in range 10.000
+ pairc, ib= 42:  52 neighbors in range 10.000
+ pairc, ib= 43:  69 neighbors in range 10.000
+ pairc, ib= 44:  67 neighbors in range 10.000
+ pairc, ib= 45:  68 neighbors in range 10.000
+ pairc, ib= 46:  55 neighbors in range 10.000
+ pairc, ib= 47:  53 neighbors in range 10.000
+ pairc, ib= 48:  52 neighbors in range 10.000
+ pairc, ib= 49:  80 neighbors in range 10.000
+ pairc, ib= 50:  71 neighbors in range 10.000
+ pairc, ib= 51:  75 neighbors in range 10.000
+ pairc, ib= 52:  61 neighbors in range 10.000
+ pairc, ib= 53:  60 neighbors in range 10.000
+ pairc, ib= 54:  60 neighbors in range 10.000
+ pairc, ib= 55:  65 neighbors in range 10.000
+ pairc, ib= 56:  58 neighbors in range 10.000
+ pairc, ib= 57:  59 neighbors in range 10.000
+ pairc, ib= 58:  66 neighbors in range 10.000
+ pairc, ib= 59:  68 neighbors in range 10.000
+ pairc, ib= 60:  65 neighbors in range 10.000
+ pairc, ib= 61:  44 neighbors in range 10.000
+ pairc, ib= 62:  44 neighbors in range 10.000
+ pairc, ib= 63:  42 neighbors in range 10.000
+ pairc, ib= 64:  78 neighbors in range 10.000
+ pairc, ib= 65:  81 neighbors in range 10.000
+ pairc, ib= 66:  79 neighbors in range 10.000
+ pairc, ib= 67:  54 neighbors in range 10.000
+ pairc, ib= 68:  52 neighbors in range 10.000
+ pairc, ib= 69:  52 neighbors in range 10.000
+ pairc, ib= 70:  68 neighbors in range 10.000
+ pairc, ib= 71:  70 neighbors in range 10.000
+ pairc, ib= 72:  67 neighbors in range 10.000
+ pairc, ib= 73:  70 neighbors in range 10.000
+ pairc, ib= 74:  72 neighbors in range 10.000
+ pairc, ib= 75:  70 neighbors in range 10.000
+ pairc, ib= 76:  81 neighbors in range 10.000
+ pairc, ib= 77:  83 neighbors in range 10.000
+ pairc, ib= 78:  83 neighbors in range 10.000
+ pairc, ib= 79:  54 neighbors in range 10.000
+ pairc, ib= 80:  58 neighbors in range 10.000
+ pairc, ib= 81:  56 neighbors in range 10.000
+ pairc, ib= 82:  58 neighbors in range 10.000
+ pairc, ib= 83:  64 neighbors in range 10.000
+ pairc, ib= 84:  60 neighbors in range 10.000
+ pairc, ib= 85:  49 neighbors in range 10.000
+ pairc, ib= 86:  50 neighbors in range 10.000
+ pairc, ib= 87:  57 neighbors in range 10.000
+ pairc, ib= 88:  72 neighbors in range 10.000
+ pairc, ib= 89:  80 neighbors in range 10.000
+ pairc, ib= 90:  68 neighbors in range 10.000
+ pairc, ib= 91:  66 neighbors in range 10.000
+ pairc, ib= 92:  60 neighbors in range 10.000
+ pairc, ib= 93:  64 neighbors in range 10.000
+ pairc, ib= 94:  65 neighbors in range 10.000
+ pairc, ib= 95:  63 neighbors in range 10.000
+ pairc, ib= 96:  65 neighbors in range 10.000
+ pairc, ib= 97:  78 neighbors in range 10.000
+ pairc, ib= 98:  72 neighbors in range 10.000
+ pairc, ib= 99:  82 neighbors in range 10.000
+ pairc, ib=100:  74 neighbors in range 10.000
+ pairc, ib=101:  64 neighbors in range 10.000
+ pairc, ib=102:  74 neighbors in range 10.000
+ pairc, ib=103:  61 neighbors in range 10.000
+ pairc, ib=104:  61 neighbors in range 10.000
+ pairc, ib=105:  58 neighbors in range 10.000
+ pairc, ib=106:  47 neighbors in range 10.000
+ pairc, ib=107:  39 neighbors in range 10.000
+ pairc, ib=108:  51 neighbors in range 10.000
+ pairc, ib=109:  61 neighbors in range 10.000
+ pairc, ib=110:  58 neighbors in range 10.000
+ pairc, ib=111:  66 neighbors in range 10.000
+ pairc, ib=112:  80 neighbors in range 10.000
+ pairc, ib=113:  73 neighbors in range 10.000
+ pairc, ib=114:  73 neighbors in range 10.000
+ pairc, ib=115:  71 neighbors in range 10.000
+ pairc, ib=116:  67 neighbors in range 10.000
+ pairc, ib=117:  65 neighbors in range 10.000
+ pairc, ib=118:  70 neighbors in range 10.000
+ pairc, ib=119:  76 neighbors in range 10.000
+ pairc, ib=120:  66 neighbors in range 10.000
+ pairc, ib=121:  52 neighbors in range 10.000
+ pairc, ib=122:  58 neighbors in range 10.000
+ pairc, ib=123:  55 neighbors in range 10.000
+ pairc, ib=124:  68 neighbors in range 10.000
+ pairc, ib=125:  70 neighbors in range 10.000
+ pairc, ib=126:  69 neighbors in range 10.000
+ pairc, ib=127:  74 neighbors in range 10.000
+ pairc, ib=128:  78 neighbors in range 10.000
+ pairc, ib=129:  76 neighbors in range 10.000
+ pairc, ib=130:  49 neighbors in range 10.000
+ pairc, ib=131:  50 neighbors in range 10.000
+ pairc, ib=132:  43 neighbors in range 10.000
+ pairc, ib=133:  76 neighbors in range 10.000
+ pairc, ib=134:  72 neighbors in range 10.000
+ pairc, ib=135:  74 neighbors in range 10.000
+ pairc, ib=136:  58 neighbors in range 10.000
+ pairc, ib=137:  57 neighbors in range 10.000
+ pairc, ib=138:  57 neighbors in range 10.000
+ pairc, ib=139:  81 neighbors in range 10.000
+ pairc, ib=140:  80 neighbors in range 10.000
+ pairc, ib=141:  81 neighbors in range 10.000
+ pairc, ib=142:  63 neighbors in range 10.000
+ pairc, ib=143:  59 neighbors in range 10.000
+ pairc, ib=144:  59 neighbors in range 10.000
+ pairc, ib=145:  43 neighbors in range 10.000
+ pairc, ib=146:  46 neighbors in range 10.000
+ pairc, ib=147:  40 neighbors in range 10.000
+ pairc, ib=148:  78 neighbors in range 10.000
+ pairc, ib=149:  71 neighbors in range 10.000
+ pairc, ib=150:  77 neighbors in range 10.000
+ pairc, ib=151:  63 neighbors in range 10.000
+ pairc, ib=152:  67 neighbors in range 10.000
+ pairc, ib=153:  72 neighbors in range 10.000
+ pairc, ib=154:  56 neighbors in range 10.000
+ pairc, ib=155:  72 neighbors in range 10.000
+ pairc, ib=156:  57 neighbors in range 10.000
+ pairc, ib=157:  57 neighbors in range 10.000
+ pairc, ib=158:  58 neighbors in range 10.000
+ pairc, ib=159:  57 neighbors in range 10.000
+ pairc, ib=160:  63 neighbors in range 10.000
+ pairc, ib=161:  66 neighbors in range 10.000
+ pairc, ib=162:  63 neighbors in range 10.000
+ pairc, ib=163:  52 neighbors in range 10.000
+ pairc, ib=164:  50 neighbors in range 10.000
+ pairc, ib=165:  51 neighbors in range 10.000
+ pairc, ib=166:  55 neighbors in range 10.000
+ pairc, ib=167:  52 neighbors in range 10.000
+ pairc, ib=168:  50 neighbors in range 10.000
+ pairc, ib=169:  85 neighbors in range 10.000
+ pairc, ib=170:  78 neighbors in range 10.000
+ pairc, ib=171:  74 neighbors in range 10.000
+ pairc, ib=172:  76 neighbors in range 10.000
+ pairc, ib=173:  78 neighbors in range 10.000
+ pairc, ib=174:  81 neighbors in range 10.000
+ pairc, ib=175:  56 neighbors in range 10.000
+ pairc, ib=176:  54 neighbors in range 10.000
+ pairc, ib=177:  63 neighbors in range 10.000
+ pairc, ib=178:  74 neighbors in range 10.000
+ pairc, ib=179:  72 neighbors in range 10.000
+ pairc, ib=180:  79 neighbors in range 10.000
+ pairc, ib=181:  58 neighbors in range 10.000
+ pairc, ib=182:  49 neighbors in range 10.000
+ pairc, ib=183:  61 neighbors in range 10.000
+ pairc, ib=184:  67 neighbors in range 10.000
+ pairc, ib=185:  73 neighbors in range 10.000
+ pairc, ib=186:  68 neighbors in range 10.000
+ pairc, ib=187:  63 neighbors in range 10.000
+ pairc, ib=188:  61 neighbors in range 10.000
+ pairc, ib=189:  61 neighbors in range 10.000
+ pairc, ib=190:  76 neighbors in range 10.000
+ pairc, ib=191:  79 neighbors in range 10.000
+ pairc, ib=192:  78 neighbors in range 10.000
+ pairc:  12330 pairs total  85 is max cluster size
+ TBXBS: build xbs file..
+
+ BZWTS : --- Non-metal sampling ---
+ Fermi energy: -0.894100;  512 electrons;  Sum occ. bands: -803.198610
+ VBmax = -0.894100  CBmin = -0.490754  gap = 0.403346 Ry = 5.48550 eV
+
+ SECMTB:  kpt 1 of 1, k=  0.00000  0.00000  0.00000
+ -3.2057 -3.1177 -3.0016 -2.9430 -2.8408 -2.7620 -2.7219 -2.5820 -2.5619
+
+ TBESEL (Stone's definitions for Q and V)
+
+Atom O N_s=1.799561 N_p=4.349342 Q=6.148903
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.148903,  -0.005732 0.072606 -0.037336,  0 0 0 0 0
+        Qmpol=0.042005,  -0.002801 0.035475 -0.018242,  0 0 0 0 0
+        e dV=  0.289981,  0.001225 -0.050924 -0.033689,  -0.013344 -0.008431 -0.024878 0.014461 -0.008026
+        Hubbard potential U=0.88:  0.131034, dq: 0.148903 
+        DH^e_LL=  0.421015,   0.421015  0.421015  0.421015
+        Force= 0.000076 0.008141 0.00523
+
+Atom H N_s=0.913711 N_p=0 Q=0.913711
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.086289,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.024342,  0 0 0,  0 0 0 0 0
+        e dV=  0.722144,  0.044294 -0.006276 0.030824,  0 0 0 0 0
+        Hubbard potential U=1:  -0.086289, dq: -0.086289 
+        DH^e_LL=  0.635856,   0  0  0
+        Force= 0.003822 -0.000542 0.00266
+
+Atom H N_s=0.904808 N_p=0 Q=0.904808
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.095192,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.026853,  0 0 0,  0 0 0 0 0
+        e dV=  0.594442,  -0.042522 -0.08427 -0.102754,  0 0 0 0 0
+        Hubbard potential U=1:  -0.095192, dq: -0.095192 
+        DH^e_LL=  0.49925,   0  0  0
+        Force= -0.004048 -0.008022 -0.009781
+
+Atom O N_s=1.79191 N_p=4.334128 Q=6.126038
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.126038,  0.082596 -0.013278 -0.002878,  0 0 0 0 0
+        Qmpol=0.035555,  0.040356 -0.006488 -0.001406,  0 0 0 0 0
+        e dV=  -0.843494,  -0.03539 -0.001521 0.093264,  -0.001453 -0.021597 -0.013665 -0.007812 -0.013095
+        Hubbard potential U=0.88:  0.110913, dq: 0.126038 
+        DH^e_LL= -0.732581,  -0.732581 -0.732581 -0.732581
+        Force= 0.004395 0.000645 -0.010372
+
+Atom H N_s=0.926069 N_p=0 Q=0.926069
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.073931,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020855,  0 0 0,  0 0 0 0 0
+        e dV=  -0.452085,  -0.049569 -0.044672 0.014393,  0 0 0 0 0
+        Hubbard potential U=1:  -0.073931, dq: -0.073931 
+        DH^e_LL= -0.526016,   0  0  0
+        Force= -0.003665 -0.003303 0.001064
+
+Atom H N_s=0.941645 N_p=0 Q=0.941645
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.058355,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.016462,  0 0 0,  0 0 0 0 0
+        e dV=  -0.675227,  -0.005245 0.037883 0.166051,  0 0 0 0 0
+        Hubbard potential U=1:  -0.058355, dq: -0.058355 
+        DH^e_LL= -0.733582,   0  0  0
+        Force= -0.000306 0.002211 0.00969
+
+Atom O N_s=1.794762 N_p=4.35561 Q=6.150372
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.150372,  -0.040994 -0.047527 0.056628,  0 0 0 0 0
+        Qmpol=0.042419,  -0.02003 -0.023222 0.027669,  0 0 0 0 0
+        e dV=  -0.04259,  0.028063 0.023888 -0.081035,  0.01797 0.011413 0.008288 -0.007591 0.012535
+        Hubbard potential U=0.88:  0.132328, dq: 0.150372 
+        DH^e_LL=  0.089738,   0.089738  0.089738  0.089738
+        Force= -0.004606 -0.003406 0.012294
+
+Atom H N_s=0.934226 N_p=0 Q=0.934226
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.065774,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018554,  0 0 0,  0 0 0 0 0
+        e dV=  0.224937,  -0.047476 0.085115 -0.088776,  0 0 0 0 0
+        Hubbard potential U=1:  -0.065774, dq: -0.065774 
+        DH^e_LL=  0.159163,   0  0  0
+        Force= -0.003123 0.005598 -0.005839
+
+Atom H N_s=0.925957 N_p=0 Q=0.925957
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.074043,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020887,  0 0 0,  0 0 0 0 0
+        e dV=  0.231865,  0.105557 -0.029881 -0.081111,  0 0 0 0 0
+        Hubbard potential U=1:  -0.074043, dq: -0.074043 
+        DH^e_LL=  0.157821,   0  0  0
+        Force= 0.007816 -0.002212 -0.006006
+
+Atom O N_s=1.802302 N_p=4.344396 Q=6.146698
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.146698,  -0.062267 -0.053758 0.013551,  0 0 0 0 0
+        Qmpol=0.041383,  -0.030424 -0.026267 0.006621,  0 0 0 0 0
+        e dV=  -0.373311,  0.026142 0.032752 -0.060084,  0.006749 -0.011617 0.012613 0.004979 0.015802
+        Hubbard potential U=0.88:  0.129095, dq: 0.146698 
+        DH^e_LL= -0.244217,  -0.244217 -0.244217 -0.244217
+        Force= -0.00395 -0.005117 0.008664
+
+Atom H N_s=0.934206 N_p=0 Q=0.934206
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.065794,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.01856,  0 0 0,  0 0 0 0 0
+        e dV=  -0.103022,  0.082598 -0.027365 -0.096706,  0 0 0 0 0
+        Hubbard potential U=1:  -0.065794, dq: -0.065794 
+        DH^e_LL= -0.168817,   0  0  0
+        Force= 0.005434 -0.0018 -0.006363
+
+Atom H N_s=0.924756 N_p=0 Q=0.924756
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.075244,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.021226,  0 0 0,  0 0 0 0 0
+        e dV=  -0.039495,  -0.020547 0.096652 -0.028488,  0 0 0 0 0
+        Hubbard potential U=1:  -0.075244, dq: -0.075244 
+        DH^e_LL= -0.114739,   0  0  0
+        Force= -0.001546 0.007273 -0.002144
+
+Atom O N_s=1.805389 N_p=4.351001 Q=6.15639
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.15639,  -0.029687 -0.049595 -0.058868,  0 0 0 0 0
+        Qmpol=0.044117,  -0.014505 -0.024232 -0.028763,  0 0 0 0 0
+        e dV=  -1.221367,  -0.05265 0.026139 -0.024419,  -0.029297 0.002807 -0.002697 -0.017377 -0.010078
+        Hubbard potential U=0.88:  0.137623, dq: 0.15639 
+        DH^e_LL= -1.083744,  -1.083744 -1.083744 -1.083744
+        Force= 0.004848 -0.003316 0.002735
+
+Atom H N_s=0.90911 N_p=0 Q=0.90911
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.09089,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.02564,  0 0 0,  0 0 0 0 0
+        e dV=  -0.773265,  -0.067474 -0.013394 0.031827,  0 0 0 0 0
+        Hubbard potential U=1:  -0.09089, dq: -0.09089 
+        DH^e_LL= -0.864156,   0  0  0
+        Force= -0.006133 -0.001217 0.002893
+
+Atom H N_s=0.914194 N_p=0 Q=0.914194
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.085806,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.024205,  0 0 0,  0 0 0 0 0
+        e dV=  -0.810482,  0.042127 0.05546 -0.060409,  0 0 0 0 0
+        Hubbard potential U=1:  -0.085806, dq: -0.085806 
+        DH^e_LL= -0.896288,   0  0  0
+        Force= 0.003615 0.004759 -0.005183
+
+Atom O N_s=1.79223 N_p=4.364188 Q=6.156418
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.156418,  0.00785 0.043992 -0.071547,  0 0 0 0 0
+        Qmpol=0.044125,  0.003836 0.021495 -0.034958,  0 0 0 0 0
+        e dV=  -0.67582,  -0.000135 -0.022366 0.121823,  0.000728 -0.012284 0.006148 0.024019 -0.005109
+        Hubbard potential U=0.88:  0.137648, dq: 0.156418 
+        DH^e_LL= -0.538172,  -0.538172 -0.538172 -0.538172
+        Force= 0.000361 0.003572 -0.018934
+
+Atom H N_s=0.924994 N_p=0 Q=0.924994
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.075006,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.021159,  0 0 0,  0 0 0 0 0
+        e dV=  -0.484585,  -0.015032 0.060352 0.177031,  0 0 0 0 0
+        Hubbard potential U=1:  -0.075006, dq: -0.075006 
+        DH^e_LL= -0.559591,   0  0  0
+        Force= -0.001127 0.004527 0.013278
+
+Atom H N_s=0.932061 N_p=0 Q=0.932061
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.067939,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019165,  0 0 0,  0 0 0 0 0
+        e dV=  -0.383039,  -0.001715 -0.121584 0.074652,  0 0 0 0 0
+        Hubbard potential U=1:  -0.067939, dq: -0.067939 
+        DH^e_LL= -0.450978,   0  0  0
+        Force= -0.000117 -0.00826 0.005072
+
+Atom O N_s=1.791427 N_p=4.338532 Q=6.129959
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.129959,  0.045237 0.005598 -0.070967,  0 0 0 0 0
+        Qmpol=0.036661,  0.022103 0.002735 -0.034675,  0 0 0 0 0
+        e dV=  -0.311144,  -0.025137 -0.002516 0.115443,  0.021172 0.010208 -0.001623 -0.010578 0
+        Hubbard potential U=0.88:  0.114364, dq: 0.129959 
+        DH^e_LL= -0.19678,  -0.19678 -0.19678 -0.19678
+        Force= 0.003691 -0.00018 -0.014975
+
+Atom H N_s=0.928991 N_p=0 Q=0.928991
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.071009,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020031,  0 0 0,  0 0 0 0 0
+        e dV=  -0.054345,  -0.090962 0.050541 0.086957,  0 0 0 0 0
+        Hubbard potential U=1:  -0.071009, dq: -0.071009 
+        DH^e_LL= -0.125354,   0  0  0
+        Force= -0.006459 0.003589 0.006175
+
+Atom H N_s=0.93675 N_p=0 Q=0.93675
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.06325,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.017842,  0 0 0,  0 0 0 0 0
+        e dV=  -0.147308,  0.0439 -0.049864 0.144841,  0 0 0 0 0
+        Hubbard potential U=1:  -0.06325, dq: -0.06325 
+        DH^e_LL= -0.210557,   0  0  0
+        Force= 0.002777 -0.003154 0.009161
+
+Atom O N_s=1.785745 N_p=4.343119 Q=6.128864
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.128864,  -0.018472 -0.07412 0.033313,  0 0 0 0 0
+        Qmpol=0.036352,  -0.009025 -0.036215 0.016277,  0 0 0 0 0
+        e dV=  -0.618788,  0.011743 0.037608 0.059719,  -0.012381 -0.007597 -0.009163 0.008654 -0.017983
+        Hubbard potential U=0.88:  0.1134, dq: 0.128864 
+        DH^e_LL= -0.505387,  -0.505387 -0.505387 -0.505387
+        Force= -0.001965 -0.004582 -0.007766
+
+Atom H N_s=0.931319 N_p=0 Q=0.931319
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.068681,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019375,  0 0 0,  0 0 0 0 0
+        e dV=  -0.19836,  -0.012198 0.000444 -0.015936,  0 0 0 0 0
+        Hubbard potential U=1:  -0.068681, dq: -0.068681 
+        DH^e_LL= -0.267041,   0  0  0
+        Force= -0.000838 0.000031 -0.001094
+
+Atom H N_s=0.927749 N_p=0 Q=0.927749
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.072251,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020382,  0 0 0,  0 0 0 0 0
+        e dV=  -0.395792,  0.04456 0.060371 0.135104,  0 0 0 0 0
+        Hubbard potential U=1:  -0.072251, dq: -0.072251 
+        DH^e_LL= -0.468043,   0  0  0
+        Force= 0.00322 0.004362 0.009761
+
+Atom O N_s=1.797145 N_p=4.348644 Q=6.145789
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.145789,  -0.00523 0.043159 0.070825,  0 0 0 0 0
+        Qmpol=0.041126,  -0.002556 0.021088 0.034605,  0 0 0 0 0
+        e dV=  0.614308,  -0.029853 -0.039247 0.048152,  -0.004061 -0.017014 -0.006118 -0.021853 0.006198
+        Hubbard potential U=0.88:  0.128294, dq: 0.145789 
+        DH^e_LL=  0.742602,   0.742602  0.742602  0.742602
+        Force= 0.005176 0.006406 -0.006682
+
+Atom H N_s=0.943742 N_p=0 Q=0.943742
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.056258,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.01587,  0 0 0,  0 0 0 0 0
+        e dV=  1.013984,  0.07356 -0.051206 0.052248,  0 0 0 0 0
+        Hubbard potential U=1:  -0.056258, dq: -0.056258 
+        DH^e_LL=  0.957726,   0  0  0
+        Force= 0.004138 -0.002881 0.002939
+
+Atom H N_s=0.930321 N_p=0 Q=0.930321
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.069679,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019656,  0 0 0,  0 0 0 0 0
+        e dV=  0.92456,  -0.116142 -0.051371 0.023601,  0 0 0 0 0
+        Hubbard potential U=1:  -0.069679, dq: -0.069679 
+        DH^e_LL=  0.854881,   0  0  0
+        Force= -0.008093 -0.003579 0.001644
+
+Atom O N_s=1.796777 N_p=4.358246 Q=6.155023
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.155023,  -0.049879 -0.024193 -0.061783,  0 0 0 0 0
+        Qmpol=0.043731,  -0.024371 -0.011821 -0.030187,  0 0 0 0 0
+        e dV=  0.113698,  0.018521 0.020114 0.115622,  0.015873 -0.021121 0.004276 -0.009343 0.001159
+        Hubbard potential U=0.88:  0.136421, dq: 0.155023 
+        DH^e_LL=  0.250118,   0.250118  0.250118  0.250118
+        Force= -0.002613 -0.003644 -0.018296
+
+Atom H N_s=0.934725 N_p=0 Q=0.934725
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.065275,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018414,  0 0 0,  0 0 0 0 0
+        e dV=  0.419956,  0.097787 -0.031035 0.078238,  0 0 0 0 0
+        Hubbard potential U=1:  -0.065275, dq: -0.065275 
+        DH^e_LL=  0.354682,   0  0  0
+        Force= 0.006383 -0.002026 0.005107
+
+Atom H N_s=0.917856 N_p=0 Q=0.917856
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.082144,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.023172,  0 0 0,  0 0 0 0 0
+        e dV=  0.329124,  -0.046866 0.071505 0.154474,  0 0 0 0 0
+        Hubbard potential U=1:  -0.082144, dq: -0.082144 
+        DH^e_LL=  0.24698,   0  0  0
+        Force= -0.00385 0.005874 0.012689
+
+Atom O N_s=1.796428 N_p=4.359664 Q=6.156092
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.156092,  -0.048767 -0.066725 0.003188,  0 0 0 0 0
+        Qmpol=0.044033,  -0.023828 -0.032602 0.001558,  0 0 0 0 0
+        e dV=  0.363207,  0.030356 0.044992 -0.046621,  0.003473 -0.020111 0.023189 0.005324 0.003803
+        Hubbard potential U=0.88:  0.137361, dq: 0.156092 
+        DH^e_LL=  0.500568,   0.500568  0.500568  0.500568
+        Force= -0.004201 -0.007487 0.006887
+
+Atom H N_s=0.908965 N_p=0 Q=0.908965
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.091035,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.02568,  0 0 0,  0 0 0 0 0
+        e dV=  0.751568,  -0.025483 0.088043 0.013369,  0 0 0 0 0
+        Hubbard potential U=1:  -0.091035, dq: -0.091035 
+        DH^e_LL=  0.660533,   0  0  0
+        Force= -0.00232 0.008015 0.001217
+
+Atom H N_s=0.924311 N_p=0 Q=0.924311
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.075689,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.021351,  0 0 0,  0 0 0 0 0
+        e dV=  0.641575,  0.086272 -0.001581 -0.116136,  0 0 0 0 0
+        Hubbard potential U=1:  -0.075689, dq: -0.075689 
+        DH^e_LL=  0.565886,   0  0  0
+        Force= 0.00653 -0.00012 -0.00879
+
+Atom O N_s=1.794388 N_p=4.357198 Q=6.151585
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.151585,  0.064721 -0.053029 -0.006168,  0 0 0 0 0
+        Qmpol=0.042761,  0.031623 -0.02591 -0.003014,  0 0 0 0 0
+        e dV=  0.480116,  -0.027788 0.03664 0.072177,  0.008274 -0.015659 -0.011374 -0.00245 -0.014139
+        Hubbard potential U=0.88:  0.133395, dq: 0.151585 
+        DH^e_LL=  0.613512,   0.613512  0.613512  0.613512
+        Force= 0.00421 -0.005674 -0.011279
+
+Atom H N_s=0.936114 N_p=0 Q=0.936114
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.063886,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018022,  0 0 0,  0 0 0 0 0
+        e dV=  0.871833,  -0.062051 0.015786 -0.015443,  0 0 0 0 0
+        Hubbard potential U=1:  -0.063886, dq: -0.063886 
+        DH^e_LL=  0.807946,   0  0  0
+        Force= -0.003964 0.001009 -0.000987
+
+Atom H N_s=0.928262 N_p=0 Q=0.928262
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.071738,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020237,  0 0 0,  0 0 0 0 0
+        e dV=  0.690907,  -0.004165 0.066995 0.160455,  0 0 0 0 0
+        Hubbard potential U=1:  -0.071738, dq: -0.071738 
+        DH^e_LL=  0.619169,   0  0  0
+        Force= -0.000299 0.004806 0.011511
+
+Atom O N_s=1.79883 N_p=4.369581 Q=6.16841
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.16841,  -0.061502 -0.043487 -0.03388,  0 0 0 0 0
+        Qmpol=0.047508,  -0.03005 -0.021248 -0.016554,  0 0 0 0 0
+        e dV=  0.092009,  0.047468 0.02501 -0.024397,  0.013235 0.005459 -0.018565 0.012053 0.02041
+        Hubbard potential U=0.88:  0.148201, dq: 0.16841 
+        DH^e_LL=  0.24021,   0.24021  0.24021  0.24021
+        Force= -0.008058 -0.004277 0.003925
+
+Atom H N_s=0.915943 N_p=0 Q=0.915943
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.084057,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.023712,  0 0 0,  0 0 0 0 0
+        e dV=  0.450247,  -0.000028 0.116907 -0.046825,  0 0 0 0 0
+        Hubbard potential U=1:  -0.084057, dq: -0.084057 
+        DH^e_LL=  0.36619,   0  0  0
+        Force= -0.000002 0.009827 -0.003936
+
+Atom H N_s=0.91144 N_p=0 Q=0.91144
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.08856,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.024982,  0 0 0,  0 0 0 0 0
+        e dV=  0.47537,  0.091976 -0.059839 -0.000565,  0 0 0 0 0
+        Hubbard potential U=1:  -0.08856, dq: -0.08856 
+        DH^e_LL=  0.38681,   0  0  0
+        Force= 0.008145 -0.005299 -0.00005
+
+Atom O N_s=1.796292 N_p=4.328734 Q=6.125026
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.125026,  0.005514 0.041414 0.072939,  0 0 0 0 0
+        Qmpol=0.035269,  0.002694 0.020235 0.035638,  0 0 0 0 0
+        e dV=  -0.636889,  0.002615 -0.024257 -0.092803,  0.009525 -0.013707 -0.002627 -0.019677 0.006454
+        Hubbard potential U=0.88:  0.110023, dq: 0.125026 
+        DH^e_LL= -0.526866,  -0.526866 -0.526866 -0.526866
+        Force= -0.000455 0.003529 0.01167
+
+Atom H N_s=0.935693 N_p=0 Q=0.935693
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.064307,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018141,  0 0 0,  0 0 0 0 0
+        e dV=  -0.413591,  -0.084735 -0.006533 -0.093329,  0 0 0 0 0
+        Hubbard potential U=1:  -0.064307, dq: -0.064307 
+        DH^e_LL= -0.477898,   0  0  0
+        Force= -0.005449 -0.00042 -0.006002
+
+Atom H N_s=0.927346 N_p=0 Q=0.927346
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.072654,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020495,  0 0 0,  0 0 0 0 0
+        e dV=  -0.405288,  0.079809 -0.039539 -0.084951,  0 0 0 0 0
+        Hubbard potential U=1:  -0.072654, dq: -0.072654 
+        DH^e_LL= -0.477942,   0  0  0
+        Force= 0.005798 -0.002873 -0.006172
+
+Atom O N_s=1.785775 N_p=4.342213 Q=6.127988
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.127988,  -0.082286 -0.009006 0.002152,  0 0 0 0 0
+        Qmpol=0.036105,  -0.040205 -0.004401 0.001051,  0 0 0 0 0
+        e dV=  -1.157098,  0.032497 -0.067958 -0.041844,  -0.000492 -0.02234 -0.000171 0.023812 0.028388
+        Hubbard potential U=0.88:  0.112629, dq: 0.127988 
+        DH^e_LL= -1.044469,  -1.044469 -1.044469 -1.044469
+        Force= -0.003108 0.008084 0.004861
+
+Atom H N_s=0.934297 N_p=0 Q=0.934297
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.065703,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018535,  0 0 0,  0 0 0 0 0
+        e dV=  -0.78758,  0.021526 0.059816 -0.009415,  0 0 0 0 0
+        Hubbard potential U=1:  -0.065703, dq: -0.065703 
+        DH^e_LL= -0.853284,   0  0  0
+        Force= 0.001414 0.00393 -0.000619
+
+Atom H N_s=0.933201 N_p=0 Q=0.933201
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.066799,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018844,  0 0 0,  0 0 0 0 0
+        e dV=  -0.980698,  -0.006993 -0.186359 -0.080244,  0 0 0 0 0
+        Hubbard potential U=1:  -0.066799, dq: -0.066799 
+        DH^e_LL= -1.047497,   0  0  0
+        Force= -0.000467 -0.012449 -0.00536
+
+Atom O N_s=1.795119 N_p=4.360833 Q=6.155952
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.155952,  0.044529 0.070185 -0.019802,  0 0 0 0 0
+        Qmpol=0.043993,  0.021757 0.034293 -0.009675,  0 0 0 0 0
+        e dV=  -0.824322,  -0.018181 -0.036019 -0.048422,  0.007417 0.013622 -0.011185 -0.006316 0.013504
+        Hubbard potential U=0.88:  0.137238, dq: 0.155952 
+        DH^e_LL= -0.687084,  -0.687084 -0.687084 -0.687084
+        Force= 0.002639 0.005692 0.007293
+
+Atom H N_s=0.934842 N_p=0 Q=0.934842
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.065158,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018381,  0 0 0,  0 0 0 0 0
+        e dV=  -0.521037,  -0.100661 -0.000814 -0.079897,  0 0 0 0 0
+        Hubbard potential U=1:  -0.065158, dq: -0.065158 
+        DH^e_LL= -0.586195,   0  0  0
+        Force= -0.006559 -0.000053 -0.005206
+
+Atom H N_s=0.933795 N_p=0 Q=0.933795
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.066205,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018676,  0 0 0,  0 0 0 0 0
+        e dV=  -0.477824,  0.060619 -0.088849 -0.00364,  0 0 0 0 0
+        Hubbard potential U=1:  -0.066205, dq: -0.066205 
+        DH^e_LL= -0.544028,   0  0  0
+        Force= 0.004013 -0.005882 -0.000241
+
+Atom O N_s=1.78684 N_p=4.334694 Q=6.121534
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.121534,  -0.053274 -0.021679 -0.060667,  0 0 0 0 0
+        Qmpol=0.034284,  -0.02603 -0.010592 -0.029642,  0 0 0 0 0
+        e dV=  -1.000824,  0.032114 -0.019597 0.078864,  -0.015382 0.019801 -0.003599 0.012478 0.004025
+        Hubbard potential U=0.88:  0.10695, dq: 0.121534 
+        DH^e_LL= -0.893874,  -0.893874 -0.893874 -0.893874
+        Force= -0.003922 0.002487 -0.008685
+
+Atom H N_s=0.941157 N_p=0 Q=0.941157
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.058843,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.016599,  0 0 0,  0 0 0 0 0
+        e dV=  -0.851694,  0.008637 -0.124067 0.10755,  0 0 0 0 0
+        Hubbard potential U=1:  -0.058843, dq: -0.058843 
+        DH^e_LL= -0.910537,   0  0  0
+        Force= 0.000508 -0.0073 0.006329
+
+Atom H N_s=0.935476 N_p=0 Q=0.935476
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.064524,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018202,  0 0 0,  0 0 0 0 0
+        e dV=  -0.703442,  0.050537 0.060051 0.02974,  0 0 0 0 0
+        Hubbard potential U=1:  -0.064524, dq: -0.064524 
+        DH^e_LL= -0.767966,   0  0  0
+        Force= 0.003261 0.003875 0.001919
+
+Atom O N_s=1.804089 N_p=4.342066 Q=6.146155
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.146155,  -0.005463 0.016771 -0.081328,  0 0 0 0 0
+        Qmpol=0.04123,  -0.002669 0.008194 -0.039737,  0 0 0 0 0
+        e dV=  -0.015882,  0.007781 -0.019879 -0.019815,  0.012552 0.003655 0.001378 0.025092 -0.001544
+        Hubbard potential U=0.88:  0.128616, dq: 0.146155 
+        DH^e_LL=  0.112734,   0.112734  0.112734  0.112734
+        Force= -0.001062 0.004242 0.002552
+
+Atom H N_s=0.917363 N_p=0 Q=0.917363
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.082637,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.023312,  0 0 0,  0 0 0 0 0
+        e dV=  0.33285,  0.025056 -0.106496 -0.028095,  0 0 0 0 0
+        Hubbard potential U=1:  -0.082637, dq: -0.082637 
+        DH^e_LL=  0.250213,   0  0  0
+        Force= 0.002071 -0.008801 -0.002322
+
+Atom H N_s=0.943355 N_p=0 Q=0.943355
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.056645,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.015979,  0 0 0,  0 0 0 0 0
+        e dV=  0.359754,  -0.017581 0.075912 0.007521,  0 0 0 0 0
+        Hubbard potential U=1:  -0.056645, dq: -0.056645 
+        DH^e_LL=  0.303109,   0  0  0
+        Force= -0.000996 0.0043 0.000426
+
+Atom O N_s=1.794043 N_p=4.344096 Q=6.138139
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.138139,  0.067962 0.030764 0.03605,  0 0 0 0 0
+        Qmpol=0.038968,  0.033206 0.015031 0.017614,  0 0 0 0 0
+        e dV=  0.752966,  -0.039452 0.043955 0.0518,  0.013897 0.000044 -0.005722 -0.007834 0.011409
+        Hubbard potential U=0.88:  0.121562, dq: 0.138139 
+        DH^e_LL=  0.874528,   0.874528  0.874528  0.874528
+        Force= 0.006764 -0.007777 -0.007307
+
+Atom H N_s=0.926953 N_p=0 Q=0.926953
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.073047,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020606,  0 0 0,  0 0 0 0 0
+        e dV=  1.004073,  -0.093158 0.093019 0.046852,  0 0 0 0 0
+        Hubbard potential U=1:  -0.073047, dq: -0.073047 
+        DH^e_LL=  0.931026,   0  0  0
+        Force= -0.006805 0.006795 0.003422
+
+Atom H N_s=0.928753 N_p=0 Q=0.928753
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.071247,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020098,  0 0 0,  0 0 0 0 0
+        e dV=  1.305133,  -0.011853 0.088801 0.111131,  0 0 0 0 0
+        Hubbard potential U=1:  -0.071247, dq: -0.071247 
+        DH^e_LL=  1.233886,   0  0  0
+        Force= -0.000844 0.006327 0.007918
+
+Atom O N_s=1.796162 N_p=4.352031 Q=6.148193
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.148193,  -0.054217 0.033381 -0.053338,  0 0 0 0 0
+        Qmpol=0.041804,  -0.02649 0.01631 -0.026061,  0 0 0 0 0
+        e dV=  -1.042326,  0.030827 -0.013659 -0.011097,  0.018064 -0.000816 0.013593 -0.015129 -0.002477
+        Hubbard potential U=0.88:  0.130409, dq: 0.148193 
+        DH^e_LL= -0.911917,  -0.911917 -0.911917 -0.911917
+        Force= -0.005643 0.002688 0.002704
+
+Atom H N_s=0.906928 N_p=0 Q=0.906928
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.093072,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.026255,  0 0 0,  0 0 0 0 0
+        e dV=  -0.704854,  0.083695 -0.03392 -0.063547,  0 0 0 0 0
+        Hubbard potential U=1:  -0.093072, dq: -0.093072 
+        DH^e_LL= -0.797926,   0  0  0
+        Force= 0.00779 -0.003157 -0.005914
+
+Atom H N_s=0.934036 N_p=0 Q=0.934036
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.065964,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018608,  0 0 0,  0 0 0 0 0
+        e dV=  -0.651963,  -0.023726 0.003643 0.04453,  0 0 0 0 0
+        Hubbard potential U=1:  -0.065964, dq: -0.065964 
+        DH^e_LL= -0.717928,   0  0  0
+        Force= -0.001565 0.00024 0.002937
+
+Atom O N_s=1.80019 N_p=4.371883 Q=6.172072
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.172072,  0.034068 -0.077308 -0.013498,  0 0 0 0 0
+        Qmpol=0.048541,  0.016646 -0.037773 -0.006595,  0 0 0 0 0
+        e dV=  0.499692,  -0.021847 0.039262 -0.03393,  0.004022 0.010293 0.021901 0.006854 -0.014871
+        Hubbard potential U=0.88:  0.151424, dq: 0.172072 
+        DH^e_LL=  0.651115,   0.651115  0.651115  0.651115
+        Force= 0.003899 -0.006521 0.005523
+
+Atom H N_s=0.921174 N_p=0 Q=0.921174
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.078826,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022237,  0 0 0,  0 0 0 0 0
+        e dV=  0.906396,  -0.062445 0.010017 0.061191,  0 0 0 0 0
+        Hubbard potential U=1:  -0.078826, dq: -0.078826 
+        DH^e_LL=  0.82757,   0  0  0
+        Force= -0.004922 0.00079 0.004823
+
+Atom H N_s=0.931171 N_p=0 Q=0.931171
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.068829,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019416,  0 0 0,  0 0 0 0 0
+        e dV=  0.788857,  0.017016 0.078856 -0.130929,  0 0 0 0 0
+        Hubbard potential U=1:  -0.068829, dq: -0.068829 
+        DH^e_LL=  0.720028,   0  0  0
+        Force= 0.001171 0.005428 -0.009012
+
+Atom O N_s=1.796787 N_p=4.36021 Q=6.156997
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.156997,  0.045561 -0.002249 0.070812,  0 0 0 0 0
+        Qmpol=0.044288,  0.022261 -0.001099 0.034599,  0 0 0 0 0
+        e dV=  -0.979195,  -0.02143 -0.003506 -0.010371,  0.013739 -0.009258 0.015487 -0.017935 -0.005892
+        Hubbard potential U=0.88:  0.138157, dq: 0.156997 
+        DH^e_LL= -0.841038,  -0.841038 -0.841038 -0.841038
+        Force= 0.002665 0.000685 0.001205
+
+Atom H N_s=0.915156 N_p=0 Q=0.915156
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.084844,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.023934,  0 0 0,  0 0 0 0 0
+        e dV=  -0.586981,  0.064305 -0.033849 -0.056716,  0 0 0 0 0
+        Hubbard potential U=1:  -0.084844, dq: -0.084844 
+        DH^e_LL= -0.671825,   0  0  0
+        Force= 0.005456 -0.002872 -0.004812
+
+Atom H N_s=0.930446 N_p=0 Q=0.930446
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.069554,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019621,  0 0 0,  0 0 0 0 0
+        e dV=  -0.65542,  -0.107155 0.027469 0.053662,  0 0 0 0 0
+        Hubbard potential U=1:  -0.069554, dq: -0.069554 
+        DH^e_LL= -0.724974,   0  0  0
+        Force= -0.007453 0.001911 0.003732
+
+Atom O N_s=1.79435 N_p=4.361279 Q=6.155629
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.155629,  0.012428 -0.007792 -0.08139,  0 0 0 0 0
+        Qmpol=0.043902,  0.006072 -0.003807 -0.039767,  0 0 0 0 0
+        e dV=  0.21185,  -0.008079 0.005162 -0.007914,  0.014925 0.000104 -0.005439 -0.021068 -0.001738
+        Hubbard potential U=0.88:  0.136954, dq: 0.155629 
+        DH^e_LL=  0.348804,   0.348804  0.348804  0.348804
+        Force= 0.001124 -0.000812 0.001067
+
+Atom H N_s=0.930103 N_p=0 Q=0.930103
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.069897,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019718,  0 0 0,  0 0 0 0 0
+        e dV=  0.593876,  0.083727 -0.024836 0.01691,  0 0 0 0 0
+        Hubbard potential U=1:  -0.069897, dq: -0.069897 
+        DH^e_LL=  0.523979,   0  0  0
+        Force= 0.005852 -0.001736 0.001182
+
+Atom H N_s=0.931203 N_p=0 Q=0.931203
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.068797,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019407,  0 0 0,  0 0 0 0 0
+        e dV=  0.56117,  -0.100342 0.037413 -0.019224,  0 0 0 0 0
+        Hubbard potential U=1:  -0.068797, dq: -0.068797 
+        DH^e_LL=  0.492373,   0  0  0
+        Force= -0.006903 0.002574 -0.001323
+
+Atom O N_s=1.78682 N_p=4.352161 Q=6.138981
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.138981,  0.041826 -0.029246 0.063045,  0 0 0 0 0
+        Qmpol=0.039206,  0.020436 -0.01429 0.030804,  0 0 0 0 0
+        e dV=  -0.246569,  -0.025581 0.009834 0.038966,  0.020711 -0.007887 0.012324 -0.009306 -0.013248
+        Hubbard potential U=0.88:  0.122303, dq: 0.138981 
+        DH^e_LL= -0.124266,  -0.124266 -0.124266 -0.124266
+        Force= 0.003379 -0.001147 -0.005037
+
+Atom H N_s=0.926649 N_p=0 Q=0.926649
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.073351,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020692,  0 0 0,  0 0 0 0 0
+        e dV=  0.053119,  -0.085346 0.04698 0.100064,  0 0 0 0 0
+        Hubbard potential U=1:  -0.073351, dq: -0.073351 
+        DH^e_LL= -0.020232,   0  0  0
+        Force= -0.00626 0.003446 0.00734
+
+Atom H N_s=0.916674 N_p=0 Q=0.916674
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.083326,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.023506,  0 0 0,  0 0 0 0 0
+        e dV=  0.203202,  0.031475 -0.029309 -0.010703,  0 0 0 0 0
+        Hubbard potential U=1:  -0.083326, dq: -0.083326 
+        DH^e_LL=  0.119876,   0  0  0
+        Force= 0.002623 -0.002442 -0.000892
+
+Atom O N_s=1.790414 N_p=4.352326 Q=6.142741
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.142741,  -0.072723 0.011212 0.041473,  0 0 0 0 0
+        Qmpol=0.040266,  -0.035533 0.005478 0.020264,  0 0 0 0 0
+        e dV=  0.133095,  0.032007 -0.005463 0.058217,  0.00594 0.002536 -0.009143 -0.013092 -0.014631
+        Hubbard potential U=0.88:  0.125612, dq: 0.142741 
+        DH^e_LL=  0.258707,   0.258707  0.258707  0.258707
+        Force= -0.004612 0.000928 -0.008297
+
+Atom H N_s=0.939775 N_p=0 Q=0.939775
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.060225,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.016989,  0 0 0,  0 0 0 0 0
+        e dV=  0.557392,  -0.005623 0.001831 -0.028642,  0 0 0 0 0
+        Hubbard potential U=1:  -0.060225, dq: -0.060225 
+        DH^e_LL=  0.497167,   0  0  0
+        Force= -0.000339 0.00011 -0.001725
+
+Atom H N_s=0.939074 N_p=0 Q=0.939074
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.060926,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.017187,  0 0 0,  0 0 0 0 0
+        e dV=  0.363104,  0.080081 -0.01498 0.138141,  0 0 0 0 0
+        Hubbard potential U=1:  -0.060926, dq: -0.060926 
+        DH^e_LL=  0.302178,   0  0  0
+        Force= 0.004879 -0.000913 0.008416
+
+Atom O N_s=1.779317 N_p=4.3166 Q=6.095917
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.095917,  0.04005 -0.017953 0.072001,  0 0 0 0 0
+        Qmpol=0.027058,  0.019569 -0.008772 0.03518,  0 0 0 0 0
+        e dV=  -0.9327,  -0.050437 0.023079 0.078841,  -0.005384 0.006126 0.018872 -0.023188 -0.007226
+        Hubbard potential U=0.88:  0.084407, dq: 0.095917 
+        DH^e_LL= -0.848294,  -0.848294 -0.848294 -0.848294
+        Force= 0.003636 -0.001753 -0.00764
+
+Atom H N_s=0.94069 N_p=0 Q=0.94069
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.05931,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.016731,  0 0 0,  0 0 0 0 0
+        e dV=  -0.712117,  -0.094573 0.007625 0.137088,  0 0 0 0 0
+        Hubbard potential U=1:  -0.05931, dq: -0.05931 
+        DH^e_LL= -0.771427,   0  0  0
+        Force= -0.005609 0.000452 0.008131
+
+Atom H N_s=0.945169 N_p=0 Q=0.945169
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.054831,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.015467,  0 0 0,  0 0 0 0 0
+        e dV=  -0.556987,  0.039592 0.02667 0.02953,  0 0 0 0 0
+        Hubbard potential U=1:  -0.054831, dq: -0.054831 
+        DH^e_LL= -0.611817,   0  0  0
+        Force= 0.002171 0.001462 0.001619
+
+Atom O N_s=1.800992 N_p=4.356967 Q=6.157958
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.157958,  -0.034885 0.069575 -0.021519,  0 0 0 0 0
+        Qmpol=0.044559,  -0.017045 0.033995 -0.010514,  0 0 0 0 0
+        e dV=  -0.84779,  0.025961 -0.055304 -0.032912,  -0.001723 -0.019339 -0.028705 0.008529 -0.00612
+        Hubbard potential U=0.88:  0.139003, dq: 0.157958 
+        DH^e_LL= -0.708787,  -0.708787 -0.708787 -0.708787
+        Force= -0.004234 0.008513 0.005531
+
+Atom H N_s=0.906935 N_p=0 Q=0.906935
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.093065,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.026253,  0 0 0,  0 0 0 0 0
+        e dV=  -0.548156,  -0.022645 -0.092604 -0.118537,  0 0 0 0 0
+        Hubbard potential U=1:  -0.093065, dq: -0.093065 
+        DH^e_LL= -0.641221,   0  0  0
+        Force= -0.002107 -0.008618 -0.011032
+
+Atom H N_s=0.902003 N_p=0 Q=0.902003
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.097997,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.027644,  0 0 0,  0 0 0 0 0
+        e dV=  -0.413286,  0.066868 -0.001129 0.027295,  0 0 0 0 0
+        Hubbard potential U=1:  -0.097997, dq: -0.097997 
+        DH^e_LL= -0.511283,   0  0  0
+        Force= 0.006553 -0.000111 0.002675
+
+Atom O N_s=1.792312 N_p=4.34121 Q=6.133522
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.133522,  0.05941 0.050714 -0.030224,  0 0 0 0 0
+        Qmpol=0.037666,  0.029028 0.024779 -0.014767,  0 0 0 0 0
+        e dV=  0.597466,  -0.038743 -0.024839 0.059445,  -0.013374 -0.004187 -0.008118 -0.004195 -0.02408
+        Hubbard potential U=0.88:  0.117499, dq: 0.133522 
+        DH^e_LL=  0.714965,   0.714965  0.714965  0.714965
+        Force= 0.004924 0.002884 -0.00819
+
+Atom H N_s=0.929767 N_p=0 Q=0.929767
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.070233,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019812,  0 0 0,  0 0 0 0 0
+        e dV=  0.799171,  -0.009989 -0.005038 0.154884,  0 0 0 0 0
+        Hubbard potential U=1:  -0.070233, dq: -0.070233 
+        DH^e_LL=  0.728938,   0  0  0
+        Force= -0.000702 -0.000354 0.010878
+
+Atom H N_s=0.927394 N_p=0 Q=0.927394
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.072606,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020482,  0 0 0,  0 0 0 0 0
+        e dV=  0.936026,  -0.054933 -0.029373 -0.030923,  0 0 0 0 0
+        Hubbard potential U=1:  -0.072606, dq: -0.072606 
+        DH^e_LL=  0.86342,   0  0  0
+        Force= -0.003989 -0.002133 -0.002245
+
+Atom O N_s=1.802576 N_p=4.346419 Q=6.148995
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.148995,  0.064604 0.008775 0.049921,  0 0 0 0 0
+        Qmpol=0.042031,  0.031566 0.004288 0.024392,  0 0 0 0 0
+        e dV=  -0.829437,  -0.045325 -0.004709 -0.078665,  0.006805 -0.017342 0.013183 -0.021137 -0.008607
+        Hubbard potential U=0.88:  0.131116, dq: 0.148995 
+        DH^e_LL= -0.698321,  -0.698321 -0.698321 -0.698321
+        Force= 0.007319 0.001043 0.011368
+
+Atom H N_s=0.910191 N_p=0 Q=0.910191
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.089809,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.025335,  0 0 0,  0 0 0 0 0
+        e dV=  -0.474991,  -0.098776 0.018268 -0.00932,  0 0 0 0 0
+        Hubbard potential U=1:  -0.089809, dq: -0.089809 
+        DH^e_LL= -0.5648,   0  0  0
+        Force= -0.008871 0.001641 -0.000837
+
+Atom H N_s=0.920013 N_p=0 Q=0.920013
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.079987,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022564,  0 0 0,  0 0 0 0 0
+        e dV=  -0.583225,  0.012779 -0.038423 -0.139236,  0 0 0 0 0
+        Hubbard potential U=1:  -0.079987, dq: -0.079987 
+        DH^e_LL= -0.663212,   0  0  0
+        Force= 0.001022 -0.003073 -0.011137
+
+Atom O N_s=1.793449 N_p=4.353644 Q=6.147093
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.147093,  -0.059565 -0.052216 0.029353,  0 0 0 0 0
+        Qmpol=0.041494,  -0.029104 -0.025513 0.014342,  0 0 0 0 0
+        e dV=  0.299669,  0.035981 0.023363 0.070217,  -0.008284 0.006566 -0.018414 -0.011443 -0.010502
+        Hubbard potential U=0.88:  0.129441, dq: 0.147093 
+        DH^e_LL=  0.429111,   0.429111  0.429111  0.429111
+        Force= -0.005661 -0.003042 -0.011018
+
+Atom H N_s=0.922621 N_p=0 Q=0.922621
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.077379,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.021828,  0 0 0,  0 0 0 0 0
+        e dV=  0.536489,  0.085391 0.012123 0.146412,  0 0 0 0 0
+        Hubbard potential U=1:  -0.077379, dq: -0.077379 
+        DH^e_LL=  0.45911,   0  0  0
+        Force= 0.006608 0.000938 0.011329
+
+Atom H N_s=0.940234 N_p=0 Q=0.940234
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.059766,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.01686,  0 0 0,  0 0 0 0 0
+        e dV=  0.731444,  -0.012865 0.033269 -0.01462,  0 0 0 0 0
+        Hubbard potential U=1:  -0.059766, dq: -0.059766 
+        DH^e_LL=  0.671679,   0  0  0
+        Force= -0.000769 0.001988 -0.000874
+
+Atom O N_s=1.796925 N_p=4.361878 Q=6.158803
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.158803,  0.034205 -0.035753 -0.066185,  0 0 0 0 0
+        Qmpol=0.044797,  0.016713 -0.017469 -0.032338,  0 0 0 0 0
+        e dV=  -0.116615,  -0.010019 0.022027 -0.01002,  0.00493 -0.014711 -0.016949 -0.022031 -0.004926
+        Hubbard potential U=0.88:  0.139747, dq: 0.158803 
+        DH^e_LL=  0.023132,   0.023132  0.023132  0.023132
+        Force= 0.00109 -0.003936 0.001032
+
+Atom H N_s=0.91307 N_p=0 Q=0.91307
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.08693,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.024523,  0 0 0,  0 0 0 0 0
+        e dV=  0.292242,  0.074822 0.02526 0.03432,  0 0 0 0 0
+        Hubbard potential U=1:  -0.08693, dq: -0.08693 
+        DH^e_LL=  0.205311,   0  0  0
+        Force= 0.006504 0.002196 0.002983
+
+Atom H N_s=0.926365 N_p=0 Q=0.926365
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.073635,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020772,  0 0 0,  0 0 0 0 0
+        e dV=  0.23386,  -0.100338 0.028115 -0.050635,  0 0 0 0 0
+        Hubbard potential U=1:  -0.073635, dq: -0.073635 
+        DH^e_LL=  0.160225,   0  0  0
+        Force= -0.007388 0.00207 -0.003728
+
+Atom O N_s=1.799845 N_p=4.360691 Q=6.160536
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.160536,  0.052499 -0.051991 0.03622,  0 0 0 0 0
+        Qmpol=0.045286,  0.025651 -0.025403 0.017697,  0 0 0 0 0
+        e dV=  -0.153707,  -0.037223 0.031941 -0.062173,  0.01218 0.008034 0.021845 -0.013272 -0.007185
+        Hubbard potential U=0.88:  0.141272, dq: 0.160536 
+        DH^e_LL= -0.012435,  -0.012435 -0.012435 -0.012435
+        Force= 0.006532 -0.00517 0.009239
+
+Atom H N_s=0.911279 N_p=0 Q=0.911279
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.088721,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.025028,  0 0 0,  0 0 0 0 0
+        e dV=  0.217548,  -0.098279 0.027494 0.012098,  0 0 0 0 0
+        Hubbard potential U=1:  -0.088721, dq: -0.088721 
+        DH^e_LL=  0.128828,   0  0  0
+        Force= -0.008719 0.002439 0.001073
+
+Atom H N_s=0.931763 N_p=0 Q=0.931763
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.068237,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019249,  0 0 0,  0 0 0 0 0
+        e dV=  0.094942,  0.026065 0.037369 -0.146991,  0 0 0 0 0
+        Hubbard potential U=1:  -0.068237, dq: -0.068237 
+        DH^e_LL=  0.026706,   0  0  0
+        Force= 0.001779 0.00255 -0.01003
+
+Atom O N_s=1.794438 N_p=4.351848 Q=6.146286
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.146286,  0.019637 -0.078992 0.021354,  0 0 0 0 0
+        Qmpol=0.041267,  0.009595 -0.038596 0.010434,  0 0 0 0 0
+        e dV=  -1.00255,  -0.021708 0.058641 0.058496,  0.007043 -0.014885 -0.002245 0.015986 -0.007321
+        Hubbard potential U=0.88:  0.128732, dq: 0.146286 
+        DH^e_LL= -0.873819,  -0.873819 -0.873819 -0.873819
+        Force= 0.003535 -0.009876 -0.010205
+
+Atom H N_s=0.932213 N_p=0 Q=0.932213
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.067787,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019122,  0 0 0,  0 0 0 0 0
+        e dV=  -0.841067,  -0.039482 0.143905 0.14333,  0 0 0 0 0
+        Hubbard potential U=1:  -0.067787, dq: -0.067787 
+        DH^e_LL= -0.908854,   0  0  0
+        Force= -0.002676 0.009755 0.009716
+
+Atom H N_s=0.94816 N_p=0 Q=0.94816
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.05184,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.014624,  0 0 0,  0 0 0 0 0
+        e dV=  -0.611194,  -0.029558 0.034666 -0.020381,  0 0 0 0 0
+        Hubbard potential U=1:  -0.05184, dq: -0.05184 
+        DH^e_LL= -0.663034,   0  0  0
+        Force= -0.001532 0.001797 -0.001057
+
+Atom O N_s=1.798647 N_p=4.358251 Q=6.156897
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.156897,  -0.046686 0.009469 -0.069194,  0 0 0 0 0
+        Qmpol=0.04426,  -0.022811 0.004627 -0.033808,  0 0 0 0 0
+        e dV=  -0.009613,  0.034434 -0.008946 0.100848,  0.02413 -0.007955 -0.002536 0.002347 -0.000817
+        Hubbard potential U=0.88:  0.13807, dq: 0.156897 
+        DH^e_LL=  0.128456,   0.128456  0.128456  0.128456
+        Force= -0.005874 0.002432 -0.01601
+
+Atom H N_s=0.92036 N_p=0 Q=0.92036
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.07964,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022466,  0 0 0,  0 0 0 0 0
+        e dV=  0.293229,  0.084226 -0.07809 0.080583,  0 0 0 0 0
+        Hubbard potential U=1:  -0.07964, dq: -0.07964 
+        DH^e_LL=  0.213589,   0  0  0
+        Force= 0.006708 -0.006219 0.006418
+
+Atom H N_s=0.947426 N_p=0 Q=0.947426
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.052574,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.014831,  0 0 0,  0 0 0 0 0
+        e dV=  0.17954,  -0.01582 0.071238 0.155378,  0 0 0 0 0
+        Hubbard potential U=1:  -0.052574, dq: -0.052574 
+        DH^e_LL=  0.126967,   0  0  0
+        Force= -0.000832 0.003745 0.008169
+
+Atom O N_s=1.801847 N_p=4.365371 Q=6.167218
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.167218,  0.036481 0.067282 0.032144,  0 0 0 0 0
+        Qmpol=0.047171,  0.017825 0.032874 0.015706,  0 0 0 0 0
+        e dV=  0.663636,  -0.003014 -0.02208 0.006484,  -0.005391 -0.014007 0.022988 -0.006386 -0.003482
+        Hubbard potential U=0.88:  0.147152, dq: 0.167218 
+        DH^e_LL=  0.810788,   0.810788  0.810788  0.810788
+        Force= 0.000129 0.003834 -0.000681
+
+Atom H N_s=0.926189 N_p=0 Q=0.926189
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.073811,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020822,  0 0 0,  0 0 0 0 0
+        e dV=  1.036288,  -0.068971 -0.009838 0.084073,  0 0 0 0 0
+        Hubbard potential U=1:  -0.073811, dq: -0.073811 
+        DH^e_LL=  0.962477,   0  0  0
+        Force= -0.005091 -0.000726 0.006206
+
+Atom H N_s=0.921904 N_p=0 Q=0.921904
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.078096,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.02203,  0 0 0,  0 0 0 0 0
+        e dV=  1.034023,  0.063607 -0.042162 -0.077198,  0 0 0 0 0
+        Hubbard potential U=1:  -0.078096, dq: -0.078096 
+        DH^e_LL=  0.955927,   0  0  0
+        Force= 0.004967 -0.003293 -0.006029
+
+Atom O N_s=1.795874 N_p=4.349809 Q=6.145683
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.145683,  0.033626 0.074089 -0.016563,  0 0 0 0 0
+        Qmpol=0.041096,  0.01643 0.0362 -0.008093,  0 0 0 0 0
+        e dV=  0.660331,  0.000139 -0.056516 -0.027247,  -0.000948 0.016705 -0.033509 -0.000883 0.00292
+        Hubbard potential U=0.88:  0.128201, dq: 0.145683 
+        DH^e_LL=  0.788532,   0.788532  0.788532  0.788532
+        Force= -0.00071 0.008871 0.003874
+
+Atom H N_s=0.912838 N_p=0 Q=0.912838
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.087162,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.024588,  0 0 0,  0 0 0 0 0
+        e dV=  1.000469,  -0.052776 -0.034196 -0.106953,  0 0 0 0 0
+        Hubbard potential U=1:  -0.087162, dq: -0.087162 
+        DH^e_LL=  0.913307,   0  0  0
+        Force= -0.0046 -0.002981 -0.009322
+
+Atom H N_s=0.905213 N_p=0 Q=0.905213
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.094787,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.026739,  0 0 0,  0 0 0 0 0
+        e dV=  1.014812,  0.062113 -0.070324 0.038426,  0 0 0 0 0
+        Hubbard potential U=1:  -0.094787, dq: -0.094787 
+        DH^e_LL=  0.920025,   0  0  0
+        Force= 0.005888 -0.006666 0.003642
+
+Atom O N_s=1.799994 N_p=4.375153 Q=6.175147
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.175147,  -0.054368 0.01437 -0.063991,  0 0 0 0 0
+        Qmpol=0.049408,  -0.026564 0.007021 -0.031266,  0 0 0 0 0
+        e dV=  -0.423995,  0.029786 -0.008216 -0.018584,  -0.020497 0.017482 -0.001064 -0.000703 0.003439
+        Hubbard potential U=0.88:  0.154129, dq: 0.175147 
+        DH^e_LL= -0.269865,  -0.269865 -0.269865 -0.269865
+        Force= -0.005078 0.001478 0.00316
+
+Atom H N_s=0.928003 N_p=0 Q=0.928003
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.071997,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.02031,  0 0 0,  0 0 0 0 0
+        e dV=  -0.069227,  0.095761 0.066763 -0.051613,  0 0 0 0 0
+        Hubbard potential U=1:  -0.071997, dq: -0.071997 
+        DH^e_LL= -0.141223,   0  0  0
+        Force= 0.006894 0.004807 -0.003716
+
+Atom H N_s=0.928952 N_p=0 Q=0.928952
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.071048,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020042,  0 0 0,  0 0 0 0 0
+        e dV=  -0.017441,  -0.026827 -0.088996 0.03372,  0 0 0 0 0
+        Hubbard potential U=1:  -0.071048, dq: -0.071048 
+        DH^e_LL= -0.088489,   0  0  0
+        Force= -0.001906 -0.006323 0.002396
+
+Atom O N_s=1.792266 N_p=4.332298 Q=6.124564
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.124564,  0.040125 0.071848 -0.00483,  0 0 0 0 0
+        Qmpol=0.035139,  0.019605 0.035105 -0.00236,  0 0 0 0 0
+        e dV=  -0.414229,  -0.011574 -0.045378 0.077338,  0.012401 0.005466 -0.000857 -0.002642 0.023454
+        Hubbard potential U=0.88:  0.109616, dq: 0.124564 
+        DH^e_LL= -0.304613,  -0.304613 -0.304613 -0.304613
+        Force= 0.001016 0.006193 -0.010028
+
+Atom H N_s=0.917538 N_p=0 Q=0.917538
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.082462,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.023262,  0 0 0,  0 0 0 0 0
+        e dV=  -0.137758,  0.054366 -0.076861 0.084438,  0 0 0 0 0
+        Hubbard potential U=1:  -0.082462, dq: -0.082462 
+        DH^e_LL= -0.22022,   0  0  0
+        Force= 0.004483 -0.006338 0.006963
+
+Atom H N_s=0.934566 N_p=0 Q=0.934566
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.065434,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018459,  0 0 0,  0 0 0 0 0
+        e dV=  -0.12087,  -0.083379 0.002459 0.074164,  0 0 0 0 0
+        Hubbard potential U=1:  -0.065434, dq: -0.065434 
+        DH^e_LL= -0.186304,   0  0  0
+        Force= -0.005456 0.000161 0.004853
+
+Atom O N_s=1.786764 N_p=4.351942 Q=6.138706
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.138706,  -0.073488 -0.036936 0.012476,  0 0 0 0 0
+        Qmpol=0.039128,  -0.035907 -0.018047 0.006096,  0 0 0 0 0
+        e dV=  0.483848,  0.044834 0.01462 0.05595,  0.011343 -0.004561 0.007328 0.010239 0.021752
+        Hubbard potential U=0.88:  0.122061, dq: 0.138706 
+        DH^e_LL=  0.605909,   0.605909  0.605909  0.605909
+        Force= -0.005947 -0.001944 -0.007662
+
+Atom H N_s=0.927806 N_p=0 Q=0.927806
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.072194,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020366,  0 0 0,  0 0 0 0 0
+        e dV=  0.791064,  0.002819 0.099651 0.06535,  0 0 0 0 0
+        Hubbard potential U=1:  -0.072194, dq: -0.072194 
+        DH^e_LL=  0.718869,   0  0  0
+        Force= 0.000204 0.007194 0.004718
+
+Atom H N_s=0.920774 N_p=0 Q=0.920774
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.079226,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022349,  0 0 0,  0 0 0 0 0
+        e dV=  0.817186,  0.065151 -0.067229 0.047225,  0 0 0 0 0
+        Hubbard potential U=1:  -0.079226, dq: -0.079226 
+        DH^e_LL=  0.73796,   0  0  0
+        Force= 0.005162 -0.005326 0.003741
+
+Atom O N_s=1.791753 N_p=4.335248 Q=6.127001
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.127001,  -0.040354 0.041594 -0.061089,  0 0 0 0 0
+        Qmpol=0.035826,  -0.019717 0.020323 -0.029848,  0 0 0 0 0
+        e dV=  0.339276,  0.02005 -0.016648 0.101259,  0.019565 -0.008648 0.009782 0.001329 -0.014014
+        Hubbard potential U=0.88:  0.111761, dq: 0.127001 
+        DH^e_LL=  0.451037,   0.451037  0.451037  0.451037
+        Force= -0.002262 0.00208 -0.013265
+
+Atom H N_s=0.924289 N_p=0 Q=0.924289
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.075711,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.021358,  0 0 0,  0 0 0 0 0
+        e dV=  0.510365,  -0.024608 0.027263 0.151109,  0 0 0 0 0
+        Hubbard potential U=1:  -0.075711, dq: -0.075711 
+        DH^e_LL=  0.434653,   0  0  0
+        Force= -0.001863 0.002064 0.011441
+
+Atom H N_s=0.931404 N_p=0 Q=0.931404
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.068596,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019351,  0 0 0,  0 0 0 0 0
+        e dV=  0.650222,  0.05497 -0.058907 0.041102,  0 0 0 0 0
+        Hubbard potential U=1:  -0.068596, dq: -0.068596 
+        DH^e_LL=  0.581626,   0  0  0
+        Force= 0.003771 -0.004041 0.002819
+
+Atom O N_s=1.790405 N_p=4.314876 Q=6.105281
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.105281,  -0.032544 0.020941 -0.073462,  0 0 0 0 0
+        Qmpol=0.029699,  -0.015901 0.010232 -0.035894,  0 0 0 0 0
+        e dV=  -0.296068,  0.015703 -0.011102 -0.01346,  0.019134 -0.012391 -0.003118 0.013687 -0.003293
+        Hubbard potential U=0.88:  0.092647, dq: 0.105281 
+        DH^e_LL= -0.203421,  -0.203421 -0.203421 -0.203421
+        Force= -0.001865 0.001098 0.001207
+
+Atom H N_s=0.926149 N_p=0 Q=0.926149
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.073851,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020833,  0 0 0,  0 0 0 0 0
+        e dV=  0.053983,  -0.011388 0.050109 0.003335,  0 0 0 0 0
+        Hubbard potential U=1:  -0.073851, dq: -0.073851 
+        DH^e_LL= -0.019868,   0  0  0
+        Force= -0.000841 0.003701 0.000246
+
+Atom H N_s=0.931024 N_p=0 Q=0.931024
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.068976,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019458,  0 0 0,  0 0 0 0 0
+        e dV=  -0.019171,  0.037058 -0.067258 -0.055552,  0 0 0 0 0
+        Hubbard potential U=1:  -0.068976, dq: -0.068976 
+        DH^e_LL= -0.088148,   0  0  0
+        Force= 0.002556 -0.004639 -0.003832
+
+Atom O N_s=1.792577 N_p=4.3417 Q=6.134277
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.134277,  -0.078528 -0.014495 0.022593,  0 0 0 0 0
+        Qmpol=0.037879,  -0.038369 -0.007082 0.011039,  0 0 0 0 0
+        e dV=  0.369109,  0.029141 0.015312 0.060662,  -0.000448 0.007774 -0.007133 -0.014264 -0.017992
+        Hubbard potential U=0.88:  0.118164, dq: 0.134277 
+        DH^e_LL=  0.487273,   0.487273  0.487273  0.487273
+        Force= -0.004172 -0.001802 -0.008108
+
+Atom H N_s=0.928126 N_p=0 Q=0.928126
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.071874,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020275,  0 0 0,  0 0 0 0 0
+        e dV=  0.79882,  0.005693 0.026499 -0.011112,  0 0 0 0 0
+        Hubbard potential U=1:  -0.071874, dq: -0.071874 
+        DH^e_LL=  0.726946,   0  0  0
+        Force= 0.000409 0.001905 -0.000799
+
+Atom H N_s=0.936986 N_p=0 Q=0.936986
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.063014,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.017776,  0 0 0,  0 0 0 0 0
+        e dV=  0.576319,  0.060852 0.000669 0.147336,  0 0 0 0 0
+        Hubbard potential U=1:  -0.063014, dq: -0.063014 
+        DH^e_LL=  0.513306,   0  0  0
+        Force= 0.003835 0.000042 0.009284
+
+Atom O N_s=1.792062 N_p=4.36152 Q=6.153582
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.153582,  0.07957 0.011576 -0.02459,  0 0 0 0 0
+        Qmpol=0.043325,  0.038878 0.005656 -0.012015,  0 0 0 0 0
+        e dV=  -0.308043,  -0.05486 0.004602 0.088784,  0.013053 0.009567 0.006495 0.014079 0.024219
+        Hubbard potential U=0.88:  0.135152, dq: 0.153582 
+        DH^e_LL= -0.172891,  -0.172891 -0.172891 -0.172891
+        Force= 0.008427 -0.001536 -0.013531
+
+Atom H N_s=0.908955 N_p=0 Q=0.908955
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.091045,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.025683,  0 0 0,  0 0 0 0 0
+        e dV=  0.014811,  -0.066483 0.09339 0.074812,  0 0 0 0 0
+        Hubbard potential U=1:  -0.091045, dq: -0.091045 
+        DH^e_LL= -0.076234,   0  0  0
+        Force= -0.006053 0.008503 0.006811
+
+Atom H N_s=0.933365 N_p=0 Q=0.933365
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.066635,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018797,  0 0 0,  0 0 0 0 0
+        e dV=  -0.042661,  -0.03197 -0.105491 0.105421,  0 0 0 0 0
+        Hubbard potential U=1:  -0.066635, dq: -0.066635 
+        DH^e_LL= -0.109295,   0  0  0
+        Force= -0.00213 -0.007029 0.007025
+
+Atom O N_s=1.814804 N_p=4.338828 Q=6.153633
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.153633,  0.027718 -0.033408 0.070324,  0 0 0 0 0
+        Qmpol=0.043339,  0.013543 -0.016323 0.03436,  0 0 0 0 0
+        e dV=  0.807375,  -0.002044 0.024849 -0.169914,  0.009042 0.003516 -0.001735 -0.024892 0.030359
+        Hubbard potential U=0.88:  0.135197, dq: 0.153633 
+        DH^e_LL=  0.942572,   0.942572  0.942572  0.942572
+        Force= 0.003085 -0.004254 0.022121
+
+Atom H N_s=0.919222 N_p=0 Q=0.919222
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.080778,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022787,  0 0 0,  0 0 0 0 0
+        e dV=  1.072178,  -0.122787 0.034783 -0.115159,  0 0 0 0 0
+        Hubbard potential U=1:  -0.080778, dq: -0.080778 
+        DH^e_LL=  0.9914,   0  0  0
+        Force= -0.009918 0.00281 -0.009302
+
+Atom H N_s=0.945188 N_p=0 Q=0.945188
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.054812,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.015462,  0 0 0,  0 0 0 0 0
+        e dV=  0.931651,  0.098372 0.017732 -0.15204,  0 0 0 0 0
+        Hubbard potential U=1:  -0.054812, dq: -0.054812 
+        DH^e_LL=  0.876839,   0  0  0
+        Force= 0.005392 0.000972 -0.008334
+
+Atom O N_s=1.792862 N_p=4.363898 Q=6.15676
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.15676,  -0.07031 -0.027532 0.036951,  0 0 0 0 0
+        Qmpol=0.044221,  -0.034354 -0.013452 0.018055,  0 0 0 0 0
+        e dV=  0.345321,  0.047797 0.011015 0.048124,  0.006126 0.021439 -0.011937 -0.014002 -0.006313
+        Hubbard potential U=0.88:  0.137949, dq: 0.15676 
+        DH^e_LL=  0.48327,   0.48327  0.48327  0.48327
+        Force= -0.007698 -0.001511 -0.007509
+
+Atom H N_s=0.91921 N_p=0 Q=0.91921
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.08079,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.02279,  0 0 0,  0 0 0 0 0
+        e dV=  0.626916,  0.10003 -0.029677 0.11624,  0 0 0 0 0
+        Hubbard potential U=1:  -0.08079, dq: -0.08079 
+        DH^e_LL=  0.546126,   0  0  0
+        Force= 0.008081 -0.002398 0.009391
+
+Atom H N_s=0.927815 N_p=0 Q=0.927815
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.072185,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020363,  0 0 0,  0 0 0 0 0
+        e dV=  0.769906,  -0.004419 0.051173 -0.032994,  0 0 0 0 0
+        Hubbard potential U=1:  -0.072185, dq: -0.072185 
+        DH^e_LL=  0.697721,   0  0  0
+        Force= -0.000319 0.003694 -0.002382
+
+Atom O N_s=1.797363 N_p=4.365564 Q=6.162927
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.162927,  -0.066484 -0.033086 0.036372,  0 0 0 0 0
+        Qmpol=0.045961,  -0.032484 -0.016166 0.017771,  0 0 0 0 0
+        e dV=  -0.369624,  0.039279 0.015702 -0.082647,  -0.015246 -0.014954 -0.00072 -0.004377 -0.018989
+        Hubbard potential U=0.88:  0.143376, dq: 0.162927 
+        DH^e_LL= -0.226249,  -0.226249 -0.226249 -0.226249
+        Force= -0.00647 -0.002493 0.013907
+
+Atom H N_s=0.93224 N_p=0 Q=0.93224
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.06776,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019115,  0 0 0,  0 0 0 0 0
+        e dV=  -0.005925,  0.077487 0.064302 0.004397,  0 0 0 0 0
+        Hubbard potential U=1:  -0.06776, dq: -0.06776 
+        DH^e_LL= -0.073685,   0  0  0
+        Force= 0.00525 0.004357 0.000298
+
+Atom H N_s=0.921963 N_p=0 Q=0.921963
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.078037,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022014,  0 0 0,  0 0 0 0 0
+        e dV=  -0.14393,  0.017567 -0.023494 -0.171444,  0 0 0 0 0
+        Hubbard potential U=1:  -0.078037, dq: -0.078037 
+        DH^e_LL= -0.221967,   0  0  0
+        Force= 0.001371 -0.001833 -0.013379
+
+Atom O N_s=1.791939 N_p=4.359242 Q=6.151181
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.151181,  0.084042 -0.003121 -0.001802,  0 0 0 0 0
+        Qmpol=0.042647,  0.041063 -0.001525 -0.00088,  0 0 0 0 0
+        e dV=  -0.722342,  -0.044924 -0.005017 0.080559,  0.00074 -0.020503 0.000382 -0.003173 -0.006182
+        Hubbard potential U=0.88:  0.133039, dq: 0.151181 
+        DH^e_LL= -0.589303,  -0.589303 -0.589303 -0.589303
+        Force= 0.006739 0.000623 -0.012368
+
+Atom H N_s=0.94213 N_p=0 Q=0.94213
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.05787,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.016325,  0 0 0,  0 0 0 0 0
+        e dV=  -0.348056,  -0.059167 -0.060449 0.001056,  0 0 0 0 0
+        Hubbard potential U=1:  -0.05787, dq: -0.05787 
+        DH^e_LL= -0.405926,   0  0  0
+        Force= -0.003424 -0.003498 0.000061
+
+Atom H N_s=0.93602 N_p=0 Q=0.93602
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.06398,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018049,  0 0 0,  0 0 0 0 0
+        e dV=  -0.516257,  -0.048237 0.051225 0.155023,  0 0 0 0 0
+        Hubbard potential U=1:  -0.06398, dq: -0.06398 
+        DH^e_LL= -0.580237,   0  0  0
+        Force= -0.003086 0.003277 0.009918
+
+Atom O N_s=1.795843 N_p=4.345312 Q=6.141155
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.141155,  -0.03322 0.058115 -0.051432,  0 0 0 0 0
+        Qmpol=0.039819,  -0.016232 0.028395 -0.02513,  0 0 0 0 0
+        e dV=  -0.233596,  0.007837 -0.023494 -0.023075,  0.017787 -0.00447 0.01011 0.00762 -0.01747
+        Hubbard potential U=0.88:  0.124217, dq: 0.141155 
+        DH^e_LL= -0.109379,  -0.109379 -0.109379 -0.109379
+        Force= -0.000977 0.003693 0.002492
+
+Atom H N_s=0.921822 N_p=0 Q=0.921822
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.078178,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022054,  0 0 0,  0 0 0 0 0
+        e dV=  0.172668,  -0.024368 0.01062 0.044164,  0 0 0 0 0
+        Hubbard potential U=1:  -0.078178, dq: -0.078178 
+        DH^e_LL=  0.09449,   0  0  0
+        Force= -0.001905 0.00083 0.003453
+
+Atom H N_s=0.937653 N_p=0 Q=0.937653
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.062347,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.017588,  0 0 0,  0 0 0 0 0
+        e dV=  0.035742,  0.048427 -0.075607 -0.098687,  0 0 0 0 0
+        Hubbard potential U=1:  -0.062347, dq: -0.062347 
+        DH^e_LL= -0.026606,   0  0  0
+        Force= 0.003019 -0.004714 -0.006153
+
+Atom O N_s=1.808176 N_p=4.359925 Q=6.168101
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.168101,  0.073481 -0.015206 0.035719,  0 0 0 0 0
+        Qmpol=0.04742,  0.035903 -0.00743 0.017452,  0 0 0 0 0
+        e dV=  0.563538,  -0.053997 0.017276 -0.081978,  -0.010978 0.027224 0.003239 -0.000421 0.007556
+        Hubbard potential U=0.88:  0.147929, dq: 0.168101 
+        DH^e_LL=  0.711467,   0.711467  0.711467  0.711467
+        Force= 0.009196 -0.003295 0.013546
+
+Atom H N_s=0.916004 N_p=0 Q=0.916004
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.083996,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.023695,  0 0 0,  0 0 0 0 0
+        e dV=  0.831852,  -0.010835 0.090959 -0.132715,  0 0 0 0 0
+        Hubbard potential U=1:  -0.083996, dq: -0.083996 
+        DH^e_LL=  0.747856,   0  0  0
+        Force= -0.00091 0.00764 -0.011147
+
+Atom H N_s=0.921881 N_p=0 Q=0.921881
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.078119,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022037,  0 0 0,  0 0 0 0 0
+        e dV=  0.915574,  -0.104149 -0.056582 -0.021589,  0 0 0 0 0
+        Hubbard potential U=1:  -0.078119, dq: -0.078119 
+        DH^e_LL=  0.837456,   0  0  0
+        Force= -0.008136 -0.00442 -0.001686
+
+Atom O N_s=1.790991 N_p=4.344726 Q=6.135718
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.135718,  0.082528 0.005126 -0.012245,  0 0 0 0 0
+        Qmpol=0.038285,  0.040323 0.002505 -0.005983,  0 0 0 0 0
+        e dV=  -0.316663,  -0.038685 -0.004163 0.088196,  -0.000237 0.023319 -0.001117 -0.000989 0.002691
+        Hubbard potential U=0.88:  0.119432, dq: 0.135718 
+        DH^e_LL= -0.197231,  -0.197231 -0.197231 -0.197231
+        Force= 0.005592 0.001098 -0.011951
+
+Atom H N_s=0.939552 N_p=0 Q=0.939552
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.060448,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.017052,  0 0 0,  0 0 0 0 0
+        e dV=  0.033843,  -0.052146 0.05991 0.026089,  0 0 0 0 0
+        Hubbard potential U=1:  -0.060448, dq: -0.060448 
+        DH^e_LL= -0.026605,   0  0  0
+        Force= -0.003152 0.003621 0.001577
+
+Atom H N_s=0.936783 N_p=0 Q=0.936783
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.063217,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.017833,  0 0 0,  0 0 0 0 0
+        e dV=  -0.132781,  -0.03972 -0.076846 0.144459,  0 0 0 0 0
+        Hubbard potential U=1:  -0.063217, dq: -0.063217 
+        DH^e_LL= -0.195998,   0  0  0
+        Force= -0.002511 -0.004858 0.009132
+
+Atom O N_s=1.788815 N_p=4.350117 Q=6.138932
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.138932,  -0.025605 0.07521 0.026165,  0 0 0 0 0
+        Qmpol=0.039192,  -0.012511 0.036748 0.012784,  0 0 0 0 0
+        e dV=  0.025644,  0.010701 -0.042414 0.078775,  0.008736 0.013552 0.000016 0.012519 -0.014252
+        Hubbard potential U=0.88:  0.12226, dq: 0.138932 
+        DH^e_LL=  0.147904,   0.147904  0.147904  0.147904
+        Force= -0.001705 0.006225 -0.011963
+
+Atom H N_s=0.946444 N_p=0 Q=0.946444
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.053556,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.015108,  0 0 0,  0 0 0 0 0
+        e dV=  0.451088,  0.01113 -0.008705 -0.011251,  0 0 0 0 0
+        Hubbard potential U=1:  -0.053556, dq: -0.053556 
+        DH^e_LL=  0.397532,   0  0  0
+        Force= 0.000596 -0.000466 -0.000603
+
+Atom H N_s=0.923389 N_p=0 Q=0.923389
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.076611,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.021612,  0 0 0,  0 0 0 0 0
+        e dV=  0.23134,  0.017035 -0.073388 0.156058,  0 0 0 0 0
+        Hubbard potential U=1:  -0.076611, dq: -0.076611 
+        DH^e_LL=  0.154729,   0  0  0
+        Force= 0.001305 -0.005622 0.011956
+
+Atom O N_s=1.904042 N_p=5.114115 Q=7.018157
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=1.018157,  -0.016965 0.058815 -0.016411,  0 0 0 0 0
+        Qmpol=0.287217,  -0.008289 0.028737 -0.008018,  0 0 0 0 0
+        e dV=  0.442794,  0.009758 -0.030792 0.025776,  0.010114 0.006012 -0.003043 0.01656 0.006355
+        Hubbard potential U=0.88:  0.895978, dq: 1.018157 
+        DH^e_LL=  1.338772,   1.338772  1.338772  1.338772
+        Force= -0.010673 0.03388 -0.026737
+
+Atom H N_s=0.91483 N_p=0 Q=0.91483
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.08517,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.024026,  0 0 0,  0 0 0 0 0
+        e dV=  -1.599463,  0.344996 -0.473448 -0.182948,  0 0 0 0 0
+        Hubbard potential U=1:  -0.08517, dq: -0.08517 
+        DH^e_LL= -1.684633,   0  0  0
+        Force= 0.029383 -0.040324 -0.015582
+
+Atom H N_s=0.932904 N_p=0 Q=0.932904
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.067096,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018928,  0 0 0,  0 0 0 0 0
+        e dV=  1.690557,  0.173844 -0.600293 0.189322,  0 0 0 0 0
+        Hubbard potential U=1:  -0.067096, dq: -0.067096 
+        DH^e_LL=  1.62346,   0  0  0
+        Force= 0.011664 -0.040277 0.012703
+
+Atom O N_s=1.80395 N_p=4.354726 Q=6.158676
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.158676,  -0.032347 0.07478 -0.011643,  0 0 0 0 0
+        Qmpol=0.044762,  -0.015805 0.036538 -0.005689,  0 0 0 0 0
+        e dV=  0.747894,  0.041015 -0.106924 0.051737,  -0.011053 -0.018498 -0.026174 -0.014334 0.000859
+        Hubbard potential U=0.88:  0.139635, dq: 0.158676 
+        DH^e_LL=  0.887528,   0.887528  0.887528  0.887528
+        Force= -0.006435 0.014182 -0.00726
+
+Atom H N_s=0.912477 N_p=0 Q=0.912477
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.087523,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.02469,  0 0 0,  0 0 0 0 0
+        e dV=  1.002044,  0.11352 -0.034371 0.107465,  0 0 0 0 0
+        Hubbard potential U=1:  -0.087523, dq: -0.087523 
+        DH^e_LL=  0.91452,   0  0  0
+        Force= 0.009936 -0.003008 0.009406
+
+Atom H N_s=0.917225 N_p=0 Q=0.917225
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.082775,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.02335,  0 0 0,  0 0 0 0 0
+        e dV=  1.051485,  -0.045632 -0.108515 -0.028813,  0 0 0 0 0
+        Hubbard potential U=1:  -0.082775, dq: -0.082775 
+        DH^e_LL=  0.96871,   0  0  0
+        Force= -0.003777 -0.008982 -0.002385
+
+Atom O N_s=1.806613 N_p=4.358128 Q=6.164741
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.164741,  -0.036029 0.03093 0.068324,  0 0 0 0 0
+        Qmpol=0.046473,  -0.017604 0.015112 0.033383,  0 0 0 0 0
+        e dV=  -1.064864,  0.027919 -0.043387 -0.083459,  -0.0215 -0.018467 0.013672 0.001876 0.006924
+        Hubbard potential U=0.88:  0.144972, dq: 0.164741 
+        DH^e_LL= -0.919892,  -0.919892 -0.919892 -0.919892
+        Force= -0.005198 0.008306 0.014646
+
+Atom H N_s=0.911287 N_p=0 Q=0.911287
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.088713,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.025025,  0 0 0,  0 0 0 0 0
+        e dV=  -0.768786,  -0.022767 -0.105608 -0.089778,  0 0 0 0 0
+        Hubbard potential U=1:  -0.088713, dq: -0.088713 
+        DH^e_LL= -0.857498,   0  0  0
+        Force= -0.00202 -0.009369 -0.007964
+
+Atom H N_s=0.931215 N_p=0 Q=0.931215
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.068785,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.019404,  0 0 0,  0 0 0 0 0
+        e dV=  -0.781595,  0.112816 0.014654 -0.094913,  0 0 0 0 0
+        Hubbard potential U=1:  -0.068785, dq: -0.068785 
+        DH^e_LL= -0.85038,   0  0  0
+        Force= 0.00776 0.001008 -0.006529
+
+Atom O N_s=1.798823 N_p=4.361544 Q=6.160367
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.160367,  0.055537 0.056346 -0.03133,  0 0 0 0 0
+        Qmpol=0.045239,  0.027135 0.027531 -0.015308,  0 0 0 0 0
+        e dV=  0.190768,  -0.038954 -0.031936 -0.030154,  0.009742 0.019796 -0.011169 -0.011279 0.014413
+        Hubbard potential U=0.88:  0.141123, dq: 0.160367 
+        DH^e_LL=  0.331891,   0.331891  0.331891  0.331891
+        Force= 0.006575 0.00497 0.004881
+
+Atom H N_s=0.925224 N_p=0 Q=0.925224
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.074776,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.021094,  0 0 0,  0 0 0 0 0
+        e dV=  0.570376,  0.038934 -0.08558 0.012318,  0 0 0 0 0
+        Hubbard potential U=1:  -0.074776, dq: -0.074776 
+        DH^e_LL=  0.495601,   0  0  0
+        Force= 0.002911 -0.006399 0.000921
+
+Atom H N_s=0.915434 N_p=0 Q=0.915434
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.084566,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.023856,  0 0 0,  0 0 0 0 0
+        e dV=  0.518777,  -0.107199 0.016562 -0.067883,  0 0 0 0 0
+        Hubbard potential U=1:  -0.084566, dq: -0.084566 
+        DH^e_LL=  0.434211,   0  0  0
+        Force= -0.009065 0.001401 -0.005741
+
+Atom O N_s=1.796843 N_p=4.355199 Q=6.152042
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.152042,  0.002198 0.085107 -0.008083,  0 0 0 0 0
+        Qmpol=0.04289,  0.001074 0.041583 -0.003949,  0 0 0 0 0
+        e dV=  -0.492039,  -0.003069 -0.044403 -0.046199,  0.000441 -0.000977 -0.02517 0.003045 -0.0036
+        Hubbard potential U=0.88:  0.133797, dq: 0.152042 
+        DH^e_LL= -0.358242,  -0.358242 -0.358242 -0.358242
+        Force= 0.00003 0.006878 0.007206
+
+Atom H N_s=0.928714 N_p=0 Q=0.928714
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.071286,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020109,  0 0 0,  0 0 0 0 0
+        e dV=  -0.11577,  0.062793 -0.047042 0.027514,  0 0 0 0 0
+        Hubbard potential U=1:  -0.071286, dq: -0.071286 
+        DH^e_LL= -0.187056,   0  0  0
+        Force= 0.004476 -0.003353 0.001961
+
+Atom H N_s=0.930485 N_p=0 Q=0.930485
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.069515,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.01961,  0 0 0,  0 0 0 0 0
+        e dV=  -0.234413,  -0.062379 -0.056701 -0.122802,  0 0 0 0 0
+        Hubbard potential U=1:  -0.069515, dq: -0.069515 
+        DH^e_LL= -0.303929,   0  0  0
+        Force= -0.004336 -0.003942 -0.008537
+
+Atom O N_s=1.78593 N_p=4.337671 Q=6.123601
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.123601,  -0.000605 -0.047671 -0.065481,  0 0 0 0 0
+        Qmpol=0.034867,  -0.000296 -0.023292 -0.031994,  0 0 0 0 0
+        e dV=  -0.956218,  0.011777 0.012407 0.110013,  -0.019008 0.009019 0.015221 0.003731 -0.00335
+        Hubbard potential U=0.88:  0.108769, dq: 0.123601 
+        DH^e_LL= -0.847449,  -0.847449 -0.847449 -0.847449
+        Force= -0.001293 -0.000679 -0.013276
+
+Atom H N_s=0.910831 N_p=0 Q=0.910831
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.089169,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.025154,  0 0 0,  0 0 0 0 0
+        e dV=  -0.737804,  -0.033563 -0.045771 0.11954,  0 0 0 0 0
+        Hubbard potential U=1:  -0.089169, dq: -0.089169 
+        DH^e_LL= -0.826973,   0  0  0
+        Force= -0.002993 -0.004081 0.010659
+
+Atom H N_s=0.92892 N_p=0 Q=0.92892
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.07108,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020051,  0 0 0,  0 0 0 0 0
+        e dV=  -0.668471,  0.056202 0.062591 0.05505,  0 0 0 0 0
+        Hubbard potential U=1:  -0.07108, dq: -0.07108 
+        DH^e_LL= -0.739551,   0  0  0
+        Force= 0.003995 0.004449 0.003913
+
+Atom O N_s=1.791609 N_p=4.350055 Q=6.141664
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.141664,  0.05175 0.024833 -0.059555,  0 0 0 0 0
+        Qmpol=0.039963,  0.025285 0.012133 -0.029098,  0 0 0 0 0
+        e dV=  -0.668346,  -0.030899 -0.004885 0.109271,  -0.007075 -0.01674 0.013508 0.02076 0.001144
+        Hubbard potential U=0.88:  0.124664, dq: 0.141664 
+        DH^e_LL= -0.543681,  -0.543681 -0.543681 -0.543681
+        Force= 0.004273 0.000521 -0.015834
+
+Atom H N_s=0.920388 N_p=0 Q=0.920388
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.079612,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022458,  0 0 0,  0 0 0 0 0
+        e dV=  -0.467403,  -0.023295 0.081045 0.144882,  0 0 0 0 0
+        Hubbard potential U=1:  -0.079612, dq: -0.079612 
+        DH^e_LL= -0.547014,   0  0  0
+        Force= -0.001855 0.006452 0.011534
+
+Atom H N_s=0.923926 N_p=0 Q=0.923926
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.076074,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.02146,  0 0 0,  0 0 0 0 0
+        e dV=  -0.352117,  -0.029001 -0.086036 0.070009,  0 0 0 0 0
+        Hubbard potential U=1:  -0.076074, dq: -0.076074 
+        DH^e_LL= -0.428191,   0  0  0
+        Force= -0.002206 -0.006545 0.005326
+
+Atom O N_s=1.806856 N_p=4.360836 Q=6.167692
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.167692,  0.073278 -0.025821 0.027671,  0 0 0 0 0
+        Qmpol=0.047305,  0.035804 -0.012616 0.01352,  0 0 0 0 0
+        e dV=  0.103778,  -0.044198 0.022499 -0.069199,  0.015935 -0.022591 -0.001986 -0.008989 -0.018309
+        Hubbard potential U=0.88:  0.147569, dq: 0.167692 
+        DH^e_LL=  0.251347,   0.251347  0.251347  0.251347
+        Force= 0.008019 -0.003838 0.011859
+
+Atom H N_s=0.90994 N_p=0 Q=0.90994
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.09006,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.025405,  0 0 0,  0 0 0 0 0
+        e dV=  0.513072,  -0.064182 0.065249 0.017375,  0 0 0 0 0
+        Hubbard potential U=1:  -0.09006, dq: -0.09006 
+        DH^e_LL=  0.423012,   0  0  0
+        Force= -0.00578 0.005876 0.001565
+
+Atom H N_s=0.912728 N_p=0 Q=0.912728
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.087272,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.024619,  0 0 0,  0 0 0 0 0
+        e dV=  0.374381,  -0.029735 -0.021293 -0.162469,  0 0 0 0 0
+        Hubbard potential U=1:  -0.087272, dq: -0.087272 
+        DH^e_LL=  0.287109,   0  0  0
+        Force= -0.002595 -0.001858 -0.014179
+
+Atom O N_s=1.796817 N_p=4.378 Q=6.174817
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.174817,  -0.060937 -0.02785 0.053259,  0 0 0 0 0
+        Qmpol=0.049315,  -0.029774 -0.013608 0.026023,  0 0 0 0 0
+        e dV=  -1.13616,  0.069135 0.067326 -0.031069,  -0.011738 0.0138 -0.012155 -0.012285 0.00027
+        Hubbard potential U=0.88:  0.153839, dq: 0.174817 
+        DH^e_LL= -0.982321,  -0.982321 -0.982321 -0.982321
+        Force= -0.012844 -0.013697 0.004785
+
+Atom H N_s=0.940658 N_p=0 Q=0.940658
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.059342,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.01674,  0 0 0,  0 0 0 0 0
+        e dV=  -0.897324,  0.160584 0.09979 0.023285,  0 0 0 0 0
+        Hubbard potential U=1:  -0.059342, dq: -0.059342 
+        DH^e_LL= -0.956666,   0  0  0
+        Force= 0.009529 0.005922 0.001382
+
+Atom H N_s=0.92579 N_p=0 Q=0.92579
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.07421,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.020934,  0 0 0,  0 0 0 0 0
+        e dV=  -0.781305,  0.009296 0.084271 -0.075124,  0 0 0 0 0
+        Hubbard potential U=1:  -0.07421, dq: -0.07421 
+        DH^e_LL= -0.855515,   0  0  0
+        Force= 0.00069 0.006254 -0.005575
+
+Atom O N_s=1.799221 N_p=4.36362 Q=6.162841
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.162841,  0.056274 0.019678 -0.058988,  0 0 0 0 0
+        Qmpol=0.045937,  0.027495 0.009615 -0.028822,  0 0 0 0 0
+        e dV=  -0.891998,  -0.034846 0.007226 -0.010582,  0.013285 -0.006265 0.018483 0.018234 0.014587
+        Hubbard potential U=0.88:  0.1433, dq: 0.162841 
+        DH^e_LL= -0.748697,  -0.748697 -0.748697 -0.748697
+        Force= 0.006154 -0.002203 0.001856
+
+Atom H N_s=0.935223 N_p=0 Q=0.935223
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.064777,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018273,  0 0 0,  0 0 0 0 0
+        e dV=  -0.530983,  -0.013764 -0.106482 -0.021214,  0 0 0 0 0
+        Hubbard potential U=1:  -0.064777, dq: -0.064777 
+        DH^e_LL= -0.59576,   0  0  0
+        Force= -0.000892 -0.006898 -0.001374
+
+Atom H N_s=0.903679 N_p=0 Q=0.903679
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.096321,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.027172,  0 0 0,  0 0 0 0 0
+        e dV=  -0.502782,  -0.056277 0.094767 -0.005479,  0 0 0 0 0
+        Hubbard potential U=1:  -0.096321, dq: -0.096321 
+        DH^e_LL= -0.599104,   0  0  0
+        Force= -0.005421 0.009128 -0.000528
+
+Atom O N_s=1.586107 N_p=3.683921 Q=5.270028
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=-0.729972,  -0.038087 -0.07374 -0.005933,  0 0 0 0 0
+        Qmpol=-0.205921,  -0.018609 -0.03603 -0.002899,  0 0 0 0 0
+        e dV=  -0.845203,  0.019379 0.055977 0.015589,  0.041248 -0.005511 0.007149 -0.008332 -0.005435
+        Hubbard potential U=0.88:  -0.642375, dq: -0.729972 
+        DH^e_LL= -1.487578,  -1.487578 -1.487578 -1.487578
+        Force= 0.019145 0.044991 0.011083
+
+Atom H N_s=0.908524 N_p=0 Q=0.908524
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.091476,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.025805,  0 0 0,  0 0 0 0 0
+        e dV=  -1.421321,  -0.16514 -0.09428 0.451648,  0 0 0 0 0
+        Hubbard potential U=1:  -0.091476, dq: -0.091476 
+        DH^e_LL= -1.512797,   0  0  0
+        Force= -0.015106 -0.008624 0.041315
+
+Atom H N_s=0.910891 N_p=0 Q=0.910891
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.089109,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.025137,  0 0 0,  0 0 0 0 0
+        e dV=  -1.461043,  -0.361858 0.068189 -0.287651,  0 0 0 0 0
+        Hubbard potential U=1:  -0.089109, dq: -0.089109 
+        DH^e_LL= -1.550152,   0  0  0
+        Force= -0.032245 0.006076 -0.025632
+
+Atom O N_s=1.79646 N_p=4.340787 Q=6.137247
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.137247,  -0.066228 0.031304 -0.035581,  0 0 0 0 0
+        Qmpol=0.038717,  -0.032359 0.015295 -0.017385,  0 0 0 0 0
+        e dV=  -0.181462,  0.0241 -0.029202 -0.024453,  -0.003518 0.021981 0.006943 -0.001524 -0.009096
+        Hubbard potential U=0.88:  0.120777, dq: 0.137247 
+        DH^e_LL= -0.060685,  -0.060685 -0.060685 -0.060685
+        Force= -0.002261 0.004592 0.002313
+
+Atom H N_s=0.920046 N_p=0 Q=0.920046
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.079954,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.022554,  0 0 0,  0 0 0 0 0
+        e dV=  0.183534,  -0.016976 -0.065486 0.034269,  0 0 0 0 0
+        Hubbard potential U=1:  -0.079954, dq: -0.079954 
+        DH^e_LL=  0.10358,   0  0  0
+        Force= -0.001357 -0.005236 0.00274
+
+Atom H N_s=0.954709 N_p=0 Q=0.954709
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.045291,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.012776,  0 0 0,  0 0 0 0 0
+        e dV=  0.06123,  0.079916 0.015118 -0.093194,  0 0 0 0 0
+        Hubbard potential U=1:  -0.045291, dq: -0.045291 
+        DH^e_LL=  0.015938,   0  0  0
+        Force= 0.00362 0.000685 -0.004221
+
+Atom O N_s=1.79016 N_p=4.350147 Q=6.140307
+        M=-0.429797 0 0 0 0 0 0
+        Q^e/e=0.140307,  0.003288 -0.051045 0.06525,  0 0 0 0 0
+        Qmpol=0.03958,  0.001607 -0.024941 0.031881,  0 0 0 0 0
+        e dV=  -0.678356,  -0.012487 0.026386 0.041771,  -0.016883 -0.000088 -0.01345 -0.001341 -0.002675
+        Hubbard potential U=0.88:  0.12347, dq: 0.140307 
+        DH^e_LL= -0.554886,  -0.554886 -0.554886 -0.554886
+        Force= 0.001778 -0.003341 -0.005443
+
+Atom H N_s=0.933724 N_p=0 Q=0.933724
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.066276,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.018696,  0 0 0,  0 0 0 0 0
+        e dV=  -0.292152,  -0.071024 -0.023374 -0.001003,  0 0 0 0 0
+        Hubbard potential U=1:  -0.066276, dq: -0.066276 
+        DH^e_LL= -0.358429,   0  0  0
+        Force= -0.004707 -0.001549 -0.000067
+
+Atom H N_s=0.94833 N_p=0 Q=0.94833
+        M=0 0 0 0 0 0 0
+        Q^e/e=-0.05167,  0 0 0,  0 0 0 0 0
+        Qmpol=-0.014576,  0 0 0,  0 0 0 0 0
+        e dV=  -0.389998,  0.062468 0.092896 0.070552,  0 0 0 0 0
+        Hubbard potential U=1:  -0.05167, dq: -0.05167 
+        DH^e_LL= -0.441667,   0  0  0
+        Force= 0.003228 0.0048 0.003645
+
+   (1/2) dQ dV             :    -0.869842
+   (1/2) U dN^2            :     1.641457
+   E_2                     :     0.771615
+
+ Forces on atom    1    Species: O   
+  Coordinates        :    6.15589380    8.73654549    8.78320444
+  From bands         :   -0.14552603    1.96137217   -0.99710874
+  From e'stx         :    0.00007638    0.00814086    0.00523037
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.14544966    1.96951303   -0.99187837
+
+ Forces on atom    2    Species: H   
+  Coordinates        :    5.39087945    9.02994588    7.16805340
+  From bands         :    0.85105122   -0.26870094    1.76543340
+  From e'stx         :    0.00382211   -0.00054152    0.00265972
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.85487333   -0.26924246    1.76809312
+
+ Forces on atom    3    Species: H   
+  Coordinates        :    6.76968017   10.30315868    9.45404089
+  From bands         :   -0.69083753   -1.68764076   -0.77861207
+  From e'stx         :   -0.00404774   -0.00802183   -0.00978136
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.69488527   -1.69566259   -0.78839343
+
+ Forces on atom    4    Species: O   
+  Coordinates        :    8.81716941   12.40750707   44.08241625
+  From bands         :    2.18589441   -0.35042026   -0.06658643
+  From e'stx         :    0.00439492    0.00064535   -0.01037196
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    2.19028933   -0.34977491   -0.07695838
+
+ Forces on atom    5    Species: H   
+  Coordinates        :   10.01250433   13.03053012   45.29042897
+  From bands         :   -1.26164347   -0.70787628   -1.34338786
+  From e'stx         :   -0.00366463   -0.00330265    0.00106410
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.26530810   -0.71117893   -1.34232376
+
+ Forces on atom    6    Species: H   
+  Coordinates        :    9.68469279   11.45486136   42.81101456
+  From bands         :   -0.94099149    1.06231487    1.42012899
+  From e'stx         :   -0.00030610    0.00221066    0.00968987
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.94129758    1.06452553    1.42981887
+
+ Forces on atom    7    Species: O   
+  Coordinates        :    6.67669004    8.66106777   16.28140078
+  From bands         :   -1.08044754   -1.24471348    1.46535123
+  From e'stx         :   -0.00460637   -0.00340637    0.01229375
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.08505391   -1.24811985    1.47764498
+
+ Forces on atom    8    Species: H   
+  Coordinates        :    7.32832868    7.16871024   17.07394406
+  From bands         :   -0.76730777    1.64665550   -0.84463996
+  From e'stx         :   -0.00312270    0.00559836   -0.00583915
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.77043047    1.65225386   -0.85047912
+
+ Forces on atom    9    Species: H   
+  Coordinates        :    4.99380335    8.97257930   16.87327268
+  From bands         :    1.83669706   -0.38422465   -0.61437183
+  From e'stx         :    0.00781580   -0.00221248   -0.00600576
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.84451286   -0.38643712   -0.62037759
+
+ Forces on atom   10    Species: O   
+  Coordinates        :    9.42613734    1.71059948   22.38583251
+  From bands         :   -1.62618439   -1.44602661    0.39675358
+  From e'stx         :   -0.00394955   -0.00511719    0.00866449
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.63013395   -1.45114380    0.40541807
+
+ Forces on atom   11    Species: H   
+  Coordinates        :    7.83416856    2.09401221   23.16080798
+  From bands         :    1.74980928   -0.49938185   -0.87205866
+  From e'stx         :    0.00543448   -0.00180050   -0.00636272
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.75524376   -0.50118235   -0.87842138
+
+ Forces on atom   12    Species: H   
+  Coordinates        :    9.49495965   13.66798468   21.98956087
+  From bands         :   -0.12634272    1.91336060    0.44742727
+  From e'stx         :   -0.00154605    0.00727253   -0.00214354
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.12788878    1.92063313    0.44528373
+
+ Forces on atom   13    Species: O   
+  Coordinates        :    3.21449295   12.03698011   35.70782071
+  From bands         :   -0.85710761   -1.30363047   -1.57339070
+  From e'stx         :    0.00484799   -0.00331573    0.00273486
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.85225962   -1.30694619   -1.57065584
+
+ Forces on atom   14    Species: H   
+  Coordinates        :    3.67578356   12.07501349   33.95611172
+  From bands         :   -0.53964540   -0.07994393    1.90328773
+  From e'stx         :   -0.00613269   -0.00121738    0.00289274
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.54577809   -0.08116131    1.90618047
+
+ Forces on atom   15    Species: H   
+  Coordinates        :    1.94653238   10.76920065   35.96862106
+  From bands         :    1.38096587    1.36793397   -0.33945331
+  From e'stx         :    0.00361477    0.00475875   -0.00518341
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.38458064    1.37269272   -0.34463672
+
+ Forces on atom   16    Species: O   
+  Coordinates        :   12.54988549    7.14979808   45.91446624
+  From bands         :    0.23840474    1.15180015   -1.88257444
+  From e'stx         :    0.00036071    0.00357162   -0.01893395
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.23876545    1.15537177   -1.90150839
+
+ Forces on atom   17    Species: H   
+  Coordinates        :   12.83060808    6.42227378   44.28084185
+  From bands         :   -0.30585302    0.84129597    1.75958756
+  From e'stx         :   -0.00112749    0.00452673    0.01327832
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.30698050    0.84582270    1.77286589
+
+ Forces on atom   18    Species: H   
+  Coordinates        :   12.48830763    8.95366714   45.77138827
+  From bands         :    0.07247338   -1.96591466    0.10837685
+  From e'stx         :   -0.00011652   -0.00826035    0.00507178
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.07235686   -1.97417501    0.11344862
+
+ Forces on atom   19    Species: O   
+  Coordinates        :   10.43136327    1.12701951   50.41225188
+  From bands         :    1.18124119    0.18712950   -1.87683401
+  From e'stx         :    0.00369073   -0.00017963   -0.01497461
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.18493192    0.18694987   -1.89180862
+
+ Forces on atom   20    Species: H   
+  Coordinates        :   12.05774321    0.38663631   50.11885149
+  From bands         :   -1.77181849    0.82496754    0.26722678
+  From e'stx         :   -0.00645914    0.00358885    0.00617471
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.77827763    0.82855639    0.27340150
+
+ Forces on atom   21    Species: H   
+  Coordinates        :    9.92968482    2.07658633   48.95430550
+  From bands         :    0.59294946   -1.06169849    1.60510232
+  From e'stx         :    0.00277665   -0.00315389    0.00916114
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.59572611   -1.06485239    1.61426346
+
+ Forces on atom   22    Species: O   
+  Coordinates        :    1.32703546   11.67846096   46.60748889
+  From bands         :   -0.53292358   -1.94198629    0.92658456
+  From e'stx         :   -0.00196498   -0.00458217   -0.00776591
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.53488856   -1.94656846    0.91881865
+
+ Forces on atom   23    Species: H   
+  Coordinates        :    1.47301121   11.28182710   48.36789123
+  From bands         :   -0.17395293    0.38602191   -1.94368970
+  From e'stx         :   -0.00083780    0.00003051   -0.00109448
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.17479073    0.38605242   -1.94478418
+
+ Forces on atom   24    Species: H   
+  Coordinates        :    0.68916128   10.23862572   45.71279881
+  From bands         :    0.70006160    1.54438455    1.01525861
+  From e'stx         :    0.00321951    0.00436185    0.00976138
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.70328111    1.54874640    1.02501999
+
+ Forces on atom   25    Species: O   
+  Coordinates        :    6.52504844   10.35245475   62.53500212
+  From bands         :   -0.12446882    1.14088765    1.88062974
+  From e'stx         :    0.00517593    0.00640611   -0.00668154
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.11929289    1.14729376    1.87394820
+
+ Forces on atom   26    Species: H   
+  Coordinates        :    5.00298864   10.66215516   63.46591447
+  From bands         :    1.69535417   -0.32007370   -0.99108035
+  From e'stx         :    0.00413837   -0.00288077    0.00293937
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.69949254   -0.32295447   -0.98814098
+
+ Forces on atom   27    Species: H   
+  Coordinates        :    7.92359030   11.12580022   63.38803659
+  From bands         :   -1.55235189   -0.82460621   -0.88736564
+  From e'stx         :   -0.00809258   -0.00357949    0.00164446
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.56044447   -0.82818570   -0.88572118
+
+ Forces on atom   28    Species: O   
+  Coordinates        :    1.90015147    5.43285160   55.98044875
+  From bands         :   -1.31937123   -0.66155398   -1.64254503
+  From e'stx         :   -0.00261341   -0.00364362   -0.01829643
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.32198464   -0.66519760   -1.66084146
+
+ Forces on atom   29    Species: H   
+  Coordinates        :    0.15804138    5.88472443   55.77941515
+  From bands         :    1.90846751   -0.53730047    0.17447146
+  From e'stx         :    0.00638298   -0.00202580    0.00510697
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.91485049   -0.53932627    0.17957843
+
+ Forces on atom   30    Species: H   
+  Coordinates        :    2.40345992    4.34654572   54.62211361
+  From bands         :   -0.59871707    1.19390718    1.45982936
+  From e'stx         :   -0.00384972    0.00587370    0.01268908
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.60256679    1.19978087    1.47251844
+
+ Forces on atom   31    Species: O   
+  Coordinates        :   11.49491288    7.54434068    7.49785326
+  From bands         :   -1.29488430   -1.79397297    0.04708440
+  From e'stx         :   -0.00420075   -0.00748747    0.00688741
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.29908505   -1.80146044    0.05397180
+
+ Forces on atom   32    Species: H   
+  Coordinates        :   11.75571323    6.03423422    6.53234865
+  From bands         :   -0.32816354    1.62786897    1.07879884
+  From e'stx         :   -0.00231982    0.00801504    0.00121707
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.33048336    1.63588401    1.08001590
+
+ Forces on atom   33    Species: H   
+  Coordinates        :    9.99893312    7.36685155    8.50356460
+  From bands         :    1.62353178    0.14464443   -1.11108197
+  From e'stx         :    0.00652982   -0.00011965   -0.00879023
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.63006160    0.14452478   -1.11987221
+
+ Forces on atom   34    Species: O   
+  Coordinates        :    0.53692102    3.59788543   60.87449239
+  From bands         :    1.69688031   -1.37321094   -0.12980139
+  From e'stx         :    0.00421032   -0.00567405   -0.01127856
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.70109063   -1.37888498   -0.14107995
+
+ Forces on atom   35    Species: H   
+  Coordinates        :    1.84273386    3.40898629   62.11510515
+  From bands         :   -1.41452937    0.16254528   -1.40288477
+  From e'stx         :   -0.00396418    0.00100851   -0.00098658
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.41849355    0.16355379   -1.40387135
+
+ Forces on atom   36    Species: H   
+  Coordinates        :    0.84915699    2.46919949   59.49261278
+  From bands         :   -0.29814691    1.21148957    1.52706420
+  From e'stx         :   -0.00029879    0.00480609    0.01151072
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.29844570    1.21629566    1.53857492
+
+ Forces on atom   37    Species: O   
+  Coordinates        :   11.02832337   11.46060483   12.73480589
+  From bands         :   -1.63764620   -1.12347902   -0.92335925
+  From e'stx         :   -0.00805799   -0.00427715    0.00392521
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.64570419   -1.12775617   -0.91943404
+
+ Forces on atom   38    Species: H   
+  Coordinates        :   10.91603434    9.65673577   12.62650130
+  From bands         :    0.07692358    1.97797308    0.09357298
+  From e'stx         :   -0.00000232    0.00982691   -0.00393600
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.07692126    1.98779999    0.08963697
+
+ Forces on atom   39    Species: H   
+  Coordinates        :    9.56675477   12.20316137   11.96490153
+  From bands         :    1.57437675   -0.86172834    0.83081561
+  From e'stx         :    0.00814539   -0.00529936   -0.00005000
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.58252213   -0.86702770    0.83076562
+
+ Forces on atom   40    Species: O   
+  Coordinates        :    7.96804512    7.15151348   27.26032056
+  From bands         :    0.16428415    1.12490417    1.92080334
+  From e'stx         :   -0.00045470    0.00352932    0.01166964
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.16382945    1.12843349    1.93247299
+
+ Forces on atom   41    Species: H   
+  Coordinates        :    9.50024716    7.39782492   28.19250069
+  From bands         :   -1.72119511   -0.25023961   -0.99768480
+  From e'stx         :   -0.00544907   -0.00042011   -0.00600169
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.72664418   -0.25065972   -1.00368649
+
+ Forces on atom   42    Species: H   
+  Coordinates        :    6.59829997    7.96470345   28.12295393
+  From bands         :    1.56206414   -0.88940799   -0.92701250
+  From e'stx         :    0.00579844   -0.00287266   -0.00617200
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.56786258   -0.89228065   -0.93318450
+
+ Forces on atom   43    Species: O   
+  Coordinates        :    6.54254555    8.29397162   36.42142820
+  From bands         :   -2.21749231   -0.23198729    0.01588222
+  From e'stx         :   -0.00310838    0.00808385    0.00486055
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -2.22060069   -0.22390344    0.02074278
+
+ Forces on atom   44    Species: H   
+  Coordinates        :    5.66451772    6.73967399   36.11535001
+  From bands         :    0.92392900    1.72776044    0.34657456
+  From e'stx         :    0.00141431    0.00393010   -0.00061857
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.92534331    1.73169054    0.34595599
+
+ Forces on atom   45    Species: H   
+  Coordinates        :    5.34286396    9.60884003   36.75105086
+  From bands         :    1.27702827   -1.48111021   -0.36210467
+  From e'stx         :   -0.00046710   -0.01244860   -0.00536020
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.27656117   -1.49355881   -0.36746488
+
+ Forces on atom   46    Species: O   
+  Coordinates        :    4.80998892    4.30943443   30.46229107
+  From bands         :    1.16624741    1.82809978   -0.55782188
+  From e'stx         :    0.00263858    0.00569231    0.00729304
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.16888600    1.83379208   -0.55052884
+
+ Forces on atom   47    Species: H   
+  Coordinates        :    6.58143905    4.55339143   30.74953368
+  From bands         :   -1.95502460   -0.21551280   -0.33876590
+  From e'stx         :   -0.00655881   -0.00005301   -0.00520589
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.96158342   -0.21556581   -0.34397179
+
+ Forces on atom   48    Species: H   
+  Coordinates        :    4.11778133    5.78422417   29.67119669
+  From bands         :    0.79662241   -1.60450659    0.86044675
+  From e'stx         :    0.00401325   -0.00588218   -0.00024101
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.80063566   -1.61038877    0.86020573
+
+ Forces on atom   49    Species: O   
+  Coordinates        :    8.14301619    7.14293646   40.71679633
+  From bands         :   -1.40820926   -0.56913188   -1.61099835
+  From e'stx         :   -0.00392178    0.00248724   -0.00868479
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.41213104   -0.56664464   -1.61968315
+
+ Forces on atom   50    Species: H   
+  Coordinates        :    7.98182708    7.98329314   39.12120532
+  From bands         :    0.16124639   -0.95235114    1.76277739
+  From e'stx         :    0.00050819   -0.00730043    0.00632855
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.16175458   -0.95965157    1.76910594
+
+ Forces on atom   51    Species: H   
+  Coordinates        :    6.98028131    5.75671018   40.78924087
+  From bands         :    1.28246960    1.54825239   -0.12852889
+  From e'stx         :    0.00326085    0.00387471    0.00191894
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.28573044    1.55212710   -0.12660995
+
+ Forces on atom   52    Species: O   
+  Coordinates        :    2.02400354   10.93226083   15.35885726
+  From bands         :   -0.15642823    0.45164179   -2.15340287
+  From e'stx         :   -0.00106177    0.00424202    0.00255193
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.15749000    0.45588381   -2.15085094
+
+ Forces on atom   53    Species: H   
+  Coordinates        :    1.62121189   12.55682965   14.66556301
+  From bands         :    0.44118924   -1.79046427    0.70486558
+  From e'stx         :    0.00207052   -0.00880056   -0.00232173
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.44325976   -1.79926483    0.70254385
+
+ Forces on atom   54    Species: H   
+  Coordinates        :    2.27701610    9.74779259   14.01265658
+  From bands         :   -0.27973026    1.33190693    1.44942103
+  From e'stx         :   -0.00099586    0.00430000    0.00042601
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.28072612    1.33620693    1.44984704
+
+ Forces on atom   55    Species: O   
+  Coordinates        :    3.92655657    3.79326979   64.45453764
+  From bands         :    1.81198644    0.80767238    0.98180971
+  From e'stx         :    0.00676416   -0.00777702   -0.00730692
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.81875060    0.79989536    0.97450278
+
+ Forces on atom   56    Species: H   
+  Coordinates        :    5.51490313    2.93208531   64.57950447
+  From bands         :   -1.71789269    0.98534742   -0.10866797
+  From e'stx         :   -0.00680499    0.00679480    0.00342245
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.72469768    0.99214222   -0.10524552
+
+ Forces on atom   57    Species: H   
+  Coordinates        :    4.05351563    5.41312972   65.25504981
+  From bands         :   -0.08499653   -1.81097373   -0.87910770
+  From e'stx         :   -0.00084446    0.00632679    0.00791772
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.08584099   -1.80464694   -0.87118998
+
+ Forces on atom   58    Species: O   
+  Coordinates        :    3.55139802    4.31749683   35.05939853
+  From bands         :   -1.47503105    0.82988015   -1.41004269
+  From e'stx         :   -0.00564336    0.00268772    0.00270383
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.48067441    0.83256787   -1.40733885
+
+ Forces on atom   59    Species: H   
+  Coordinates        :    1.92592364    4.97257659   35.51579913
+  From bands         :    1.77145293   -0.70569936   -0.55179837
+  From e'stx         :    0.00778969   -0.00315697   -0.00591448
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.77924262   -0.70885633   -0.55771285
+
+ Forces on atom   60    Species: H   
+  Coordinates        :    3.77543276    4.45387368   33.26657726
+  From bands         :   -0.30543142   -0.12241541    1.98807461
+  From e'stx         :   -0.00156506    0.00024030    0.00293739
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.30699648   -0.12217511    1.99101201
+
+ Forces on atom   61    Species: O   
+  Coordinates        :   11.11409351   11.39370413    5.04208289
+  From bands         :    0.91174237   -2.00012152   -0.35657806
+  From e'stx         :    0.00389886   -0.00652076    0.00552291
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.91564123   -2.00664228   -0.35105515
+
+ Forces on atom   62    Species: H   
+  Coordinates        :   12.10658371   10.95179243    3.59301096
+  From bands         :   -1.07669744    0.43352744    1.59629032
+  From e'stx         :   -0.00492231    0.00078957    0.00482344
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.08161975    0.43431701    1.60111376
+
+ Forces on atom   63    Species: H   
+  Coordinates        :   10.98550445    9.96292445    6.14505102
+  From bands         :    0.15883991    1.57226720   -1.25720222
+  From e'stx         :    0.00117119    0.00542756   -0.00901173
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.16001110    1.57769476   -1.26621395
+
+ Forces on atom   64    Species: O   
+  Coordinates        :    0.64070287    5.43456701   40.59157194
+  From bands         :    1.19417622   -0.07617026    1.85211264
+  From e'stx         :    0.00266533    0.00068482    0.00120459
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.19684155   -0.07548544    1.85331723
+
+ Forces on atom   65    Species: H   
+  Coordinates        :    0.02329428    5.82775975   42.24874081
+  From bands         :    0.72214000   -0.43884413   -1.78637646
+  From e'stx         :    0.00545588   -0.00287188   -0.00481203
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.72759588   -0.44171601   -1.79118849
+
+ Forces on atom   66    Species: H   
+  Coordinates        :    2.38734075    4.96675638   40.69480541
+  From bands         :   -1.93761223    0.53274027   -0.06365699
+  From e'stx         :   -0.00745311    0.00191061    0.00373241
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.94506534    0.53465088   -0.05992458
+
+ Forces on atom   67    Species: O   
+  Coordinates        :    1.58194429    8.64219835   11.05353979
+  From bands         :    0.33838242   -0.22015363   -2.16483374
+  From e'stx         :    0.00112389   -0.00081204    0.00106729
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.33950631   -0.22096567   -2.16376645
+
+ Forces on atom   68    Species: H   
+  Coordinates        :    0.36071044    8.97906546    9.75931807
+  From bands         :    1.36662790   -0.38111904    1.37736790
+  From e'stx         :    0.00585231   -0.00173597    0.00118196
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.37248021   -0.38285501    1.37854986
+
+ Forces on atom   69    Species: H   
+  Coordinates        :    3.13153301    8.09343095   10.29305323
+  From bands         :   -1.72033095    0.59976254    0.78580198
+  From e'stx         :   -0.00690325    0.00257393   -0.00132255
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.72723420    0.60233647    0.78447943
+
+ Forces on atom   70    Species: O   
+  Coordinates        :    1.99501323   10.25467680   51.55471002
+  From bands         :    1.13802323   -0.74625664    1.72125022
+  From e'stx         :    0.00337866   -0.00114715   -0.00503748
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.14140189   -0.74740379    1.71621273
+
+ Forces on atom   71    Species: H   
+  Coordinates        :    3.48900078    9.23501989   51.46777657
+  From bands         :   -1.62944563    1.10810976    0.14799748
+  From e'stx         :   -0.00626024    0.00344602    0.00733980
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.63570587    1.11155578    0.15533727
+
+ Forces on atom   72    Species: H   
+  Coordinates        :    1.57737046   10.56618832   53.28975677
+  From bands         :    0.49543878   -0.37236774   -1.87624625
+  From e'stx         :    0.00262270   -0.00244221   -0.00089186
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.49806148   -0.37480995   -1.87713811
+
+ Forces on atom   73    Species: O   
+  Coordinates        :   11.60984486    8.19447826   55.92384046
+  From bands         :   -1.91042073    0.32456850    1.07696902
+  From e'stx         :   -0.00461245    0.00092750   -0.00829716
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.91503318    0.32549601    1.06867186
+
+ Forces on atom   74    Species: H   
+  Coordinates        :   11.41967794    8.21258940   57.72589841
+  From bands         :    0.16015419   -0.01162409   -1.97165111
+  From e'stx         :   -0.00033864    0.00011026   -0.00172496
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.15981555   -0.01151383   -1.97337608
+
+ Forces on atom   75    Species: H   
+  Coordinates        :    9.99976494    8.48063420   55.14506165
+  From bands         :    1.75754486   -0.31413513    0.89650190
+  From e'stx         :    0.00487904   -0.00091267    0.00841639
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.76242391   -0.31504781    0.90491829
+
+ Forces on atom   76    Species: O   
+  Coordinates        :    4.22537971   13.11253754   42.63633185
+  From bands         :    1.06057997   -0.55655575    1.86441400
+  From e'stx         :    0.00363592   -0.00175344   -0.00764029
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.06421588   -0.55830918    1.85677372
+
+ Forces on atom   77    Species: H   
+  Coordinates        :    6.01059430   13.23207104   42.91524333
+  From bands         :   -1.96828522   -0.13845966   -0.26659761
+  From e'stx         :   -0.00560914    0.00045224    0.00813071
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.97389436   -0.13800742   -0.25846691
+
+ Forces on atom   78    Species: H   
+  Coordinates        :    3.42812754   12.42612552   44.11057826
+  From bands         :    0.91494457    0.74987176   -1.58647718
+  From e'stx         :    0.00217085    0.00146231    0.00161914
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.91711543    0.75133407   -1.58485804
+
+ Forces on atom   79    Species: O   
+  Coordinates        :    4.37084585    9.03159474   29.58829345
+  From bands         :   -0.94770610    1.91398989   -0.56320661
+  From e'stx         :   -0.00423412    0.00851281    0.00553137
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.95194022    1.92250270   -0.55767524
+
+ Forces on atom   80    Species: H   
+  Coordinates        :    4.62603174   10.61631907   30.42575234
+  From bands         :   -0.31499907   -1.70995017   -0.95105956
+  From e'stx         :   -0.00210745   -0.00861815   -0.01103162
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.31710652   -1.71856832   -0.96209118
+
+ Forces on atom   81    Species: H   
+  Coordinates        :    3.23328545    9.25979504   28.19772049
+  From bands         :    1.24545045   -0.19711099    1.53454448
+  From e'stx         :    0.00655286   -0.00011061    0.00267478
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.25200331   -0.19722160    1.53721926
+
+ Forces on atom   82    Species: O   
+  Coordinates        :    8.52383557    1.38621685   63.46303493
+  From bands         :    1.59344043    1.32220452   -0.77866610
+  From e'stx         :    0.00492400    0.00288389   -0.00818963
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.59836443    1.32508841   -0.78685573
+
+ Forces on atom   83    Species: H   
+  Coordinates        :    8.84259154    1.72109174   61.71168816
+  From bands         :   -0.31164673   -0.33894323    1.93232100
+  From e'stx         :   -0.00070158   -0.00035386    0.01087806
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.31234831   -0.33929709    1.94319906
+
+ Forces on atom   84    Species: H   
+  Coordinates        :    9.70830381    2.30390807   64.47906961
+  From bands         :   -1.29525222   -1.00465744   -1.16344124
+  From e'stx         :   -0.00398851   -0.00213266   -0.00224518
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.29924073   -1.00679010   -1.16568642
+
+ Forces on atom   85    Species: O   
+  Coordinates        :   11.82083938    8.30597943   29.98112064
+  From bands         :    1.77177179    0.29049560    1.31313719
+  From e'stx         :    0.00731900    0.00104286    0.01136849
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.77909078    0.29153845    1.32450568
+
+ Forces on atom   86    Species: H   
+  Coordinates        :   13.53415277    7.97997900   29.49592333
+  From bands         :   -1.85574730    0.37102194    0.58075476
+  From e'stx         :   -0.00887098    0.00164063   -0.00083699
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.86461828    0.37266257    0.57991777
+
+ Forces on atom   87    Species: H   
+  Coordinates        :   11.77918377    8.89278021   31.69407181
+  From bands         :    0.11016769   -0.65490790   -1.89645698
+  From e'stx         :    0.00102212   -0.00307335   -0.01113708
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.11118981   -0.65798126   -1.90759406
+
+ Forces on atom   88    Species: O   
+  Coordinates        :    5.41415372   11.31994182   58.30996549
+  From bands         :   -1.62505430   -1.26541064    0.79106488
+  From e'stx         :   -0.00566061   -0.00304179   -0.01101764
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.63071491   -1.26845244    0.78004724
+
+ Forces on atom   89    Species: H   
+  Coordinates        :    3.90477171   10.89251903   57.40440873
+  From bands         :    1.63104624    0.43090571    1.02264251
+  From e'stx         :    0.00660752    0.00093805    0.01132921
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.63765376    0.43184376    1.03397172
+
+ Forces on atom   90    Species: H   
+  Coordinates        :    5.37919922   10.53935189   59.94358989
+  From bands         :   -0.01788732    0.82293266   -1.82266616
+  From e'stx         :   -0.00076888    0.00198833   -0.00087375
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.01865620    0.82492099   -1.82353992
+
+ Forces on atom   91    Species: O   
+  Coordinates        :    3.74180771    3.67782319   16.97510960
+  From bands         :    0.86398000   -0.98982208   -1.76970056
+  From e'stx         :    0.00109009   -0.00393602    0.00103229
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.86507009   -0.99375809   -1.76866827
+
+ Forces on atom   92    Species: H   
+  Coordinates        :    2.81343092    3.22142259   15.48836651
+  From bands         :    1.06027135    0.47964816    1.59877073
+  From e'stx         :    0.00650427    0.00219582    0.00298340
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.06677563    0.48184398    1.60175413
+
+ Forces on atom   93    Species: H   
+  Coordinates        :    5.47468113    3.18972810   16.77824156
+  From bands         :   -1.91810166    0.51101708    0.16038713
+  From e'stx         :   -0.00738843    0.00207026   -0.00372850
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.92549009    0.51308734    0.15665864
+
+ Forces on atom   94    Species: O   
+  Coordinates        :    8.41233440    4.49195327   17.74086532
+  From bands         :    1.43209037   -1.38187991    0.96116360
+  From e'stx         :    0.00653158   -0.00517049    0.00923856
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.43862195   -1.38705039    0.97040216
+
+ Forces on atom   95    Species: H   
+  Coordinates        :    9.96989202    3.92761030   17.00718324
+  From bands         :   -1.68901274    0.58354225    0.84209991
+  From e'stx         :   -0.00871934    0.00243929    0.00107330
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.69773209    0.58598154    0.84317321
+
+ Forces on atom   96    Species: H   
+  Coordinates        :    8.21492302    3.74939673   19.38082862
+  From bands         :    0.25839461    0.78504334   -1.79134659
+  From e'stx         :    0.00177861    0.00254992   -0.01003021
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.26017322    0.78759326   -1.80137679
+
+ Forces on atom   97    Species: O   
+  Coordinates        :    4.91428539    3.81248230   41.02728420
+  From bands         :    0.52617620   -2.10959518    0.55603954
+  From e'stx         :    0.00353480   -0.00987619   -0.01020472
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.52971100   -2.11947137    0.54583482
+
+ Forces on atom   98    Species: H   
+  Coordinates        :    5.06823004    2.43694158   39.85911599
+  From bands         :   -0.16020437    1.46163792    1.30615541
+  From e'stx         :   -0.00267638    0.00975497    0.00971596
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.16288075    1.47139290    1.31587137
+
+ Forces on atom   99    Species: H   
+  Coordinates        :    5.25839696    3.22187818   42.70437532
+  From bands         :   -0.36285457    0.60250473   -1.85839044
+  From e'stx         :   -0.00153229    0.00179708   -0.00105654
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.36438685    0.60430181   -1.85944698
+
+ Forces on atom  100    Species: O   
+  Coordinates        :    9.81210292    3.72808449   54.41600157
+  From bands         :   -1.20865365    0.16537398   -1.82712636
+  From e'stx         :   -0.00587428    0.00243216   -0.01601036
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.21452793    0.16780615   -1.84313672
+
+ Forces on atom  101    Species: H   
+  Coordinates        :    8.48817894    4.93446720   54.14252343
+  From bands         :    1.44044821   -1.33461714    0.25232577
+  From e'stx         :    0.00670775   -0.00621914    0.00641765
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.44715595   -1.34083627    0.25874342
+
+ Forces on atom  102    Species: H   
+  Coordinates        :    9.98234760    2.67763865   52.95081073
+  From bands         :   -0.23171233    1.19209638    1.59252312
+  From e'stx         :   -0.00083174    0.00374526    0.00816878
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.23254407    1.19584164    1.60069190
+
+ Forces on atom  103    Species: O   
+  Coordinates        :   11.60812946    4.29382427   65.43060172
+  From bands         :    0.96095706    1.78621071    0.87510086
+  From e'stx         :    0.00012873    0.00383421   -0.00068054
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.96108579    1.79004492    0.87442031
+
+ Forces on atom  104    Species: H   
+  Coordinates        :   13.20915381    4.97914963   64.93254551
+  From bands         :   -1.74737257   -0.70818074    0.57803353
+  From e'stx         :   -0.00509082   -0.00072618    0.00620552
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.75246339   -0.70890692    0.58423904
+
+ Forces on atom  105    Species: H   
+  Coordinates        :   10.91266187    5.29681894   66.76720350
+  From bands         :    0.80440871   -1.06299800   -1.45882028
+  From e'stx         :    0.00496740   -0.00329270   -0.00602886
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.80937611   -1.06629070   -1.46484913
+
+ Forces on atom  106    Species: O   
+  Coordinates        :   11.98380263    7.72445795    1.58177275
+  From bands         :    0.87918993    1.96627323   -0.45600805
+  From e'stx         :   -0.00071018    0.00887089    0.00387401
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.87847975    1.97514413   -0.45213404
+
+ Forces on atom  107    Species: H   
+  Coordinates        :   13.55222693    8.34929211    2.23685251
+  From bands         :   -1.72265075   -0.63837710   -0.74432077
+  From e'stx         :   -0.00460008   -0.00298059   -0.00932219
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.72725083   -0.64135769   -0.75364296
+
+ Forces on atom  108    Species: H   
+  Coordinates        :   11.25030165    8.96325960    0.48351351
+  From bands         :    0.84764716   -1.32538643    1.21109124
+  From e'stx         :    0.00588752   -0.00666573    0.00364228
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.85353468   -1.33205216    1.21473352
+
+ Forces on atom  109    Species: O   
+  Coordinates        :   13.49507233    3.82328934   23.14455508
+  From bands         :   -1.43081836    0.33370459   -1.63085895
+  From e'stx         :   -0.00507782    0.00147842    0.00315976
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.43589618    0.33518301   -1.62769920
+
+ Forces on atom  110    Species: H   
+  Coordinates        :   11.93751470    2.92479592   22.92631591
+  From bands         :    1.71261179    1.02442021    0.19570347
+  From e'stx         :    0.00689448    0.00480670   -0.00371599
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.71950627    1.02922690    0.19198748
+
+ Forces on atom  111    Species: H   
+  Coordinates        :   13.68342813    5.03637317   21.81302443
+  From bands         :   -0.25392857   -1.34237090    1.42978944
+  From e'stx         :   -0.00190597   -0.00632299    0.00239573
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.25583454   -1.34869389    1.43218517
+
+ Forces on atom  112    Species: O   
+  Coordinates        :    6.39056088    9.63713186   49.31096340
+  From bands         :    1.08020930    1.92815236   -0.10557341
+  From e'stx         :    0.00101607    0.00619260   -0.01002758
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.08122537    1.93434496   -0.11560099
+
+ Forces on atom  113    Species: H   
+  Coordinates        :    5.61341207   11.26532291   49.13709651
+  From bands         :    0.89489286   -1.74909065    0.18628377
+  From e'stx         :    0.00448309   -0.00633809    0.00696293
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.89937595   -1.75542875    0.19324671
+
+ Forces on atom  114    Species: H   
+  Coordinates        :    8.19008327    9.83092101   49.36710792
+  From bands         :   -1.98502153   -0.16469050   -0.07399114
+  From e'stx         :   -0.00545580    0.00016090    0.00485282
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.99047733   -0.16452961   -0.06913832
+
+ Forces on atom  115    Species: O   
+  Coordinates        :   10.68695826    8.45693486   61.15238762
+  From bands         :   -1.94512571   -0.96128178    0.39142111
+  From e'stx         :   -0.00594661   -0.00194395   -0.00766235
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.95107232   -0.96322572    0.38375876
+
+ Forces on atom  116    Species: H   
+  Coordinates        :   10.41166900    6.66683026   61.19042100
+  From bands         :    0.25200241    1.95525757   -0.03276112
+  From e'stx         :    0.00020355    0.00719426    0.00471788
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.25220596    1.96245184   -0.02804324
+
+ Forces on atom  117    Species: H   
+  Coordinates        :    9.12940063    9.31540267   61.48744362
+  From bands         :    1.68985558   -0.98700572   -0.36821644
+  From e'stx         :    0.00516162   -0.00532631    0.00374149
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.69501720   -0.99233203   -0.36447495
+
+ Forces on atom  118    Species: O   
+  Coordinates        :    9.20313500    3.81213922   58.92751043
+  From bands         :   -1.05727451    1.08542590   -1.61497908
+  From e'stx         :   -0.00226243    0.00207968   -0.01326539
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.05953694    1.08750557   -1.62824447
+
+ Forces on atom  119    Species: H   
+  Coordinates        :    9.48566871    3.56655223   57.15443030
+  From bands         :   -0.34680218    0.30595864    1.93912115
+  From e'stx         :   -0.00186310    0.00206412    0.01144068
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.34866527    0.30802276    1.95056183
+
+ Forces on atom  120    Species: H   
+  Coordinates        :    7.91905551    5.06597311   59.16657742
+  From bands         :    1.42709946   -1.37890535   -0.30821320
+  From e'stx         :    0.00377070   -0.00404080    0.00281942
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.43087016   -1.38294615   -0.30539379
+
+ Forces on atom  121    Species: O   
+  Coordinates        :    3.36270373    6.41286111   21.13924943
+  From bands         :   -0.89574043    0.56983239   -1.95096042
+  From e'stx         :   -0.00186538    0.00109825    0.00120694
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.89760580    0.57093064   -1.94975348
+
+ Forces on atom  122    Species: H   
+  Coordinates        :    3.48006389    5.44337205   19.61392963
+  From bands         :   -0.15757550    1.10914805    1.66231650
+  From e'stx         :   -0.00084104    0.00370059    0.00024628
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.15841654    1.11284863    1.66256278
+
+ Forces on atom  123    Species: H   
+  Coordinates        :    2.40607357    7.91898312   20.82538346
+  From bands         :    1.05033323   -1.68038342    0.30094825
+  From e'stx         :    0.00255610   -0.00463921   -0.00383180
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.05288933   -1.68502263    0.29711645
+
+ Forces on atom  124    Species: O   
+  Coordinates        :    5.47230586    6.31388238   59.07675046
+  From bands         :   -2.09472418   -0.40961516    0.55654442
+  From e'stx         :   -0.00417222   -0.00180230   -0.00810759
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -2.09889641   -0.41141746    0.54843682
+
+ Forces on atom  125    Species: H   
+  Coordinates        :    4.91049845    5.96125858   60.76289714
+  From bands         :    0.56326203    0.38008262   -1.84829592
+  From e'stx         :    0.00040918    0.00190457   -0.00079865
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.56367122    0.38198719   -1.84909457
+
+ Forces on atom  126    Species: H   
+  Coordinates        :    4.05873176    6.26081676   57.94661562
+  From bands         :    1.52582578    0.05720145    1.29224169
+  From e'stx         :    0.00383453    0.00004213    0.00928420
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.52966031    0.05724358    1.30152589
+
+ Forces on atom  127    Species: O   
+  Coordinates        :    4.32590230    5.65448162   50.72445515
+  From bands         :    2.09077829    0.25644994   -0.65742711
+  From e'stx         :    0.00842716   -0.00153569   -0.01353142
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    2.09920544    0.25491425   -0.67095853
+
+ Forces on atom  128    Species: H   
+  Coordinates        :    5.56579061    4.33526653   50.67555509
+  From bands         :   -1.31951432    1.47773674    0.03373970
+  From e'stx         :   -0.00605289    0.00850265    0.00681126
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.32556722    1.48623938    0.04055096
+
+ Forces on atom  129    Species: H   
+  Coordinates        :    5.06900218    7.20244034   50.14670994
+  From bands         :   -0.78080794   -1.73917596    0.63424363
+  From e'stx         :   -0.00213031   -0.00702938    0.00702468
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.78293825   -1.74620534    0.64126830
+
+ Forces on atom  130    Species: O   
+  Coordinates        :    3.24725714    7.41911628    2.30755959
+  From bands         :    0.62397274   -0.89892220    1.84292425
+  From e'stx         :    0.00308502   -0.00425386    0.02212127
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.62705776   -0.90317606    1.86504552
+
+ Forces on atom  131    Species: H   
+  Coordinates        :    4.93811272    6.93736009    2.74168350
+  From bands         :   -1.88669100    0.52289679   -0.44407856
+  From e'stx         :   -0.00991850    0.00280966   -0.00930226
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.89660950    0.52570645   -0.45338081
+
+ Forces on atom  132    Species: H   
+  Coordinates        :    2.13849344    7.04240467    3.68925809
+  From bands         :    1.24335049    0.38438124   -1.43828136
+  From e'stx         :    0.00539195    0.00097193   -0.00833358
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.24874244    0.38535317   -1.44661494
+
+ Forces on atom  133    Species: O   
+  Coordinates        :   12.99074396   12.36290660   59.33749166
+  From bands         :   -1.84973661   -0.70262326    0.98905631
+  From e'stx         :   -0.00769782   -0.00151135   -0.00750865
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.85743443   -0.70413461    0.98154766
+
+ Forces on atom  134    Species: H   
+  Coordinates        :   11.30821950   12.65811811   58.73439085
+  From bands         :    1.81777623   -0.35048821    0.69449435
+  From e'stx         :    0.00808135   -0.00239757    0.00939099
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.82585758   -0.35288578    0.70388534
+
+ Forces on atom  135    Species: H   
+  Coordinates        :   12.92192165   11.40301644   60.87150481
+  From bands         :    0.02881034    1.04481789   -1.67931339
+  From e'stx         :   -0.00031900    0.00369388   -0.00238169
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.02849135    1.04851177   -1.68169508
+
+ Forces on atom  136    Species: O   
+  Coordinates        :    7.07603576   10.06941332   22.11891586
+  From bands         :   -1.76145388   -0.85182118    1.01731466
+  From e'stx         :   -0.00646954   -0.00249286    0.01390686
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.76792342   -0.85431404    1.03122152
+
+ Forces on atom  137    Species: H   
+  Coordinates        :    5.81477631    9.03345638   21.33180593
+  From bands         :    1.35197235    1.12919938    0.89659197
+  From e'stx         :    0.00525049    0.00435708    0.00029794
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.35722284    1.13355646    0.89688991
+
+ Forces on atom  138    Species: H   
+  Coordinates        :    6.66237744   10.29761362   23.86736485
+  From bands         :    0.40728320   -0.28273930   -1.90849891
+  From e'stx         :    0.00137090   -0.00183342   -0.01337892
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.40865410   -0.28457272   -1.92187784
+
+ Forces on atom  139    Species: O   
+  Coordinates        :    4.75440987    8.12929297   44.93840215
+  From bands         :    2.18506040   -0.11677918   -0.06115659
+  From e'stx         :    0.00673923    0.00062318   -0.01236772
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    2.19179963   -0.11615600   -0.07352431
+
+ Forces on atom  140    Species: H   
+  Coordinates        :    5.88907249    8.92437180   46.10294815
+  From bands         :   -1.20038921   -0.88929636   -1.31718956
+  From e'stx         :   -0.00342403   -0.00349817    0.00006111
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.20381324   -0.89279453   -1.31712844
+
+ Forces on atom  141    Species: H   
+  Coordinates        :    5.70633114    7.20924730   43.70141162
+  From bands         :   -0.98504427    1.01257642    1.36432433
+  From e'stx         :   -0.00308621    0.00327742    0.00991841
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.98813048    1.01585384    1.37424274
+
+ Forces on atom  142    Species: O   
+  Coordinates        :    1.05291412   10.28726945   19.69608122
+  From bands         :   -0.83111534    1.58067736   -1.33955512
+  From e'stx         :   -0.00097708    0.00369326    0.00249183
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.83209241    1.58437061   -1.33706329
+
+ Forces on atom  143    Species: H   
+  Coordinates        :    1.26626329   10.36514733   17.89927550
+  From bands         :   -0.27290621   -0.05041925    1.98273762
+  From e'stx         :   -0.00190508    0.00083023    0.00345268
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.27481129   -0.04958902    1.98619030
+
+ Forces on atom  144    Species: H   
+  Coordinates        :    0.06803059   11.70356022   20.24865195
+  From bands         :    1.06736582   -1.52024575   -0.64422220
+  From e'stx         :    0.00301930   -0.00471391   -0.00615283
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.07038512   -1.52495966   -0.65037504
+
+ Forces on atom  145    Species: O   
+  Coordinates        :    7.10348220    5.79274307    3.96258003
+  From bands         :    1.93840025   -0.45946738    0.95093586
+  From e'stx         :    0.00919620   -0.00329485    0.01354550
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.94759644   -0.46276223    0.96448136
+
+ Forces on atom  146    Species: H   
+  Coordinates        :    7.38058257    4.49761579    5.19757834
+  From bands         :   -0.24645317    1.42707061   -1.34162658
+  From e'stx         :   -0.00091013    0.00764012   -0.01114746
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.24736329    1.43471073   -1.35277405
+
+ Forces on atom  147    Species: H   
+  Coordinates        :    8.66285094    6.64632087    3.62046068
+  From bands         :   -1.67907743   -0.96198493    0.40811187
+  From e'stx         :   -0.00813600   -0.00442011   -0.00168647
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.68721343   -0.96640504    0.40642540
+
+ Forces on atom  148    Species: O   
+  Coordinates        :   11.12610132   10.65951181   50.33162796
+  From bands         :    2.18903143    0.11591609   -0.28367521
+  From e'stx         :    0.00559222    0.00109839   -0.01195125
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    2.19462365    0.11701449   -0.29562645
+
+ Forces on atom  149    Species: H   
+  Coordinates        :   12.33592515    9.60906597   51.17741797
+  From bands         :   -1.28212282    1.15600249   -0.94347783
+  From e'stx         :   -0.00315209    0.00362141    0.00157701
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.28527491    1.15962390   -0.94190081
+
+ Forces on atom  150    Species: H   
+  Coordinates        :   11.99000247   11.78964665   49.20873758
+  From bands         :   -0.88899352   -1.24363246    1.22943378
+  From e'stx         :   -0.00251099   -0.00485801    0.00913228
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.89150452   -1.24849048    1.23856606
+
+ Forces on atom  151    Species: O   
+  Coordinates        :    6.84702951    8.60617489   54.68531978
+  From bands         :   -0.71013071    1.96283502    0.68135159
+  From e'stx         :   -0.00170540    0.00622493   -0.01196320
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.71183610    1.96905995    0.66938839
+
+ Forces on atom  152    Species: H   
+  Coordinates        :    6.51958019    9.06800884   56.40587762
+  From bands         :    0.35166215   -0.47488809   -1.90020822
+  From e'stx         :    0.00059610   -0.00046622   -0.00060255
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.35225825   -0.47535431   -1.90081077
+
+ Forces on atom  153    Species: H   
+  Coordinates        :    6.51939908   10.02427677   53.60589612
+  From bands         :    0.34511910   -1.51216515    1.21543459
+  From e'stx         :    0.00130508   -0.00562236    0.01195577
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.34642418   -1.51778750    1.22739035
+
+ Forces on atom  154    Species: O   
+  Coordinates        :    3.81145306    7.75190439   66.92128659
+  From bands         :   -0.52844441    1.85412648   -0.50073424
+  From e'stx         :   -0.01067313    0.03388035   -0.02673708
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.53911754    1.88800682   -0.52747132
+
+ Forces on atom  155    Species: H   
+  Coordinates        :    7.74787711   11.33835675   37.79452249
+  From bands         :   -1.97192249    2.31828271    0.98062131
+  From e'stx         :    0.02938329   -0.04032359   -0.01558163
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.94253921    2.27795913    0.96503968
+
+ Forces on atom  156    Species: H   
+  Coordinates        :    3.32915353    9.42899551   66.43590817
+  From bands         :    0.53132018   -1.84903649    0.53778845
+  From e'stx         :    0.01166430   -0.04027749    0.01270283
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.54298448   -1.88931398    0.55049128
+
+ Forces on atom  157    Species: O   
+  Coordinates        :    2.79456239   12.04041091   65.47177139
+  From bands         :   -0.90957938    2.01220360   -0.24515202
+  From e'stx         :   -0.00643508    0.01418152   -0.00726004
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.91601446    2.02638513   -0.25241205
+
+ Forces on atom  158    Species: H   
+  Coordinates        :    1.29423595   12.40082250   64.52455902
+  From bands         :    1.64886559   -0.34152911    1.04460460
+  From e'stx         :    0.00993571   -0.00300830    0.00940572
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.65880130   -0.34453741    1.05401032
+
+ Forces on atom  159    Species: H   
+  Coordinates        :    3.44221658   13.57442406   66.18353900
+  From bands         :   -0.74435345   -1.64527951   -0.80309201
+  From e'stx         :   -0.00377719   -0.00898234   -0.00238502
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.74813064   -1.65426185   -0.80547703
+
+ Forces on atom  160    Species: O   
+  Coordinates        :   10.90996059    9.52219988   34.24715539
+  From bands         :   -0.94560154    0.85557255    1.80525068
+  From e'stx         :   -0.00519801    0.00830596    0.01464559
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.95079954    0.86387851    1.81989628
+
+ Forces on atom  161    Species: H   
+  Coordinates        :   11.48046135   11.00550185   35.11558432
+  From bands         :   -0.66380921   -1.62555837   -0.90867068
+  From e'stx         :   -0.00201976   -0.00936881   -0.00796445
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.66582897   -1.63492718   -0.91663514
+
+ Forces on atom  162    Species: H   
+  Coordinates        :    9.45382533    8.85027677   35.09022873
+  From bands         :    1.60888930    0.77278208   -0.88894483
+  From e'stx         :    0.00776010    0.00100801   -0.00652860
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.61664940    0.77379009   -0.89547342
+
+ Forces on atom  163    Species: O   
+  Coordinates        :    6.57462358    4.50584803   11.10448725
+  From bands         :    1.45848233    1.45137217   -0.84046041
+  From e'stx         :    0.00657539    0.00496994    0.00488114
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.46505772    1.45634210   -0.83557927
+
+ Forces on atom  164    Species: H   
+  Coordinates        :    6.14756301    5.94314772   10.08863368
+  From bands         :    0.51678485   -1.58292304    1.12054939
+  From e'stx         :    0.00291135   -0.00639927    0.00092111
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.51969620   -1.58932231    1.12147050
+
+ Forces on atom  165    Species: H   
+  Coordinates        :    8.36998041    4.43612016   11.32689199
+  From bands         :   -1.98964389    0.12390632   -0.27767601
+  From e'stx         :   -0.00906542    0.00140057   -0.00574062
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.99870931    0.12530689   -0.28341663
+
+ Forces on atom  166    Species: O   
+  Coordinates        :    5.97406113    3.83752718   24.45580884
+  From bands         :    0.02850967    2.22924233   -0.19273484
+  From e'stx         :    0.00002967    0.00687812    0.00720580
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.02853934    2.23612045   -0.18552904
+
+ Forces on atom  167    Species: H   
+  Coordinates        :    5.04260544    4.79270845   23.23113388
+  From bands         :    1.04999189   -1.01051239    1.37500903
+  From e'stx         :    0.00447626   -0.00335341    0.00196138
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.05446815   -1.01386581    1.37697041
+
+ Forces on atom  168    Species: H   
+  Coordinates        :    6.94373130    4.96440201   25.48941132
+  From bands         :   -1.09271679   -1.21235384   -1.17376484
+  From e'stx         :   -0.00433626   -0.00394160   -0.00853657
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.09705304   -1.21629544   -1.18230141
+
+ Forces on atom  169    Species: O   
+  Coordinates        :   12.23596681   10.25982301   42.08740302
+  From bands         :    0.00805389   -1.25912032   -1.79709154
+  From e'stx         :   -0.00129288   -0.00067885   -0.01327577
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.00676101   -1.25979916   -1.81036732
+
+ Forces on atom  170    Species: H   
+  Coordinates        :   13.04734567   10.68543468   40.52622316
+  From bands         :   -0.89993233   -0.51397142    1.68938640
+  From e'stx         :   -0.00299275   -0.00408138    0.01065929
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.90292509   -0.51805280    1.70004569
+
+ Forces on atom  171    Species: H   
+  Coordinates        :   11.41191016    8.65517643   41.92259169
+  From bands         :    0.91094455    1.74675077    0.13055293
+  From e'stx         :    0.00399484    0.00444899    0.00391293
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.91493939    1.75119976    0.13446586
+
+ Forces on atom  172    Species: O   
+  Coordinates        :    9.85327259    2.96078490   46.12031455
+  From bands         :    1.38262600    0.67329946   -1.58916179
+  From e'stx         :    0.00427331    0.00052077   -0.01583420
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.38689931    0.67382023   -1.60499598
+
+ Forces on atom  173    Species: H   
+  Coordinates        :   10.45637339    1.94692356   44.74749051
+  From bands         :   -0.63120723    1.15419651    1.48238865
+  From e'stx         :   -0.00185454    0.00645215    0.01153427
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.63306178    1.16064865    1.49392293
+
+ Forces on atom  174    Species: H   
+  Coordinates        :   10.57047354    4.61976489   46.00802551
+  From bands         :   -0.76610827   -1.83886945    0.07864847
+  From e'stx         :   -0.00220621   -0.00654511    0.00532581
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.76831448   -1.84541456    0.08397428
+
+ Forces on atom  175    Species: O   
+  Coordinates        :   11.06949304    4.47428463   12.10010692
+  From bands         :    1.93078196   -0.72888444    0.75530872
+  From e'stx         :    0.00801880   -0.00383791    0.01185912
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.93880076   -0.73272235    0.76716784
+
+ Forces on atom  176    Species: H   
+  Coordinates        :   12.25215016    3.47962108   11.15561123
+  From bands         :   -1.25575323    1.09138217    1.07336624
+  From e'stx         :   -0.00578019    0.00587632    0.00156483
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.26153342    1.09725849    1.07493107
+
+ Forces on atom  177    Species: H   
+  Coordinates        :   11.72511613    4.77565392   13.76126024
+  From bands         :   -0.66776760   -0.35378631   -1.82775615
+  From e'stx         :   -0.00259506   -0.00185830   -0.01417900
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.67036266   -0.35564461   -1.84193515
+
+ Forces on atom  178    Species: O   
+  Coordinates        :   10.01108963    2.48167295   37.92755169
+  From bands         :   -1.57404447   -0.69168732    1.39240699
+  From e'stx         :   -0.01284387   -0.01369652    0.00478547
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.58688834   -0.70538384    1.39719246
+
+ Forces on atom  179    Species: H   
+  Coordinates        :    8.24344283    2.39238506   37.54359562
+  From bands         :    1.91070608    0.07377687    0.45758610
+  From e'stx         :    0.00952939    0.00592172    0.00138176
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.92023547    0.07969859    0.45896786
+
+ Forces on atom  180    Species: H   
+  Coordinates        :   10.29181222    1.91425109   39.62456506
+  From bands         :   -0.35463359    0.60808733   -1.84561976
+  From e'stx         :    0.00068985    0.00625371   -0.00557498
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.35394374    0.61434104   -1.85119474
+
+ Forces on atom  181    Species: O   
+  Coordinates        :    9.71775578    3.97304398   31.42514656
+  From bands         :    1.53196907    0.47145617   -1.52430658
+  From e'stx         :    0.00615359   -0.00220305    0.00185605
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.53812266    0.46925312   -1.52245053
+
+ Forces on atom  182    Species: H   
+  Coordinates        :   10.15061191    5.63510286   30.85029913
+  From bands         :   -0.45296568   -1.85009339    0.60033857
+  From e'stx         :   -0.00089157   -0.00689754   -0.00137415
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.45385726   -1.85699094    0.59896442
+
+ Forces on atom  183    Species: H   
+  Coordinates        :   10.73016824    2.75018014   30.55273318
+  From bands         :   -1.08551648    1.37930993    0.92569848
+  From e'stx         :   -0.00542069    0.00912812   -0.00052777
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.09093717    1.38843805    0.92517071
+
+ Forces on atom  184    Species: O   
+  Coordinates        :    6.83536478   12.47440777   38.26548600
+  From bands         :   -0.20603887   -2.16526055   -0.34740704
+  From e'stx         :    0.01914533    0.04499116    0.01108287
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.18689355   -2.12026938   -0.33632417
+
+ Forces on atom  185    Species: H   
+  Coordinates        :    6.21234173   12.17014070   39.93895489
+  From bands         :    0.66206295    0.27440134   -1.86392797
+  From e'stx         :   -0.01510635   -0.00862434    0.04131493
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.64695660    0.26577699   -1.82261304
+
+ Forces on atom  186    Species: H   
+  Coordinates        :    5.44406737   12.80221932   37.15346230
+  From bands         :    1.54650021   -0.41685904    1.24612762
+  From e'stx         :   -0.03224488    0.00607630   -0.02563241
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.51425533   -0.41078274    1.22049521
+
+ Forces on atom  187    Species: O   
+  Coordinates        :   10.70925849   10.66808883   19.25196348
+  From bands         :   -1.77055469    0.83669622   -0.92014787
+  From e'stx         :   -0.00226148    0.00459161    0.00231341
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.77281617    0.84128783   -0.91783447
+
+ Forces on atom  188    Species: H   
+  Coordinates        :   10.67846956   11.71491244   17.77373263
+  From bands         :   -0.01717721   -1.14545463    1.60992883
+  From e'stx         :   -0.00135727   -0.00523581    0.00273996
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -0.01853447   -1.15069044    1.61266879
+
+ Forces on atom  189    Species: H   
+  Coordinates        :    9.01767846   10.41453293   19.84763872
+  From bands         :    1.81470185    0.30419787   -0.70525594
+  From e'stx         :    0.00361952    0.00068472   -0.00422090
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.81832138    0.30488259   -0.70947684
+
+ Forces on atom  190    Species: O   
+  Coordinates        :    4.64959877    2.17049892   45.53364686
+  From bands         :    0.09154763   -1.28094038    1.74459035
+  From e'stx         :    0.00177821   -0.00334088   -0.00544281
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    0.09332584   -1.28428126    1.73914754
+
+ Forces on atom  191    Species: H   
+  Coordinates        :    5.73572355    2.45629263   46.95537097
+  From bands         :   -1.19511783   -0.35750420   -1.51020261
+  From e'stx         :   -0.00470718   -0.00154911   -0.00006650
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :   -1.19982500   -0.35905332   -1.51026912
+
+ Forces on atom  192    Species: H   
+  Coordinates        :    3.65239967    0.68683473   45.82523614
+  From bands         :    1.10922653    1.59859496   -0.26325846
+  From e'stx         :    0.00322769    0.00479991    0.00364541
+  From pairs         :    0.00000000    0.00000000    0.00000000
+  Total              :    1.11245422    1.60339487   -0.25961305
+
+ Maximum force= 3.145450 on atom 155 (H)
+  
+ tbtote: sum of all forces = -0.3109E-14  0.1110E-14  0.1554E-14
+
+ Atom    1   Species O   
+  Charges: NL=2:    1.799561   4.349342 (Total:   6.148903)
+  POS=  6.155894  8.736545  8.783204  Dq/e=  0.148903
+
+ Atom    2   Species H   
+  Charges: NL=2:    0.913711   0.000000 (Total:   0.913711)
+  POS=  5.390879  9.029946  7.168053  Dq/e= -0.086289
+
+ Atom    3   Species H   
+  Charges: NL=2:    0.904808   0.000000 (Total:   0.904808)
+  POS=  6.769680 10.303159  9.454041  Dq/e= -0.095192
+
+ Atom    4   Species O   
+  Charges: NL=2:    1.791910   4.334128 (Total:   6.126038)
+  POS=  8.817169 12.407507 44.082416  Dq/e=  0.126038
+
+ Atom    5   Species H   
+  Charges: NL=2:    0.926069   0.000000 (Total:   0.926069)
+  POS= 10.012504 13.030530 45.290429  Dq/e= -0.073931
+
+ Atom    6   Species H   
+  Charges: NL=2:    0.941645   0.000000 (Total:   0.941645)
+  POS=  9.684693 11.454861 42.811015  Dq/e= -0.058355
+
+ Atom    7   Species O   
+  Charges: NL=2:    1.794762   4.355610 (Total:   6.150372)
+  POS=  6.676690  8.661068 16.281401  Dq/e=  0.150372
+
+ Atom    8   Species H   
+  Charges: NL=2:    0.934226   0.000000 (Total:   0.934226)
+  POS=  7.328329  7.168710 17.073944  Dq/e= -0.065774
+
+ Atom    9   Species H   
+  Charges: NL=2:    0.925957   0.000000 (Total:   0.925957)
+  POS=  4.993803  8.972579 16.873273  Dq/e= -0.074043
+
+ Atom   10   Species O   
+  Charges: NL=2:    1.802302   4.344396 (Total:   6.146698)
+  POS=  9.426137  1.710599 22.385833  Dq/e=  0.146698
+
+ Atom   11   Species H   
+  Charges: NL=2:    0.934206   0.000000 (Total:   0.934206)
+  POS=  7.834169  2.094012 23.160808  Dq/e= -0.065794
+
+ Atom   12   Species H   
+  Charges: NL=2:    0.924756   0.000000 (Total:   0.924756)
+  POS=  9.494960 13.667985 21.989561  Dq/e= -0.075244
+
+ Atom   13   Species O   
+  Charges: NL=2:    1.805389   4.351001 (Total:   6.156390)
+  POS=  3.214493 12.036980 35.707821  Dq/e=  0.156390
+
+ Atom   14   Species H   
+  Charges: NL=2:    0.909110   0.000000 (Total:   0.909110)
+  POS=  3.675784 12.075013 33.956112  Dq/e= -0.090890
+
+ Atom   15   Species H   
+  Charges: NL=2:    0.914194   0.000000 (Total:   0.914194)
+  POS=  1.946532 10.769201 35.968621  Dq/e= -0.085806
+
+ Atom   16   Species O   
+  Charges: NL=2:    1.792230   4.364188 (Total:   6.156418)
+  POS= 12.549885  7.149798 45.914466  Dq/e=  0.156418
+
+ Atom   17   Species H   
+  Charges: NL=2:    0.924994   0.000000 (Total:   0.924994)
+  POS= 12.830608  6.422274 44.280842  Dq/e= -0.075006
+
+ Atom   18   Species H   
+  Charges: NL=2:    0.932061   0.000000 (Total:   0.932061)
+  POS= 12.488308  8.953667 45.771388  Dq/e= -0.067939
+
+ Atom   19   Species O   
+  Charges: NL=2:    1.791427   4.338532 (Total:   6.129959)
+  POS= 10.431363  1.127020 50.412252  Dq/e=  0.129959
+
+ Atom   20   Species H   
+  Charges: NL=2:    0.928991   0.000000 (Total:   0.928991)
+  POS= 12.057743  0.386636 50.118851  Dq/e= -0.071009
+
+ Atom   21   Species H   
+  Charges: NL=2:    0.936750   0.000000 (Total:   0.936750)
+  POS=  9.929685  2.076586 48.954305  Dq/e= -0.063250
+
+ Atom   22   Species O   
+  Charges: NL=2:    1.785745   4.343119 (Total:   6.128864)
+  POS=  1.327035 11.678461 46.607489  Dq/e=  0.128864
+
+ Atom   23   Species H   
+  Charges: NL=2:    0.931319   0.000000 (Total:   0.931319)
+  POS=  1.473011 11.281827 48.367891  Dq/e= -0.068681
+
+ Atom   24   Species H   
+  Charges: NL=2:    0.927749   0.000000 (Total:   0.927749)
+  POS=  0.689161 10.238626 45.712799  Dq/e= -0.072251
+
+ Atom   25   Species O   
+  Charges: NL=2:    1.797145   4.348644 (Total:   6.145789)
+  POS=  6.525048 10.352455 62.535002  Dq/e=  0.145789
+
+ Atom   26   Species H   
+  Charges: NL=2:    0.943742   0.000000 (Total:   0.943742)
+  POS=  5.002989 10.662155 63.465914  Dq/e= -0.056258
+
+ Atom   27   Species H   
+  Charges: NL=2:    0.930321   0.000000 (Total:   0.930321)
+  POS=  7.923590 11.125800 63.388037  Dq/e= -0.069679
+
+ Atom   28   Species O   
+  Charges: NL=2:    1.796777   4.358246 (Total:   6.155023)
+  POS=  1.900151  5.432852 55.980449  Dq/e=  0.155023
+
+ Atom   29   Species H   
+  Charges: NL=2:    0.934725   0.000000 (Total:   0.934725)
+  POS=  0.158041  5.884724 55.779415  Dq/e= -0.065275
+
+ Atom   30   Species H   
+  Charges: NL=2:    0.917856   0.000000 (Total:   0.917856)
+  POS=  2.403460  4.346546 54.622114  Dq/e= -0.082144
+
+ Atom   31   Species O   
+  Charges: NL=2:    1.796428   4.359664 (Total:   6.156092)
+  POS= 11.494913  7.544341  7.497853  Dq/e=  0.156092
+
+ Atom   32   Species H   
+  Charges: NL=2:    0.908965   0.000000 (Total:   0.908965)
+  POS= 11.755713  6.034234  6.532349  Dq/e= -0.091035
+
+ Atom   33   Species H   
+  Charges: NL=2:    0.924311   0.000000 (Total:   0.924311)
+  POS=  9.998933  7.366852  8.503565  Dq/e= -0.075689
+
+ Atom   34   Species O   
+  Charges: NL=2:    1.794388   4.357198 (Total:   6.151585)
+  POS=  0.536921  3.597885 60.874492  Dq/e=  0.151585
+
+ Atom   35   Species H   
+  Charges: NL=2:    0.936114   0.000000 (Total:   0.936114)
+  POS=  1.842734  3.408986 62.115105  Dq/e= -0.063886
+
+ Atom   36   Species H   
+  Charges: NL=2:    0.928262   0.000000 (Total:   0.928262)
+  POS=  0.849157  2.469199 59.492613  Dq/e= -0.071738
+
+ Atom   37   Species O   
+  Charges: NL=2:    1.798830   4.369581 (Total:   6.168410)
+  POS= 11.028323 11.460605 12.734806  Dq/e=  0.168410
+
+ Atom   38   Species H   
+  Charges: NL=2:    0.915943   0.000000 (Total:   0.915943)
+  POS= 10.916034  9.656736 12.626501  Dq/e= -0.084057
+
+ Atom   39   Species H   
+  Charges: NL=2:    0.911440   0.000000 (Total:   0.911440)
+  POS=  9.566755 12.203161 11.964902  Dq/e= -0.088560
+
+ Atom   40   Species O   
+  Charges: NL=2:    1.796292   4.328734 (Total:   6.125026)
+  POS=  7.968045  7.151513 27.260321  Dq/e=  0.125026
+
+ Atom   41   Species H   
+  Charges: NL=2:    0.935693   0.000000 (Total:   0.935693)
+  POS=  9.500247  7.397825 28.192501  Dq/e= -0.064307
+
+ Atom   42   Species H   
+  Charges: NL=2:    0.927346   0.000000 (Total:   0.927346)
+  POS=  6.598300  7.964703 28.122954  Dq/e= -0.072654
+
+ Atom   43   Species O   
+  Charges: NL=2:    1.785775   4.342213 (Total:   6.127988)
+  POS=  6.542546  8.293972 36.421428  Dq/e=  0.127988
+
+ Atom   44   Species H   
+  Charges: NL=2:    0.934297   0.000000 (Total:   0.934297)
+  POS=  5.664518  6.739674 36.115350  Dq/e= -0.065703
+
+ Atom   45   Species H   
+  Charges: NL=2:    0.933201   0.000000 (Total:   0.933201)
+  POS=  5.342864  9.608840 36.751051  Dq/e= -0.066799
+
+ Atom   46   Species O   
+  Charges: NL=2:    1.795119   4.360833 (Total:   6.155952)
+  POS=  4.809989  4.309434 30.462291  Dq/e=  0.155952
+
+ Atom   47   Species H   
+  Charges: NL=2:    0.934842   0.000000 (Total:   0.934842)
+  POS=  6.581439  4.553391 30.749534  Dq/e= -0.065158
+
+ Atom   48   Species H   
+  Charges: NL=2:    0.933795   0.000000 (Total:   0.933795)
+  POS=  4.117781  5.784224 29.671197  Dq/e= -0.066205
+
+ Atom   49   Species O   
+  Charges: NL=2:    1.786840   4.334694 (Total:   6.121534)
+  POS=  8.143016  7.142936 40.716796  Dq/e=  0.121534
+
+ Atom   50   Species H   
+  Charges: NL=2:    0.941157   0.000000 (Total:   0.941157)
+  POS=  7.981827  7.983293 39.121205  Dq/e= -0.058843
+
+ Atom   51   Species H   
+  Charges: NL=2:    0.935476   0.000000 (Total:   0.935476)
+  POS=  6.980281  5.756710 40.789241  Dq/e= -0.064524
+
+ Atom   52   Species O   
+  Charges: NL=2:    1.804089   4.342066 (Total:   6.146155)
+  POS=  2.024004 10.932261 15.358857  Dq/e=  0.146155
+
+ Atom   53   Species H   
+  Charges: NL=2:    0.917363   0.000000 (Total:   0.917363)
+  POS=  1.621212 12.556830 14.665563  Dq/e= -0.082637
+
+ Atom   54   Species H   
+  Charges: NL=2:    0.943355   0.000000 (Total:   0.943355)
+  POS=  2.277016  9.747793 14.012657  Dq/e= -0.056645
+
+ Atom   55   Species O   
+  Charges: NL=2:    1.794043   4.344096 (Total:   6.138139)
+  POS=  3.926557  3.793270 64.454538  Dq/e=  0.138139
+
+ Atom   56   Species H   
+  Charges: NL=2:    0.926953   0.000000 (Total:   0.926953)
+  POS=  5.514903  2.932085 64.579504  Dq/e= -0.073047
+
+ Atom   57   Species H   
+  Charges: NL=2:    0.928753   0.000000 (Total:   0.928753)
+  POS=  4.053516  5.413130 65.255050  Dq/e= -0.071247
+
+ Atom   58   Species O   
+  Charges: NL=2:    1.796162   4.352031 (Total:   6.148193)
+  POS=  3.551398  4.317497 35.059399  Dq/e=  0.148193
+
+ Atom   59   Species H   
+  Charges: NL=2:    0.906928   0.000000 (Total:   0.906928)
+  POS=  1.925924  4.972577 35.515799  Dq/e= -0.093072
+
+ Atom   60   Species H   
+  Charges: NL=2:    0.934036   0.000000 (Total:   0.934036)
+  POS=  3.775433  4.453874 33.266577  Dq/e= -0.065964
+
+ Atom   61   Species O   
+  Charges: NL=2:    1.800190   4.371883 (Total:   6.172072)
+  POS= 11.114094 11.393704  5.042083  Dq/e=  0.172072
+
+ Atom   62   Species H   
+  Charges: NL=2:    0.921174   0.000000 (Total:   0.921174)
+  POS= 12.106584 10.951792  3.593011  Dq/e= -0.078826
+
+ Atom   63   Species H   
+  Charges: NL=2:    0.931171   0.000000 (Total:   0.931171)
+  POS= 10.985504  9.962924  6.145051  Dq/e= -0.068829
+
+ Atom   64   Species O   
+  Charges: NL=2:    1.796787   4.360210 (Total:   6.156997)
+  POS=  0.640703  5.434567 40.591572  Dq/e=  0.156997
+
+ Atom   65   Species H   
+  Charges: NL=2:    0.915156   0.000000 (Total:   0.915156)
+  POS=  0.023294  5.827760 42.248741  Dq/e= -0.084844
+
+ Atom   66   Species H   
+  Charges: NL=2:    0.930446   0.000000 (Total:   0.930446)
+  POS=  2.387341  4.966756 40.694805  Dq/e= -0.069554
+
+ Atom   67   Species O   
+  Charges: NL=2:    1.794350   4.361279 (Total:   6.155629)
+  POS=  1.581944  8.642198 11.053540  Dq/e=  0.155629
+
+ Atom   68   Species H   
+  Charges: NL=2:    0.930103   0.000000 (Total:   0.930103)
+  POS=  0.360710  8.979065  9.759318  Dq/e= -0.069897
+
+ Atom   69   Species H   
+  Charges: NL=2:    0.931203   0.000000 (Total:   0.931203)
+  POS=  3.131533  8.093431 10.293053  Dq/e= -0.068797
+
+ Atom   70   Species O   
+  Charges: NL=2:    1.786820   4.352161 (Total:   6.138981)
+  POS=  1.995013 10.254677 51.554710  Dq/e=  0.138981
+
+ Atom   71   Species H   
+  Charges: NL=2:    0.926649   0.000000 (Total:   0.926649)
+  POS=  3.489001  9.235020 51.467777  Dq/e= -0.073351
+
+ Atom   72   Species H   
+  Charges: NL=2:    0.916674   0.000000 (Total:   0.916674)
+  POS=  1.577370 10.566188 53.289757  Dq/e= -0.083326
+
+ Atom   73   Species O   
+  Charges: NL=2:    1.790414   4.352326 (Total:   6.142741)
+  POS= 11.609845  8.194478 55.923840  Dq/e=  0.142741
+
+ Atom   74   Species H   
+  Charges: NL=2:    0.939775   0.000000 (Total:   0.939775)
+  POS= 11.419678  8.212589 57.725898  Dq/e= -0.060225
+
+ Atom   75   Species H   
+  Charges: NL=2:    0.939074   0.000000 (Total:   0.939074)
+  POS=  9.999765  8.480634 55.145062  Dq/e= -0.060926
+
+ Atom   76   Species O   
+  Charges: NL=2:    1.779317   4.316600 (Total:   6.095917)
+  POS=  4.225380 13.112538 42.636332  Dq/e=  0.095917
+
+ Atom   77   Species H   
+  Charges: NL=2:    0.940690   0.000000 (Total:   0.940690)
+  POS=  6.010594 13.232071 42.915243  Dq/e= -0.059310
+
+ Atom   78   Species H   
+  Charges: NL=2:    0.945169   0.000000 (Total:   0.945169)
+  POS=  3.428128 12.426126 44.110578  Dq/e= -0.054831
+
+ Atom   79   Species O   
+  Charges: NL=2:    1.800992   4.356967 (Total:   6.157958)
+  POS=  4.370846  9.031595 29.588293  Dq/e=  0.157958
+
+ Atom   80   Species H   
+  Charges: NL=2:    0.906935   0.000000 (Total:   0.906935)
+  POS=  4.626032 10.616319 30.425752  Dq/e= -0.093065
+
+ Atom   81   Species H   
+  Charges: NL=2:    0.902003   0.000000 (Total:   0.902003)
+  POS=  3.233285  9.259795 28.197720  Dq/e= -0.097997
+
+ Atom   82   Species O   
+  Charges: NL=2:    1.792312   4.341210 (Total:   6.133522)
+  POS=  8.523836  1.386217 63.463035  Dq/e=  0.133522
+
+ Atom   83   Species H   
+  Charges: NL=2:    0.929767   0.000000 (Total:   0.929767)
+  POS=  8.842592  1.721092 61.711688  Dq/e= -0.070233
+
+ Atom   84   Species H   
+  Charges: NL=2:    0.927394   0.000000 (Total:   0.927394)
+  POS=  9.708304  2.303908 64.479070  Dq/e= -0.072606
+
+ Atom   85   Species O   
+  Charges: NL=2:    1.802576   4.346419 (Total:   6.148995)
+  POS= 11.820839  8.305979 29.981121  Dq/e=  0.148995
+
+ Atom   86   Species H   
+  Charges: NL=2:    0.910191   0.000000 (Total:   0.910191)
+  POS= 13.534153  7.979979 29.495923  Dq/e= -0.089809
+
+ Atom   87   Species H   
+  Charges: NL=2:    0.920013   0.000000 (Total:   0.920013)
+  POS= 11.779184  8.892780 31.694072  Dq/e= -0.079987
+
+ Atom   88   Species O   
+  Charges: NL=2:    1.793449   4.353644 (Total:   6.147093)
+  POS=  5.414154 11.319942 58.309965  Dq/e=  0.147093
+
+ Atom   89   Species H   
+  Charges: NL=2:    0.922621   0.000000 (Total:   0.922621)
+  POS=  3.904772 10.892519 57.404409  Dq/e= -0.077379
+
+ Atom   90   Species H   
+  Charges: NL=2:    0.940234   0.000000 (Total:   0.940234)
+  POS=  5.379199 10.539352 59.943590  Dq/e= -0.059766
+
+ Atom   91   Species O   
+  Charges: NL=2:    1.796925   4.361878 (Total:   6.158803)
+  POS=  3.741808  3.677823 16.975110  Dq/e=  0.158803
+
+ Atom   92   Species H   
+  Charges: NL=2:    0.913070   0.000000 (Total:   0.913070)
+  POS=  2.813431  3.221423 15.488367  Dq/e= -0.086930
+
+ Atom   93   Species H   
+  Charges: NL=2:    0.926365   0.000000 (Total:   0.926365)
+  POS=  5.474681  3.189728 16.778242  Dq/e= -0.073635
+
+ Atom   94   Species O   
+  Charges: NL=2:    1.799845   4.360691 (Total:   6.160536)
+  POS=  8.412334  4.491953 17.740865  Dq/e=  0.160536
+
+ Atom   95   Species H   
+  Charges: NL=2:    0.911279   0.000000 (Total:   0.911279)
+  POS=  9.969892  3.927610 17.007183  Dq/e= -0.088721
+
+ Atom   96   Species H   
+  Charges: NL=2:    0.931763   0.000000 (Total:   0.931763)
+  POS=  8.214923  3.749397 19.380829  Dq/e= -0.068237
+
+ Atom   97   Species O   
+  Charges: NL=2:    1.794438   4.351848 (Total:   6.146286)
+  POS=  4.914285  3.812482 41.027284  Dq/e=  0.146286
+
+ Atom   98   Species H   
+  Charges: NL=2:    0.932213   0.000000 (Total:   0.932213)
+  POS=  5.068230  2.436942 39.859116  Dq/e= -0.067787
+
+ Atom   99   Species H   
+  Charges: NL=2:    0.948160   0.000000 (Total:   0.948160)
+  POS=  5.258397  3.221878 42.704375  Dq/e= -0.051840
+
+ Atom  100   Species O   
+  Charges: NL=2:    1.798647   4.358251 (Total:   6.156897)
+  POS=  9.812103  3.728084 54.416002  Dq/e=  0.156897
+
+ Atom  101   Species H   
+  Charges: NL=2:    0.920360   0.000000 (Total:   0.920360)
+  POS=  8.488179  4.934467 54.142523  Dq/e= -0.079640
+
+ Atom  102   Species H   
+  Charges: NL=2:    0.947426   0.000000 (Total:   0.947426)
+  POS=  9.982348  2.677639 52.950811  Dq/e= -0.052574
+
+ Atom  103   Species O   
+  Charges: NL=2:    1.801847   4.365371 (Total:   6.167218)
+  POS= 11.608129  4.293824 65.430602  Dq/e=  0.167218
+
+ Atom  104   Species H   
+  Charges: NL=2:    0.926189   0.000000 (Total:   0.926189)
+  POS= 13.209154  4.979150 64.932546  Dq/e= -0.073811
+
+ Atom  105   Species H   
+  Charges: NL=2:    0.921904   0.000000 (Total:   0.921904)
+  POS= 10.912662  5.296819 66.767203  Dq/e= -0.078096
+
+ Atom  106   Species O   
+  Charges: NL=2:    1.795874   4.349809 (Total:   6.145683)
+  POS= 11.983803  7.724458  1.581773  Dq/e=  0.145683
+
+ Atom  107   Species H   
+  Charges: NL=2:    0.912838   0.000000 (Total:   0.912838)
+  POS= 13.552227  8.349292  2.236853  Dq/e= -0.087162
+
+ Atom  108   Species H   
+  Charges: NL=2:    0.905213   0.000000 (Total:   0.905213)
+  POS= 11.250302  8.963260  0.483514  Dq/e= -0.094787
+
+ Atom  109   Species O   
+  Charges: NL=2:    1.799994   4.375153 (Total:   6.175147)
+  POS= 13.495072  3.823289 23.144555  Dq/e=  0.175147
+
+ Atom  110   Species H   
+  Charges: NL=2:    0.928003   0.000000 (Total:   0.928003)
+  POS= 11.937515  2.924796 22.926316  Dq/e= -0.071997
+
+ Atom  111   Species H   
+  Charges: NL=2:    0.928952   0.000000 (Total:   0.928952)
+  POS= 13.683428  5.036373 21.813024  Dq/e= -0.071048
+
+ Atom  112   Species O   
+  Charges: NL=2:    1.792266   4.332298 (Total:   6.124564)
+  POS=  6.390561  9.637132 49.310963  Dq/e=  0.124564
+
+ Atom  113   Species H   
+  Charges: NL=2:    0.917538   0.000000 (Total:   0.917538)
+  POS=  5.613412 11.265323 49.137097  Dq/e= -0.082462
+
+ Atom  114   Species H   
+  Charges: NL=2:    0.934566   0.000000 (Total:   0.934566)
+  POS=  8.190083  9.830921 49.367108  Dq/e= -0.065434
+
+ Atom  115   Species O   
+  Charges: NL=2:    1.786764   4.351942 (Total:   6.138706)
+  POS= 10.686958  8.456935 61.152388  Dq/e=  0.138706
+
+ Atom  116   Species H   
+  Charges: NL=2:    0.927806   0.000000 (Total:   0.927806)
+  POS= 10.411669  6.666830 61.190421  Dq/e= -0.072194
+
+ Atom  117   Species H   
+  Charges: NL=2:    0.920774   0.000000 (Total:   0.920774)
+  POS=  9.129401  9.315403 61.487444  Dq/e= -0.079226
+
+ Atom  118   Species O   
+  Charges: NL=2:    1.791753   4.335248 (Total:   6.127001)
+  POS=  9.203135  3.812139 58.927510  Dq/e=  0.127001
+
+ Atom  119   Species H   
+  Charges: NL=2:    0.924289   0.000000 (Total:   0.924289)
+  POS=  9.485669  3.566552 57.154430  Dq/e= -0.075711
+
+ Atom  120   Species H   
+  Charges: NL=2:    0.931404   0.000000 (Total:   0.931404)
+  POS=  7.919056  5.065973 59.166577  Dq/e= -0.068596
+
+ Atom  121   Species O   
+  Charges: NL=2:    1.790405   4.314876 (Total:   6.105281)
+  POS=  3.362704  6.412861 21.139249  Dq/e=  0.105281
+
+ Atom  122   Species H   
+  Charges: NL=2:    0.926149   0.000000 (Total:   0.926149)
+  POS=  3.480064  5.443372 19.613930  Dq/e= -0.073851
+
+ Atom  123   Species H   
+  Charges: NL=2:    0.931024   0.000000 (Total:   0.931024)
+  POS=  2.406074  7.918983 20.825383  Dq/e= -0.068976
+
+ Atom  124   Species O   
+  Charges: NL=2:    1.792577   4.341700 (Total:   6.134277)
+  POS=  5.472306  6.313882 59.076750  Dq/e=  0.134277
+
+ Atom  125   Species H   
+  Charges: NL=2:    0.928126   0.000000 (Total:   0.928126)
+  POS=  4.910498  5.961259 60.762897  Dq/e= -0.071874
+
+ Atom  126   Species H   
+  Charges: NL=2:    0.936986   0.000000 (Total:   0.936986)
+  POS=  4.058732  6.260817 57.946616  Dq/e= -0.063014
+
+ Atom  127   Species O   
+  Charges: NL=2:    1.792062   4.361520 (Total:   6.153582)
+  POS=  4.325902  5.654482 50.724455  Dq/e=  0.153582
+
+ Atom  128   Species H   
+  Charges: NL=2:    0.908955   0.000000 (Total:   0.908955)
+  POS=  5.565791  4.335267 50.675555  Dq/e= -0.091045
+
+ Atom  129   Species H   
+  Charges: NL=2:    0.933365   0.000000 (Total:   0.933365)
+  POS=  5.069002  7.202440 50.146710  Dq/e= -0.066635
+
+ Atom  130   Species O   
+  Charges: NL=2:    1.814804   4.338828 (Total:   6.153633)
+  POS=  3.247257  7.419116  2.307560  Dq/e=  0.153633
+
+ Atom  131   Species H   
+  Charges: NL=2:    0.919222   0.000000 (Total:   0.919222)
+  POS=  4.938113  6.937360  2.741684  Dq/e= -0.080778
+
+ Atom  132   Species H   
+  Charges: NL=2:    0.945188   0.000000 (Total:   0.945188)
+  POS=  2.138493  7.042405  3.689258  Dq/e= -0.054812
+
+ Atom  133   Species O   
+  Charges: NL=2:    1.792862   4.363898 (Total:   6.156760)
+  POS= 12.990744 12.362907 59.337492  Dq/e=  0.156760
+
+ Atom  134   Species H   
+  Charges: NL=2:    0.919210   0.000000 (Total:   0.919210)
+  POS= 11.308220 12.658118 58.734391  Dq/e= -0.080790
+
+ Atom  135   Species H   
+  Charges: NL=2:    0.927815   0.000000 (Total:   0.927815)
+  POS= 12.921922 11.403016 60.871505  Dq/e= -0.072185
+
+ Atom  136   Species O   
+  Charges: NL=2:    1.797363   4.365564 (Total:   6.162927)
+  POS=  7.076036 10.069413 22.118916  Dq/e=  0.162927
+
+ Atom  137   Species H   
+  Charges: NL=2:    0.932240   0.000000 (Total:   0.932240)
+  POS=  5.814776  9.033456 21.331806  Dq/e= -0.067760
+
+ Atom  138   Species H   
+  Charges: NL=2:    0.921963   0.000000 (Total:   0.921963)
+  POS=  6.662377 10.297614 23.867365  Dq/e= -0.078037
+
+ Atom  139   Species O   
+  Charges: NL=2:    1.791939   4.359242 (Total:   6.151181)
+  POS=  4.754410  8.129293 44.938402  Dq/e=  0.151181
+
+ Atom  140   Species H   
+  Charges: NL=2:    0.942130   0.000000 (Total:   0.942130)
+  POS=  5.889072  8.924372 46.102948  Dq/e= -0.057870
+
+ Atom  141   Species H   
+  Charges: NL=2:    0.936020   0.000000 (Total:   0.936020)
+  POS=  5.706331  7.209247 43.701412  Dq/e= -0.063980
+
+ Atom  142   Species O   
+  Charges: NL=2:    1.795843   4.345312 (Total:   6.141155)
+  POS=  1.052914 10.287269 19.696081  Dq/e=  0.141155
+
+ Atom  143   Species H   
+  Charges: NL=2:    0.921822   0.000000 (Total:   0.921822)
+  POS=  1.266263 10.365147 17.899275  Dq/e= -0.078178
+
+ Atom  144   Species H   
+  Charges: NL=2:    0.937653   0.000000 (Total:   0.937653)
+  POS=  0.068031 11.703560 20.248652  Dq/e= -0.062347
+
+ Atom  145   Species O   
+  Charges: NL=2:    1.808176   4.359925 (Total:   6.168101)
+  POS=  7.103482  5.792743  3.962580  Dq/e=  0.168101
+
+ Atom  146   Species H   
+  Charges: NL=2:    0.916004   0.000000 (Total:   0.916004)
+  POS=  7.380583  4.497616  5.197578  Dq/e= -0.083996
+
+ Atom  147   Species H   
+  Charges: NL=2:    0.921881   0.000000 (Total:   0.921881)
+  POS=  8.662851  6.646321  3.620461  Dq/e= -0.078119
+
+ Atom  148   Species O   
+  Charges: NL=2:    1.790991   4.344726 (Total:   6.135718)
+  POS= 11.126101 10.659512 50.331628  Dq/e=  0.135718
+
+ Atom  149   Species H   
+  Charges: NL=2:    0.939552   0.000000 (Total:   0.939552)
+  POS= 12.335925  9.609066 51.177418  Dq/e= -0.060448
+
+ Atom  150   Species H   
+  Charges: NL=2:    0.936783   0.000000 (Total:   0.936783)
+  POS= 11.990002 11.789647 49.208738  Dq/e= -0.063217
+
+ Atom  151   Species O   
+  Charges: NL=2:    1.788815   4.350117 (Total:   6.138932)
+  POS=  6.847030  8.606175 54.685320  Dq/e=  0.138932
+
+ Atom  152   Species H   
+  Charges: NL=2:    0.946444   0.000000 (Total:   0.946444)
+  POS=  6.519580  9.068009 56.405878  Dq/e= -0.053556
+
+ Atom  153   Species H   
+  Charges: NL=2:    0.923389   0.000000 (Total:   0.923389)
+  POS=  6.519399 10.024277 53.605896  Dq/e= -0.076611
+
+ Atom  154   Species O   
+  Charges: NL=2:    1.904042   5.114115 (Total:   7.018157)
+  POS=  3.811453  7.751904 66.921287  Dq/e=  1.018157
+
+ Atom  155   Species H   
+  Charges: NL=2:    0.914830   0.000000 (Total:   0.914830)
+  POS=  7.747877 11.338357 37.794522  Dq/e= -0.085170
+
+ Atom  156   Species H   
+  Charges: NL=2:    0.932904   0.000000 (Total:   0.932904)
+  POS=  3.329154  9.428996 66.435908  Dq/e= -0.067096
+
+ Atom  157   Species O   
+  Charges: NL=2:    1.803950   4.354726 (Total:   6.158676)
+  POS=  2.794562 12.040411 65.471771  Dq/e=  0.158676
+
+ Atom  158   Species H   
+  Charges: NL=2:    0.912477   0.000000 (Total:   0.912477)
+  POS=  1.294236 12.400823 64.524559  Dq/e= -0.087523
+
+ Atom  159   Species H   
+  Charges: NL=2:    0.917225   0.000000 (Total:   0.917225)
+  POS=  3.442217 13.574424 66.183539  Dq/e= -0.082775
+
+ Atom  160   Species O   
+  Charges: NL=2:    1.806613   4.358128 (Total:   6.164741)
+  POS= 10.909961  9.522200 34.247155  Dq/e=  0.164741
+
+ Atom  161   Species H   
+  Charges: NL=2:    0.911287   0.000000 (Total:   0.911287)
+  POS= 11.480461 11.005502 35.115584  Dq/e= -0.088713
+
+ Atom  162   Species H   
+  Charges: NL=2:    0.931215   0.000000 (Total:   0.931215)
+  POS=  9.453825  8.850277 35.090229  Dq/e= -0.068785
+
+ Atom  163   Species O   
+  Charges: NL=2:    1.798823   4.361544 (Total:   6.160367)
+  POS=  6.574624  4.505848 11.104487  Dq/e=  0.160367
+
+ Atom  164   Species H   
+  Charges: NL=2:    0.925224   0.000000 (Total:   0.925224)
+  POS=  6.147563  5.943148 10.088634  Dq/e= -0.074776
+
+ Atom  165   Species H   
+  Charges: NL=2:    0.915434   0.000000 (Total:   0.915434)
+  POS=  8.369980  4.436120 11.326892  Dq/e= -0.084566
+
+ Atom  166   Species O   
+  Charges: NL=2:    1.796843   4.355199 (Total:   6.152042)
+  POS=  5.974061  3.837527 24.455809  Dq/e=  0.152042
+
+ Atom  167   Species H   
+  Charges: NL=2:    0.928714   0.000000 (Total:   0.928714)
+  POS=  5.042605  4.792708 23.231134  Dq/e= -0.071286
+
+ Atom  168   Species H   
+  Charges: NL=2:    0.930485   0.000000 (Total:   0.930485)
+  POS=  6.943731  4.964402 25.489411  Dq/e= -0.069515
+
+ Atom  169   Species O   
+  Charges: NL=2:    1.785930   4.337671 (Total:   6.123601)
+  POS= 12.235967 10.259823 42.087403  Dq/e=  0.123601
+
+ Atom  170   Species H   
+  Charges: NL=2:    0.910831   0.000000 (Total:   0.910831)
+  POS= 13.047346 10.685435 40.526223  Dq/e= -0.089169
+
+ Atom  171   Species H   
+  Charges: NL=2:    0.928920   0.000000 (Total:   0.928920)
+  POS= 11.411910  8.655176 41.922592  Dq/e= -0.071080
+
+ Atom  172   Species O   
+  Charges: NL=2:    1.791609   4.350055 (Total:   6.141664)
+  POS=  9.853273  2.960785 46.120315  Dq/e=  0.141664
+
+ Atom  173   Species H   
+  Charges: NL=2:    0.920388   0.000000 (Total:   0.920388)
+  POS= 10.456373  1.946924 44.747491  Dq/e= -0.079612
+
+ Atom  174   Species H   
+  Charges: NL=2:    0.923926   0.000000 (Total:   0.923926)
+  POS= 10.570474  4.619765 46.008026  Dq/e= -0.076074
+
+ Atom  175   Species O   
+  Charges: NL=2:    1.806856   4.360836 (Total:   6.167692)
+  POS= 11.069493  4.474285 12.100107  Dq/e=  0.167692
+
+ Atom  176   Species H   
+  Charges: NL=2:    0.909940   0.000000 (Total:   0.909940)
+  POS= 12.252150  3.479621 11.155611  Dq/e= -0.090060
+
+ Atom  177   Species H   
+  Charges: NL=2:    0.912728   0.000000 (Total:   0.912728)
+  POS= 11.725116  4.775654 13.761260  Dq/e= -0.087272
+
+ Atom  178   Species O   
+  Charges: NL=2:    1.796817   4.378000 (Total:   6.174817)
+  POS= 10.011090  2.481673 37.927552  Dq/e=  0.174817
+
+ Atom  179   Species H   
+  Charges: NL=2:    0.940658   0.000000 (Total:   0.940658)
+  POS=  8.243443  2.392385 37.543596  Dq/e= -0.059342
+
+ Atom  180   Species H   
+  Charges: NL=2:    0.925790   0.000000 (Total:   0.925790)
+  POS= 10.291812  1.914251 39.624565  Dq/e= -0.074210
+
+ Atom  181   Species O   
+  Charges: NL=2:    1.799221   4.363620 (Total:   6.162841)
+  POS=  9.717756  3.973044 31.425147  Dq/e=  0.162841
+
+ Atom  182   Species H   
+  Charges: NL=2:    0.935223   0.000000 (Total:   0.935223)
+  POS= 10.150612  5.635103 30.850299  Dq/e= -0.064777
+
+ Atom  183   Species H   
+  Charges: NL=2:    0.903679   0.000000 (Total:   0.903679)
+  POS= 10.730168  2.750180 30.552733  Dq/e= -0.096321
+
+ Atom  184   Species O   
+  Charges: NL=2:    1.586107   3.683921 (Total:   5.270028)
+  POS=  6.835365 12.474408 38.265486  Dq/e= -0.729972
+
+ Atom  185   Species H   
+  Charges: NL=2:    0.908524   0.000000 (Total:   0.908524)
+  POS=  6.212342 12.170141 39.938955  Dq/e= -0.091476
+
+ Atom  186   Species H   
+  Charges: NL=2:    0.910891   0.000000 (Total:   0.910891)
+  POS=  5.444067 12.802219 37.153462  Dq/e= -0.089109
+
+ Atom  187   Species O   
+  Charges: NL=2:    1.796460   4.340787 (Total:   6.137247)
+  POS= 10.709258 10.668089 19.251963  Dq/e=  0.137247
+
+ Atom  188   Species H   
+  Charges: NL=2:    0.920046   0.000000 (Total:   0.920046)
+  POS= 10.678470 11.714912 17.773733  Dq/e= -0.079954
+
+ Atom  189   Species H   
+  Charges: NL=2:    0.954709   0.000000 (Total:   0.954709)
+  POS=  9.017678 10.414533 19.847639  Dq/e= -0.045291
+
+ Atom  190   Species O   
+  Charges: NL=2:    1.790160   4.350147 (Total:   6.140307)
+  POS=  4.649599  2.170499 45.533647  Dq/e=  0.140307
+
+ Atom  191   Species H   
+  Charges: NL=2:    0.933724   0.000000 (Total:   0.933724)
+  POS=  5.735724  2.456293 46.955371  Dq/e= -0.066276
+
+ Atom  192   Species H   
+  Charges: NL=2:    0.948330   0.000000 (Total:   0.948330)
+  POS=  3.652400  0.686835 45.825236  Dq/e= -0.051670
+
+ Tr[rho]                 :      512.00000000
+ Tr[rho][H_0]            :     -803.19861026
+ band structure energy   :     -803.19861026
+ E_2                     :        0.77161476
+ pair potential energy   :        0.00000000
+ reference energy        :     -643.32800000
+ total energy            :     -159.09899550
+ free energy             :     -159.09899550
+ 3PV              pair   :       -0.00000000
+
+
+ iopos : write 192 sites into file pos1, mode 1
+
+
+c dyn=0 relax=0 mmom=0 sev=-803.19861 erep=0 etot=-159.098995 emad=.771615 3pv=0 TS=0
+ Exit 0 TBE
+ CPU time:  1.044s   Wall clock 1.071s  at  13:18:41 06.02.2020  on  soot
