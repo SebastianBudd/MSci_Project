@@ -1,0 +1,4991 @@
+ ---------------  START TBE - ref: 8ca77e23 ---------------
+
+ TBE:      nbas = 5  nspec = 5  verb 31
+ TB:       rmaxh = 11, s-c multipoles, read del, m-stat: F-P rlx-vol, rho
+ bz:       metal, invit 
+ bz nq 1 ( 1 1 1 )  shift  F F F
+bz met T  tet F  ef -0.558749  sev -14.481752368  zval 9.0 qval 9.0 dosef 17980
+bz met T  tet F  ef -0.436683  sev -13.589076514  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.402689  sev -13.353601072  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 1:  new ln  dxmx=0.10000  |g|=0.649
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6267446  15.2411742  14.7252192  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8565475  17.8889551  15.9282715  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.0749155  15.0904042  16.6689702  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.450114  sev -13.141794387  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.408575  sev -13.014295396  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.398519  sev -12.905769692  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 1:  extrap ln   dxmx=0.20000  |g|=0.543
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5882429  15.2308836  14.6561897  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8678451  17.9889551  15.8994010  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1076152  15.0836893  16.6702510  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.442597  sev -12.725273729  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.428506  sev -12.695153240  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.427041  sev -12.628448481  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 1:  extrap ln   dxmx=0.32000  |g|=0.486
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5420407  15.2185348  14.5733543  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8814023  18.1089551  15.8647563  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1468549  15.0756314  16.6717881  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.474842  sev -12.441560782  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.484814  sev -12.433332778  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.473440  sev -12.354073404  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 1:  extrap ln   dxmx=0.46400  |g|=0.413
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4865982  15.2037163  14.4739518  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8976709  18.2529551  15.8231827  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1939424  15.0659619  16.6736325  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.524022  sev -12.158924734  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.545050  sev -12.178757542  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.529406  sev -12.100037123  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 1:  extrap ln   dxmx=0.63680  |g|=0.279
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4200671  15.1859340  14.3546688  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9171933  18.4257551  15.7732943  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2504475  15.0543586  16.6758458  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.582908  sev -11.896843305  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.606379  sev -11.829918970  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.606351  sev -11.895293380  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 2:  new ln  dxmx=-0.1000  |g|=0.151
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3623720  15.1338682  14.2546688  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9395037  18.5167042  15.7596106  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2297074  15.0676096  16.6500062  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.642949  sev -11.832737139  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.725012  sev -11.737006104  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.671511  sev -11.754470831  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 3:  new ln  dxmx=-0.1000  |g|=0.202
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3923222  15.1036543  14.2829207  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9680513  18.5619372  15.7731032  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1297074  15.1158941  16.5951568  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.682987  sev -11.895164001  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.699583  sev -12.247663517  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.683083  sev -12.060390887  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 3:  extrap ln   dxmx=-0.2000  |g|=0.154
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4222723  15.0734404  14.3111725  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9965988  18.6071703  15.7865958  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.0297074  15.1641785  16.5403073  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.693236  sev -12.227519169  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.692038  sev -12.492863448  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.698989  sev -12.370251942  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 4:  new ln  dxmx=0.05917  |g|=0.19
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4676720  15.0611502  14.3703403  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0217405  18.6268982  15.8046907  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.0587223  15.1377585  16.5181420  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.702810  sev -12.358758750  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.665741  sev -12.450669255  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.684116  sev -12.367337712  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 4:  extrap ln   dxmx=0.11834  |g|=0.168
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5130717  15.0488601  14.4295080  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0468821  18.6466261  15.8227856  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.0877372  15.1113384  16.4959767  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.687952  sev -12.360108130  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.662500  sev -12.402125908  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.671207  sev -12.372540243  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 4:  extrap ln   dxmx=0.18934  |g|=0.157
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5675512  15.0341119  14.5005093  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0770522  18.6702997  15.8444995  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1225551  15.0796343  16.4693784  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.675784  sev -12.370035411  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.669964  sev -12.396520756  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.668237  sev -12.376920556  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 4:  extrap ln   dxmx=0.27454  |g|=0.154
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6329268  15.0164142  14.5857108  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1132562  18.6987079  15.8705562  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1643365  15.0415894  16.4374603  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.673953  sev -12.382774693  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.677295  sev -12.405872614  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.674155  sev -12.392741161  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 4:  extrap ln   dxmx=0.37678  |g|=0.146
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7113774  14.9951768  14.6879526  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1567010  18.7327978  15.9018243  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2144743  14.9959356  16.3991587  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.681053  sev -12.412418223  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.686728  sev -12.430738437  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.683988  sev -12.428591538  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 5:  new ln  dxmx=0.10000  |g|=0.135
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7843526  14.9823347  14.7879526  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2186991  18.8087299  15.9307717  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1793532  15.0083410  16.3425340  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.696896  sev -12.563143806  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.716194  sev -12.677862824  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.708107  sev -12.678551438  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 5:  extrap ln   dxmx=0.20000  |g|=0.0855
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8573278  14.9694925  14.8879526  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2806973  18.8846621  15.9597192  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1442320  15.0207464  16.2859092  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.719017  sev -12.824763590  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.735966  sev -12.930144841  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.727174  sev -12.945225098  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 6:  new ln  dxmx=-0.0723  |g|=0.0737
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7956117  14.9883056  14.8156888  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2777821  18.9261826  15.9319780  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1000846  15.0805423  16.3026913  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.730983  sev -12.944594591  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.731344  sev -12.908908500  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.730569  sev -12.909583732  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 7:  new ln  dxmx=0.03110  |g|=0.0497
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7696827  15.0194095  14.8076416  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2889615  18.9553448  15.9229173  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1244570  15.0998439  16.3199994  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.733368  sev -12.892661371  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.734876  sev -12.863750681  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.734318  sev -12.861975301  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 7:  extrap ln   dxmx=0.06221  |g|=0.0388
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7437538  15.0505134  14.7995945  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3001409  18.9845069  15.9138565  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1488294  15.1191455  16.3373075  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.736961  sev -12.843325680  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.739308  sev -12.814595419  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.739127  sev -12.814114825  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 7:  extrap ln   dxmx=0.09953  |g|=0.0374
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7126390  15.0878381  14.7899379  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3135562  19.0195015  15.9029837  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1780763  15.1423075  16.3580772  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.742103  sev -12.789533932  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.744902  sev -12.753283860  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.744890  sev -12.753105198  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 8:  new ln  dxmx=0.02689  |g|=0.0474
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7209212  15.1058062  14.8168251  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3320226  19.0373883  15.9075805  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1592799  15.1683766  16.3521446  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.746577  sev -12.826025609  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.754350  sev -12.899122952  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.751777  sev -12.908747329  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 9:  new ln  dxmx=0.01723  |g|=0.0146
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7200923  15.1230363  14.8219446  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3350541  19.0324305  15.9063592  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1615054  15.1793676  16.3554360  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.751430  sev -12.927192734  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.751648  sev -12.943918809  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.750196  sev -12.944168222  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 9:  extrap ln   dxmx=0.03446  |g|=0.00837
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7192634  15.1402663  14.8270641  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3380856  19.0274727  15.9051378  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1637309  15.1903587  16.3587275  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.749851  sev -12.962635186  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.750805  sev -12.981834010  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.749847  sev -12.983653894  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 10:  new ln  dxmx=-0.0105  |g|=0.012
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7173371  15.1457158  14.8165464  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3337608  19.0174339  15.9009945  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1650177  15.1921422  16.3587839  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.749000  sev -12.976335975  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.747151  sev -12.969760548  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.747187  sev -12.968127330  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 10:  extrap ln   dxmx=-0.0210  |g|=0.00845
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7154107  15.1511654  14.8060286  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3294361  19.0073951  15.8968512  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1663044  15.1939256  16.3588402  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.746316  sev -12.960826833  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.744864  sev -12.955197029  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.745119  sev -12.954254028  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 10:  extrap ln   dxmx=-0.0337  |g|=0.00854
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7130991  15.1577048  14.7934074  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3242465  18.9953486  15.8918793  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1678486  15.1960658  16.3589079  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.744042  sev -12.945518509  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.742352  sev -12.939190983  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.742696  sev -12.938279450  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 11:  new ln  dxmx=0.01600  |g|=0.0124
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7187933  15.1737091  14.7850305  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3260843  18.9862324  15.8855623  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1733721  15.2036192  16.3524280  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.741954  sev -12.942129344  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.741934  sev -12.949845993  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.741770  sev -12.950883764  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 11:  extrap ln   dxmx=0.03201  |g|=0.0106
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7244874  15.1897133  14.7766537  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3279222  18.9771162  15.8792452  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1788957  15.2111726  16.3459481  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.741018  sev -12.954448761  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.740800  sev -12.961228599  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.740547  sev -12.961805636  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 11:  extrap ln   dxmx=0.05121  |g|=0.01
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7313204  15.2089185  14.7666015  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3301276  18.9661767  15.8716648  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1855240  15.2202367  16.3381723  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.739633  sev -12.965698740  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.739323  sev -12.973292795  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.739028  sev -12.973913189  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 11:  extrap ln   dxmx=0.07426  |g|=0.0109
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7395199  15.2319646  14.7545388  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3327740  18.9530494  15.8625682  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1934779  15.2311136  16.3288413  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.737913  sev -12.978021617  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.737518  sev -12.986455503  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.737190  sev -12.987162350  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 11:  extrap ln   dxmx=0.10192  |g|=0.0135
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7493594  15.2596200  14.7400637  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3359498  18.9372965  15.8516524  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2030226  15.2441659  16.3176441  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.735829  sev -12.991266973  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.735328  sev -13.000418615  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.734975  sev -13.001217141  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 11:  extrap ln   dxmx=0.13510  |g|=0.0176
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7611668  15.2928065  14.7226935  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3397607  18.9183932  15.8385533  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2144763  15.2598286  16.3042075  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.733312  sev -13.004931968  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.732676  sev -13.014487466  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.732307  sev -13.015366044  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 11:  extrap ln   dxmx=0.17493  |g|=0.0229
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7753357  15.3326303  14.7018492  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3443339  18.8957091  15.8228345  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2282207  15.2786239  16.2880835  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.730272  sev -13.018048469  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.729465  sev -13.027407747  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.729096  sev -13.028337481  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 12:  new ln  dxmx=0.10000  |g|=0.0291
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8079514  15.4326303  14.6408914  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3609552  18.8555753  15.7796806  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2605885  15.3301276  16.2435228  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.725832  sev -13.017631347  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.724872  sev -13.018652771  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.724425  sev -13.020760004  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 12:  extrap ln   dxmx=0.20000  |g|=0.0323
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8405672  15.5326303  14.5799337  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3775765  18.8154415  15.7365267  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2929563  15.3816313  16.1989622  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.721360  sev -12.996353056  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.720383  sev -12.981229250  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.720334  sev -12.983096565  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 12:  extrap ln   dxmx=0.32000  |g|=0.0343
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8797062  15.6526303  14.5067844  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3975220  18.7672809  15.6847420  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3317976  15.4434357  16.1454894  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.717035  sev -12.936928095  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.716057  sev -12.898636025  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.716304  sev -12.902212843  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 13:  new ln  dxmx=0.10000  |g|=0.0435
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9188866  15.7526303  14.4661447  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4385122  18.7716604  15.6439118  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3550827  15.5079564  16.0910196  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.719967  sev -12.882880670  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.727005  sev -12.865793887  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.726992  sev -12.876260594  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 13:  extrap ln   dxmx=0.20000  |g|=0.042
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9580671  15.8526303  14.4255051  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4795023  18.7760399  15.6030815  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3783678  15.5724772  16.0365498  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.730859  sev -12.843830726  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.738063  sev -12.810703333  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.738020  sev -12.821674000  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 14:  new ln  dxmx=0.09630  |g|=0.0491
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9560983  15.8242918  14.4736032  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5202387  18.8723376  15.6166168  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3277394  15.5907074  16.0313461  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.748292  sev -12.923624303  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.761947  sev -13.008468157  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.762268  sev -13.028714853  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 14:  brack ln  dxmx=0.07489  |g|=0.0147
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9565359  15.8305906  14.4629123  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5111841  18.8509333  15.6136083  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3389927  15.5866553  16.0325027  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.760166  sev -13.005429415  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.756566  sev -12.980648637  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.756270  sev -12.975490647  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 15:  new ln  dxmx=0.09740  |g|=0.0162
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9632267  15.9279863  14.4306616  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5316537  18.8293991  15.5805254  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3356078  15.6536462  16.0166358  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.756456  sev -12.969203062  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.761752  sev -12.965495749  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.761845  sev -12.973146832  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 16:  new ln  dxmx=0.07414  |g|=0.0187
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9656115  16.0021270  14.4228390  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5499183  18.8136628  15.5592805  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3435437  15.7061043  16.0098205  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.762239  sev -12.968531439  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.767049  sev -12.966211938  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.766993  sev -12.973079618  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 16:  extrap ln   dxmx=0.14828  |g|=0.0215
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9679962  16.0762678  14.4150163  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5681828  18.7979265  15.5380357  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3514796  15.7585624  16.0030052  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.767536  sev -12.962991096  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.772706  sev -12.953562547  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.772615  sev -12.960666410  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 16:  extrap ln   dxmx=0.23725  |g|=0.0267
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9708579  16.1652366  14.4056292  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5901003  18.7790429  15.5125419  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3610027  15.8215121  15.9948269  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.773455  sev -12.941559249  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.780200  sev -12.922569605  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.780007  sev -12.931987276  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 16:  brack ln  dxmx=0.20328  |g|=0.0357
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9697653  16.1312687  14.4092131  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5817323  18.7862526  15.5222753  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3573668  15.7974782  15.9979494  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.779648  sev -12.940097167  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.777072  sev -12.949684574  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.777169  sev -12.946281241  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 17:  new ln  dxmx=0.06849  |g|=0.0317
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9580547  16.1997631  14.4350573  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5978704  18.7624602  15.5113008  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3629563  15.8567087  16.0116076  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.777001  sev -12.966908710  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.782841  sev -12.990156375  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.783200  sev -12.998702924  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 17:  extrap ln   dxmx=0.13699  |g|=0.02
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9463440  16.2682575  14.4609015  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6140085  18.7386679  15.5003263  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3685459  15.9159391  16.0252659  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.783201  sev -13.013601361  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789485  sev -13.030292862  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789827  sev -13.039776371  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 17:  extrap ln   dxmx=0.21918  |g|=0.0115
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9322912  16.3504508  14.4919145  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6333742  18.7101171  15.4871568  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3752534  15.9870156  16.0416558  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790052  sev -13.049786353  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.798227  sev -13.061167571  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.798590  sev -13.073463544  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 18:  new ln  dxmx=0.10000  |g|=0.00985
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9410653  16.4504508  14.5061896  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6663035  18.6885677  15.4628882  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3842260  16.0691215  16.0297044  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.800693  sev -13.052491496  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.813733  sev -13.031747553  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.813420  sev -13.048200560  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 18:  extrap ln   dxmx=0.20000  |g|=0.00992
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9498395  16.5504508  14.5204646  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6992328  18.6670184  15.4386195  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3931985  16.1512273  16.0177529  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.815723  sev -13.016248058  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.830155  sev -12.985613156  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.829335  sev -13.004501967  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 18:  brack ln  dxmx=0.14232  |g|=0.021
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9447782  16.4927664  14.5122302  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6802377  18.6794490  15.4526187  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3880228  16.1038651  16.0246470  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.827897  sev -13.024162718  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.819605  sev -13.048063103  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.820113  sev -13.036793483  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 19:  new ln  dxmx=0.02348  |g|=0.013
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9573630  16.5135803  14.5219224  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6963742  18.6817616  15.4480233  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3793424  16.1273440  16.0099762  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.821652  sev -13.050732061  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.826888  sev -13.064018162  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.827699  sev -13.074567842  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 20:  new ln  dxmx=0.03140  |g|=0.00542
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9507697  16.5449831  14.5330128  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7060377  18.6753109  15.4439430  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3717512  16.1560621  16.0146139  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.828445  sev -13.079999107  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.832982  sev -13.084249201  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.833417  sev -13.091774323  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 20:  extrap ln   dxmx=0.06281  |g|=0.00172
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9441764  16.5763858  14.5441032  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7157013  18.6688602  15.4398628  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3641600  16.1847802  16.0192515  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.834184  sev -13.095903505  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.838866  sev -13.099986887  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.839294  sev -13.107754090  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 20:  brack ln  dxmx=0.04764  |g|=0.00559
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9473604  16.5612212  14.5387476  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7110347  18.6719753  15.4418331  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3678258  16.1709120  16.0170120  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.838916  sev -13.105910308  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.836885  sev -13.105204978  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.836757  sev -13.101954087  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 21:  new ln  dxmx=0.02182  |g|=0.00323
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9417638  16.5830427  14.5492822  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7193980  18.6700997  15.4399669  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3680633  16.1924942  16.0203976  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.837530  sev -13.100018080  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.840909  sev -13.096371828  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.840880  sev -13.101135279  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 21:  extrap ln   dxmx=0.04364  |g|=0.00211
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9361673  16.6048641  14.5598168  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7277614  18.6682240  15.4381008  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3683008  16.2140764  16.0237833  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.841655  sev -13.098480026  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.845260  sev -13.094965342  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.845218  sev -13.100095335  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 22:  new ln  dxmx=0.00226  |g|=0.0024
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9345621  16.6030372  14.5607499  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7271365  18.6674370  15.4403621  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3674374  16.2136300  16.0238606  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.845052  sev -13.102481820  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.844795  sev -13.105790719  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.844894  sev -13.105474260  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 22:  extrap ln   dxmx=0.00452  |g|=0.00226
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9329570  16.6012103  14.5616830  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7265115  18.6666499  15.4426235  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3665741  16.2131835  16.0239379  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.844727  sev -13.107859550  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.844404  sev -13.110676799  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.844500  sev -13.110283684  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 22:  extrap ln   dxmx=0.00724  |g|=0.00277
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9310308  16.5990180  14.5628027  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7257616  18.6657055  15.4453371  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3655381  16.2126478  16.0240307  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.844300  sev -13.113144510  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.843908  sev -13.116477314  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.844022  sev -13.116006081  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 23:  new ln  dxmx=0.01549  |g|=0.00387
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9257475  16.6131104  14.5694963  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7314447  18.6625138  15.4478266  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3643041  16.2281362  16.0233042  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.844303  sev -13.114563788  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.846560  sev -13.112960784  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.846575  sev -13.116270300  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 23:  extrap ln   dxmx=0.03098  |g|=0.00355
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9204643  16.6272029  14.5761899  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7371277  18.6593221  15.4503160  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3630702  16.2436245  16.0225777  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.846861  sev -13.114484558  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.849185  sev -13.112856908  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.849183  sev -13.116269691  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 23:  extrap ln   dxmx=0.04956  |g|=0.0032
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9141244  16.6441138  14.5842223  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7439473  18.6554921  15.4533033  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3615894  16.2622106  16.0217058  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.849531  sev -13.113675128  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.852359  sev -13.111160977  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.852332  sev -13.115277092  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 23:  extrap ln   dxmx=0.07187  |g|=0.00281
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9065166  16.6644070  14.5938611  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7521308  18.6508961  15.4568881  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3598125  16.2845138  16.0206596  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.852757  sev -13.111517269  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.856225  sev -13.107846829  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.856161  sev -13.112870504  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 24:  new ln  dxmx=0.06989  |g|=0.00278
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8709310  16.7139080  14.6281335  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7805402  18.6419069  15.4897628  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3504426  16.3544051  16.0066590  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.857268  sev -13.105461086  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.866863  sev -13.098721736  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.866880  sev -13.113265707  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 24:  extrap ln   dxmx=0.13978  |g|=0.00439
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8353453  16.7634091  14.6624060  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.8089495  18.6329177  15.5226376  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3410727  16.4242965  15.9926584  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.868052  sev -13.099283446  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.878865  sev -13.087068703  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.878561  sev -13.103446988  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 24:  extrap ln   dxmx=0.22365  |g|=0.00897
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7926426  16.8228103  14.7035329  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.8430407  18.6221307  15.5620873  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3298288  16.5081660  15.9758577  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.880021  sev -13.078308483  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.894406  sev -13.055619706  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.893497  sev -13.077998121  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  new ln  dxmx=0.10000  |g|=0.0186
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7247818  16.8733426  14.7564560  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.8862914  18.6113080  15.6424953  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3112223  16.6081660  15.9379412  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.894471  sev -13.046611682  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.911420  sev -13.023077812  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.910221  sev -13.052593255  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  extrap ln   dxmx=0.20000  |g|=0.03
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6569211  16.9238748  14.8093790  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.9295421  18.6004853  15.7229033  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2926157  16.7081660  15.9000247  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.911278  sev -13.008877156  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.931385  sev -12.976166015  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.929173  sev -13.014927702  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  extrap ln   dxmx=0.32000  |g|=0.0459
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5754882  16.9845134  14.8728867  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.9814429  18.5874980  15.8193929  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2702879  16.8281660  15.8545248  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.930445  sev -12.948222098  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.958065  sev -12.899906907  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.954088  sev -12.962197058  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  extrap ln   dxmx=0.46400  |g|=0.0704
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4777686  17.0572798  14.9490959  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.0437239  18.5719133  15.9351805  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2434945  16.9721660  15.7999250  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.955467  sev -12.865613540  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.991488  sev -12.806173973  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.986572  sev -12.903341138  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  extrap ln   dxmx=0.63680  |g|=0.116
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3605052  17.1445995  15.0405470  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1184611  18.5532116  16.0741255  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2113424  17.1449660  15.7344053  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.987797  sev -12.771102775  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.023656  sev -12.737670745  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.026320  sev -12.848205083  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  extrap ln   dxmx=0.84416  |g|=0.281
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2197891  17.2493831  15.1502883  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2081458  18.5307697  16.2408595  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1727599  17.3523260  15.6557816  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.027056  sev -12.678583540  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.057359  sev -12.826940304  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.058576  sev -12.837547426  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  extrap ln   dxmx=1.09299  |g|=0.746
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0509298  17.3751234  15.2819778  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3157673  18.5038393  16.4409404  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1264609  17.6011580  15.5614332  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.058651  sev -12.636456255  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.097025  sev -13.028034067  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.097058  sev -13.031052343  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  brack ln  dxmx=1.02638  |g|=1.2
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0961331  17.3414630  15.2467248  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2869572  18.5110485  16.3873791  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1388551  17.5345462  15.5866901  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.097059  sev -13.082120943  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.148761  sev -13.608257517  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.134576  sev -13.366212539  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  brack ln  dxmx=1.02694  |g|=1.18
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0957534  17.3417457  15.2470209  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2871992  18.5109879  16.3878290  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1387509  17.5351057  15.5864779  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.134576  sev -13.365794417  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.156236  sev -13.557495137  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.146966  sev -13.470724933  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  brack ln  dxmx=1.02798  |g|=1.19
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0950441  17.3422739  15.2475741  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2876513  18.5108748  16.3886695  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1385564  17.5361510  15.5860816  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.146965  sev -13.469953083  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.156722  sev -13.549656823  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.152547  sev -13.516850128  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 25:  brack ln  dxmx=1.02738  |g|=1.18
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0954540  17.3419687  15.2472544  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2873901  18.5109402  16.3881838  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1386688  17.5355469  15.5863106  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.152548  sev -13.517293831  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.156076  sev -13.545376737  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.154551  sev -13.534108394  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 26:  new ln  dxmx=0.10000  |g|=1.18
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0433471  17.4100990  15.2997079  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3244217  18.4893731  16.4341881  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1232140  17.6355469  15.5731551  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.154121  sev -13.463888933  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.134034  sev -13.382743759  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.147935  sev -13.467415481  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 26:  extrap ln   dxmx=0.20000  |g|=1.43
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9912403  17.4782294  15.3521614  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3614534  18.4678061  16.4801925  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1077592  17.7355469  15.5599995  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.147568  sev -13.399355744  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.138256  sev -13.404666367  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.150814  sev -13.493995127  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 26:  extrap ln   dxmx=0.32000  |g|=1.61
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9287120  17.5599858  15.4151057  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.4058914  18.4419256  16.5353977  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.0892134  17.8555469  15.5442129  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.150294  sev -13.416601381  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.120009  sev -13.283830330  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.132444  sev -13.359011250  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 27:  new ln  dxmx=-0.1000  |g|=1.7
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0124467  17.5252608  15.3896901  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3651536  18.3419256  16.4945721  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1287689  17.8431307  15.5229419  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.126193  sev -13.408463961  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.104731  sev -13.413867181  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.113337  sev -13.485428767  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 27:  extrap ln   dxmx=-0.2000  |g|=1.98
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0961813  17.4905357  15.3642745  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3244159  18.2419256  16.4537465  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1683243  17.8307145  15.5016710  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.106890  sev -13.537756595  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.084328  sev -13.555581942  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.087659  sev -13.611746558  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 27:  extrap ln   dxmx=-0.3200  |g|=2.29
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1966628  17.4488657  15.3337758  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2755306  18.1219256  16.4047558  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2157909  17.8158150  15.4761459  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.078838  sev -13.679500900  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.051877  sev -13.680901929  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.050730  sev -13.720185363  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 27:  extrap ln   dxmx=-0.4640  |g|=2.53
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3172407  17.3988617  15.2971774  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2168682  17.9779256  16.3459670  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2727507  17.7979356  15.4455157  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.037050  sev -13.809703268  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.004621  sev -13.753602071  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.999555  sev -13.770397616  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 28:  new ln  dxmx=0.10000  |g|=1.33
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3666560  17.4135588  15.3465936  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3168682  18.0772727  16.2912481  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2685321  17.8680496  15.4434100  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.006357  sev -13.792695665  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.035002  sev -14.167398519  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.039416  sev -14.254748852  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 28:  extrap ln   dxmx=0.20000  |g|=0.55
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4160713  17.4282558  15.3960098  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.4168682  18.1766197  16.2365292  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2643136  17.9381635  15.4413044  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.043841  sev -14.286448034  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.069024  sev -14.584456603  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.073239  sev -14.652815050  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 29:  new ln  dxmx=0.10000  |g|=1.86
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4181041  17.4605694  15.4607473  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5018427  18.2766197  16.2252974  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2649406  18.0315183  15.4423370  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.075631  sev -14.641466158  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.087634  sev -14.695224937  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.090172  sev -14.704204438  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 29:  extrap ln   dxmx=0.20000  |g|=1.33
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4201368  17.4928830  15.5254847  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5868173  18.3766197  16.2140655  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2655676  18.1248731  15.4433696  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.091221  sev -14.691883848  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.100284  sev -14.692822427  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.102716  sev -14.690520489  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 29:  extrap ln   dxmx=0.32000  |g|=0.442
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4225761  17.5316594  15.6031697  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6887868  18.4966197  16.2005874  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2663200  18.2368988  15.4446087  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.103058  sev -14.675545161  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.110538  sev -14.619024778  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.113079  sev -14.603583092  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 29:  brack ln  dxmx=0.28359  |g|=0.983
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4218361  17.5198951  15.5796010  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6578505  18.4602132  16.2046765  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2660918  18.2029116  15.4442328  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.112998  sev -14.608212875  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.111046  sev -14.630060210  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.110346  sev -14.636227836  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 30:  new ln  dxmx=0.10000  |g|=0.546
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3714651  17.5232161  15.6612025  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6855427  18.5477337  16.2388065  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3178567  18.3029116  15.4662852  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.110332  sev -14.619099588  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.102122  sev -14.585766337  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.099993  sev -14.577134901  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 30:  extrap ln   dxmx=0.20000  |g|=0.422
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3210942  17.5265371  15.7428040  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7132348  18.6352542  16.2729365  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3696217  18.4029116  15.4883377  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.099926  sev -14.557366103  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.091662  sev -14.519111784  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.089735  sev -14.510135078  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 30:  extrap ln   dxmx=0.32000  |g|=0.336
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2606490  17.5305222  15.8407258  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7464654  18.7402787  16.3138925  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.4317396  18.5229116  15.5148006  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.089599  sev -14.482943904  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.079604  sev -14.430704685  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.077667  sev -14.420318566  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 31:  new ln  dxmx=0.06332  |g|=0.285
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3239699  17.4806474  15.8446393  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7665020  18.7934604  16.2945613  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.4632695  18.5359037  15.5107815  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.077704  sev -14.501615975  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.090862  sev -14.601653531  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.092237  sev -14.619860422  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 31:  extrap ln   dxmx=0.12664  |g|=0.0608
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3872909  17.4307725  15.8485528  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7865386  18.8466421  16.2752301  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.4947995  18.5488958  15.5067625  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.092267  sev -14.710498389  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.106498  sev -14.807659259  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.109433  sev -14.834679367  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 32:  new ln  dxmx=0.04761  |g|=0.24
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3493204  17.4107645  15.8815993  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7974159  18.8942500  16.2961402  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5119961  18.5667716  15.5328278  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.109373  sev -14.829592837  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.111804  sev -14.828645306  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.112411  sev -14.828786651  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 32:  extrap ln   dxmx=0.09522  |g|=0.0635
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3113500  17.3907566  15.9146459  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8082933  18.9418579  16.3170503  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5291928  18.5846474  15.5588932  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.112344  sev -14.821798312  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.114049  sev -14.811961578  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.114485  sev -14.809698676  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 33:  new ln  dxmx=-0.0460  |g|=0.168
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2653497  17.3641606  15.9510240  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8161781  18.9792267  16.3429580  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5483289  18.6013260  15.5899624  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.114407  sev -14.801016984  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.114670  sev -14.798633842  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.114738  sev -14.798259678  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 33:  extrap ln   dxmx=-0.0920  |g|=0.198
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2193495  17.3375647  15.9874020  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8240628  19.0165954  16.3688657  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5674650  18.6180047  15.6210316  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.114658  sev -14.787042912  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.114474  sev -14.779804984  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.114456  sev -14.778159775  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 34:  new ln  dxmx=-0.0560  |g|=0.257
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1633052  17.2914653  16.0270246  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8299043  19.0414300  16.4028309  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5875937  18.6237596  15.6642657  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.114367  sev -14.772418018  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115043  sev -14.785857389  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115186  sev -14.789588715  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 34:  extrap ln   dxmx=-0.1121  |g|=0.127
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1072609  17.2453659  16.0666472  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8357457  19.0662646  16.4367960  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6077225  18.6295145  15.7074998  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.115095  sev -14.779662923  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115061  sev -14.786701348  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115073  sev -14.788838539  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 35:  new ln  dxmx=-0.1000  |g|=0.0373
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0072609  17.1569251  16.1408831  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8481255  19.1162187  16.5031559  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6423113  18.6343797  15.7848851  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.114872  sev -14.764551135  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115152  sev -14.728611642  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115397  sev -14.720891373  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 35:  brack ln  dxmx=-0.0134  |g|=0.411
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0938937  17.2335439  16.0765704  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8374005  19.0729420  16.4456664  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6123460  18.6301648  15.7178440  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.115483  sev -14.742574917  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115413  sev -14.774732800  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115287  sev -14.782565525  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 35:  brack ln  dxmx=-0.0182  |g|=0.0743
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0890935  17.2292986  16.0801339  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8379948  19.0753399  16.4488518  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6140063  18.6303984  15.7215587  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.115280  sev -14.781619421  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115326  sev -14.780131235  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.115339  sev -14.779781254  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 36:  new ln  dxmx=-0.0949  |g|=0.09
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0414485  17.1343626  16.1455047  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8481244  19.1217761  16.4892444  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6317966  18.6127586  15.8011205  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.115192  sev -14.807471340  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.126246  sev -14.865079359  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.128590  sev -14.879322667  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 36:  extrap ln   dxmx=-0.1899  |g|=0.141
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9938035  17.0394266  16.2108755  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8582540  19.1682122  16.5296370  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6495868  18.5951187  15.8806823  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.128431  sev -14.897434732  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.138066  sev -14.922074549  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.140384  sev -14.929572068  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 36:  brack ln  dxmx=-0.1189  |g|=0.47
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0294260  17.1104069  16.1620001  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8506805  19.1334935  16.4994369  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6362857  18.6083074  15.8211967  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.140449  sev -14.916911484  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.133597  sev -14.902173140  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.132001  sev -14.898012436  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 37:  new ln  dxmx=-0.0223  |g|=0.199
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0324570  17.0881019  16.1773639  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8532951  19.1360209  16.5020800  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6285579  18.5959592  15.8430674  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.131976  sev -14.917545538  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.137577  sev -14.962648009  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.138885  sev -14.974236999  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 37:  extrap ln   dxmx=-0.0446  |g|=0.0686
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0354880  17.0657969  16.1927277  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8559098  19.1385482  16.5047231  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6208301  18.5836111  15.8649380  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.138859  sev -14.993827685  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.144555  sev -15.036289080  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.145946  sev -15.047615539  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 38:  new ln  dxmx=0.06983  |g|=0.0466
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9746080  17.0090590  16.2492307  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8685412  19.1593785  16.5393584  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6182373  18.5706927  15.9347700  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.145818  sev -15.022345860  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.147812  sev -15.031238557  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.148295  sev -15.033196819  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 38:  extrap ln   dxmx=0.13966  |g|=0.025
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9137280  16.9523210  16.3057338  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8811727  19.1802088  16.5739936  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6156445  18.5577744  16.0046020  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.148176  sev -15.002361622  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.149018  sev -14.992895394  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.149367  sev -14.991172986  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 38:  brack ln  dxmx=0.10694  |g|=0.202
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9422551  16.9789072  16.2792577  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8752539  19.1704482  16.5577643  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6168594  18.5638277  15.9718802  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.149400  sev -15.006254614  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.149163  sev -15.012717767  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.149060  sev -15.014312701  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 39:  new ln  dxmx=-0.0128  |g|=0.101
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9436136  16.9820099  16.2847640  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8734818  19.1643273  16.5553184  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6043679  18.5510133  15.9825076  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.149054  sev -15.014070482  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.151128  sev -15.030429036  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.151635  sev -15.034487781  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 39:  extrap ln   dxmx=-0.0256  |g|=0.067
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9449722  16.9851125  16.2902702  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8717097  19.1582064  16.5528724  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5918764  18.5381989  15.9931350  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.151629  sev -15.034214919  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.153735  sev -15.049182396  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.154252  sev -15.052884945  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 39:  extrap ln   dxmx=-0.0410  |g|=0.0496
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9466025  16.9888357  16.2968777  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8695832  19.1508613  16.5499373  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5768866  18.5228216  16.0058878  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.154245  sev -15.052517581  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.156810  sev -15.068688086  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.157441  sev -15.072674828  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 39:  extrap ln   dxmx=-0.0595  |g|=0.0502
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9485588  16.9933036  16.3048068  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8670315  19.1420472  16.5464151  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5588989  18.5043689  16.0211912  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.157432  sev -15.072181822  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.160564  sev -15.089007450  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.161338  sev -15.093137965  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 40:  new ln  dxmx=-0.0228  |g|=0.0823
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9520437  17.0079509  16.3140313  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8567526  19.1259473  16.5440967  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5392926  18.4815203  16.0372264  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.161329  sev -15.088387860  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.163406  sev -15.111716307  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.163919  sev -15.117439640  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 41:  new ln  dxmx=0.01134  |g|=0.0322
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9633849  17.0079088  16.3177966  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8547324  19.1246802  16.5416647  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5341605  18.4723356  16.0447480  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.163914  sev -15.128848759  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167140  sev -15.142837495  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167837  sev -15.146108288  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 42:  new ln  dxmx=-0.0090  |g|=0.0267
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9590938  16.9989402  16.3258373  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8557199  19.1318281  16.5495208  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5425692  18.4762483  16.0524049  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.167826  sev -15.146371071  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167397  sev -15.143906084  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167288  sev -15.143354933  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 42:  extrap ln   dxmx=-0.0179  |g|=0.0202
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9548027  16.9899717  16.3338780  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8567074  19.1389759  16.5573769  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5509779  18.4801610  16.0600618  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.167277  sev -15.143513812  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.166783  sev -15.140483646  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.166660  sev -15.139795023  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 42:  extrap ln   dxmx=-0.0287  |g|=0.0169
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9496534  16.9792095  16.3435268  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8578924  19.1475534  16.5668042  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5610683  18.4848563  16.0692500  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.166647  sev -15.139847732  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.166037  sev -15.135727228  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.165886  sev -15.134776940  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 43:  new ln  dxmx=0.04243  |g|=0.0171
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9400494  16.9614579  16.3797776  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8552749  19.1612248  16.5905615  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5718800  18.4780050  16.1116794  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.165833  sev -15.131554768  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.166623  sev -15.132502791  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.166821  sev -15.132804257  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 43:  extrap ln   dxmx=0.08486  |g|=0.0561
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9304454  16.9437063  16.4160284  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8526575  19.1748962  16.6143188  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5826917  18.4711537  16.1541088  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.166772  sev -15.128390316  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167305  sev -15.123651461  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167452  sev -15.122492345  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 43:  brack ln  dxmx=0.05401  |g|=0.143
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9374290  16.9566145  16.3896684  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8545608  19.1649550  16.5970435  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5748299  18.4761356  16.1232560  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.167472  sev -15.125810971  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167124  sev -15.129801832  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167026  sev -15.130830651  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 44:  new ln  dxmx=0.02031  |g|=0.0751
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9501316  16.9682850  16.4058641  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8482543  19.1681824  16.6053657  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5784340  18.4684934  16.1435680  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.167008  sev -15.134934427  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.168221  sev -15.145859011  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.168483  sev -15.148447320  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 44:  extrap ln   dxmx=0.04062  |g|=0.0358
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9628343  16.9799555  16.4220599  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8419479  19.1714098  16.6136878  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5820380  18.4608512  16.1638801  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.168466  sev -15.152171622  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.169622  sev -15.161211054  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.169872  sev -15.163340353  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 44:  extrap ln   dxmx=0.06500  |g|=0.0153
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9780774  16.9939601  16.4414948  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8343801  19.1752827  16.6236743  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5863629  18.4516805  16.1882545  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.169853  sev -15.167296356  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.171145  sev -15.175461768  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.171429  sev -15.177395946  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 44:  extrap ln   dxmx=0.09425  |g|=0.0146
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  12.9963692  17.0107656  16.4648167  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8252988  19.1799302  16.6356581  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5915528  18.4406757  16.2175038  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.171407  sev -15.181391904  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.172822  sev -15.187323264  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.173146  sev -15.188792935  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 44:  extrap ln   dxmx=0.12935  |g|=0.0451
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0183194  17.0309322  16.4928029  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8144013  19.1855072  16.6500388  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5977806  18.4274700  16.2526030  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.173121  sev -15.192498678  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.174612  sev -15.194016653  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.174976  sev -15.194487885  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 44:  brack ln  dxmx=0.11582  |g|=0.131
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0098607  17.0231608  16.4820181  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.8186008  19.1833581  16.6444970  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5953806  18.4325589  16.2390772  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.174982  sev -15.193194143  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.174456  sev -15.193295573  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.174326  sev -15.193298313  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 45:  new ln  dxmx=0.07592  |g|=0.0919
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0565196  17.0990761  16.5206605  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7988616  19.1852975  16.6621563  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5999051  18.4125587  16.2875327  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.174299  sev -15.180895259  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.173269  sev -15.180517596  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.173065  sev -15.179897231  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 45:  extrap ln   dxmx=0.15183  |g|=0.0692
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1031785  17.1749915  16.5593028  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7791225  19.1872369  16.6798155  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6044297  18.3925585  16.3359883  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.173044  sev -15.161719735  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.171005  sev -15.147076086  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.170649  sev -15.143059166  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 46:  new ln  dxmx=0.07364  |g|=0.147
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1606566  17.2486343  16.5591200  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7671649  19.1942672  16.6802269  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6222192  18.3968955  16.3353694  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.170650  sev -15.139107516  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.167338  sev -15.132596003  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.166560  sev -15.130738398  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 46:  extrap ln   dxmx=0.14729  |g|=0.0371
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2181348  17.3222772  16.5589372  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7552073  19.2012975  16.6806383  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6400087  18.4012325  16.3347505  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.166562  sev -15.121467029  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.162449  sev -15.107085064  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.161548  sev -15.103251565  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 47:  new ln  dxmx=0.10000  |g|=0.0394
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3142129  17.4222772  16.5671063  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7325674  19.2189481  16.6886317  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6782087  18.4070325  16.3429767  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.161547  sev -15.092980191  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.155399  sev -15.042453963  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.154012  sev -15.029419101  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 47:  brack ln  dxmx=0.05366  |g|=0.182
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2696918  17.3759388  16.5633209  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7430584  19.2107691  16.6849277  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6605074  18.4043449  16.3391648  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.154012  sev -15.035561560  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.157069  sev -15.062093411  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.157757  sev -15.068954711  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 47:  brack ln  dxmx=0.07021  |g|=0.0612
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2855933  17.3924894  16.5646729  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7393113  19.2136904  16.6862506  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6668297  18.4053048  16.3405263  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.157757  sev -15.067033730  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.156702  sev -15.058173645  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.156464  sev -15.055886609  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 48:  new ln  dxmx=0.10000  |g|=0.0992
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3855933  17.4624299  16.5256354  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7237587  19.2176312  16.6631546  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6916080  18.4156914  16.2959265  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.156467  sev -15.077740508  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.155362  sev -15.070589446  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.155009  sev -15.070039412  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 48:  extrap ln   dxmx=0.20000  |g|=0.116
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4855933  17.5323704  16.4865979  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7082060  19.2215721  16.6400585  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7163864  18.4260781  16.2513267  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.155016  sev -15.082061683  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.152327  sev -15.057592908  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.151664  sev -15.052646358  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 48:  brack ln  dxmx=0.15404  |g|=0.239
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4396312  17.5002242  16.5045403  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7153543  19.2197608  16.6506740  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7049977  18.4213042  16.2718257  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.151652  sev -15.048333132  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.153058  sev -15.061275474  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.153400  sev -15.064144601  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 49:  new ln  dxmx=0.10000  |g|=0.169
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5396312  17.5895168  16.4763242  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6946114  19.2066338  16.6231802  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7036790  18.4077809  16.2455896  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.153409  sev -15.051280321  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.150314  sev -15.043098689  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.149686  sev -15.039926725  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 49:  extrap ln   dxmx=0.20000  |g|=0.16
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6396312  17.6788094  16.4481082  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6738685  19.1935068  16.5956864  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7023602  18.3942577  16.2193534  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.149695  sev -15.016213503  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.144774  sev -14.998393430  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.143932  sev -14.992609987  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 49:  brack ln  dxmx=0.16701  |g|=0.171
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6066456  17.6493558  16.4574154  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6807107  19.1978368  16.6047554  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7027952  18.3987184  16.2280076  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.143926  sev -15.001513171  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.145645  sev -15.007975928  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.145952  sev -15.010071656  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 50:  new ln  dxmx=0.10000  |g|=0.165
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7066456  17.6962724  16.4088224  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6644047  19.1751310  16.5639452  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6949325  18.3851498  16.1761065  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.145965  sev -15.025449870  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.147134  sev -15.050386327  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.147319  sev -15.057718038  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 51:  new ln  dxmx=0.10000  |g|=0.0377
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8066456  17.7466204  16.3873927  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6432312  19.1560803  16.5421436  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6997621  18.3700289  16.1469868  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.147329  sev -15.056954788  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.145036  sev -15.047135471  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.144487  sev -15.044735728  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 51:  extrap ln   dxmx=0.20000  |g|=0.0762
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9066456  17.7969683  16.3659630  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6220577  19.1370295  16.5203421  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7045916  18.3549080  16.1178671  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.144499  sev -15.036022727  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.140879  sev -15.017586771  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.140086  sev -15.012265911  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 51:  extrap ln   dxmx=0.32000  |g|=0.154
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.0266456  17.8573859  16.3402474  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5966495  19.1141686  16.4941803  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7103871  18.3367629  16.0829235  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.140100  sev -14.991873700  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.134029  sev -14.959124926  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.132835  sev -14.949343262  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 51:  brack ln  dxmx=0.27700  |g|=0.294
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9836466  17.8357368  16.3494620  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6057539  19.1223603  16.5035547  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7083105  18.3432647  16.0954447  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.132826  sev -14.957781639  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.135145  sev -14.970420708  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.135611  sev -14.974200154  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  new ln  dxmx=0.10000  |g|=0.238
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.0836466  17.8567996  16.3626767  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5781871  19.0838541  16.4958109  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7070683  18.3057553  16.0908064  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.135600  sev -14.981865834  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.135707  sev -14.985905672  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.135597  sev -14.989169780  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  extrap ln   dxmx=0.20000  |g|=0.284
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1836466  17.8778625  16.3758915  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5506203  19.0453479  16.4880671  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7058260  18.2682459  16.0861682  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.135585  sev -14.990581306  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.134595  sev -14.987699258  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.134266  sev -14.989022502  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  extrap ln   dxmx=0.32000  |g|=0.362
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3036466  17.9031379  16.3917493  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5175401  18.9991405  16.4787745  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7043354  18.2232346  16.0806023  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.134250  sev -14.982512083  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.131592  sev -14.970700124  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.130878  sev -14.969642236  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  extrap ln   dxmx=0.46400  |g|=0.495
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4476466  17.9334684  16.4107786  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.4778439  18.9436916  16.4676234  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7025466  18.1692211  16.0739233  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.130859  sev -14.950692543  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.125523  sev -14.925891164  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.124183  sev -14.921396744  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  extrap ln   dxmx=0.63680  |g|=0.707
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6204466  17.9698651  16.4336137  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.4302085  18.8771529  16.4542421  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7004001  18.1044049  16.0659085  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.124159  sev -14.884765839  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.114629  sev -14.843028336  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.112195  sev -14.835293830  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  extrap ln   dxmx=0.84416  |g|=1.02
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8278066  18.0135410  16.4610159  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3730460  18.7973065  16.4381845  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6978242  18.0266254  16.0562906  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.112168  sev -14.776425939  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.096165  sev -14.718325313  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.091136  sev -14.713984648  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  extrap ln   dxmx=1.09299  |g|=1.45
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0766386  18.0659521  16.4938985  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3044509  18.7014908  16.4189153  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6947332  17.9332900  16.0447493  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.091110  sev -14.631872452  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.065112  sev -14.583316529  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.051157  sev -14.626601433  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  extrap ln   dxmx=1.39159  |g|=1.95
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3752370  18.1288455  16.5333576  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2221369  18.5865120  16.3957924  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6910240  17.8212876  16.0308996  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -1.051134  sev -14.528335349  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -1.009778  sev -14.675362683  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.973061  sev -14.985456160  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  extrap ln   dxmx=1.74991  |g|=2.49
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7335551  18.2043175  16.5807086  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1233601  18.4485374  16.3680449  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6865729  17.6868846  16.0142800  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.972640  sev -15.647428257  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.873235  sev -16.735354454  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.976684  sev -17.336593724  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  brack ln  dxmx=1.49380  |g|=18
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4774511  18.1503747  16.5468650  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1939598  18.5471532  16.3878771  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6897542  17.7829477  16.0261587  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.976651  sev -16.881406125  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.984733  sev -15.810742952  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.958715  sev -15.496477978  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  brack ln  dxmx=1.41601  |g|=4.1
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3996584  18.1339893  16.5365849  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2154047  18.5771083  16.3939012  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6907206  17.8121273  16.0297669  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.958704  sev -15.504347571  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.978652  sev -15.195736384  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.977251  sev -15.068517072  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  brack ln  dxmx=1.43128  |g|=2.21
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4149229  18.1372044  16.5386020  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2111968  18.5712305  16.3927192  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6905310  17.8064016  16.0290589  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.977252  sev -15.064725189  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.974465  sev -15.081935908  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.972410  sev -15.103845918  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 52:  brack ln  dxmx=1.43035  |g|=2.07
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4140001  18.1370101  16.5384801  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2114512  18.5715858  16.3927906  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6905424  17.8067478  16.0291017  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.972410  sev -15.104065528  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.973152  sev -15.101849893  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.973211  sev -15.101420051  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 53:  new ln  dxmx=0.10000  |g|=2.08
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3739727  18.2370101  16.4586837  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2277126  18.5645809  16.3207965  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6445405  17.7947076  15.9735063  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.973140  sev -15.080717834  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.964199  sev -15.121803051  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.958208  sev -15.133093381  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 53:  extrap ln   dxmx=0.20000  |g|=1.54
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3339454  18.3370101  16.3788873  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2439741  18.5575760  16.2488023  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5985385  17.7826674  15.9179110  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.958166  sev -15.112639918  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.948433  sev -15.094158904  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.945066  sev -15.081659597  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 54:  new ln  dxmx=0.10000  |g|=1.27
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3213345  18.3270476  16.4788873  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2317065  18.5005794  16.2600175  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6045792  17.7220107  15.9434230  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.945040  sev -15.092481799  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.946494  sev -15.012514722  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.943310  sev -15.014011225  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 54:  extrap ln   dxmx=0.20000  |g|=1.4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3087236  18.3170852  16.5788873  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2194389  18.4435828  16.2712328  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6106199  17.6613540  15.9689350  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.943297  sev -15.023465800  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.942088  sev -14.908916915  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.939597  sev -14.894557321  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 54:  brack ln  dxmx=0.13948  |g|=1.66
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3163553  18.3231141  16.5183704  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2268628  18.4780754  16.2644457  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6069642  17.6980616  15.9534959  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.939572  sev -14.889150850  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.939802  sev -14.957673830  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.941017  sev -14.967540993  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 55:  new ln  dxmx=-0.1000  |g|=1.5
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3278879  18.3280518  16.4761794  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2358212  18.4594692  16.2230666  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6342364  17.7139741  15.8534959  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.940981  sev -14.956567359  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.927971  sev -14.896295255  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.923779  sev -14.886222818  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 55:  extrap ln   dxmx=-0.2000  |g|=1.37
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3394204  18.3329895  16.4339885  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2447795  18.4408630  16.1816875  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6615087  17.7298866  15.7534959  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.923757  sev -14.874934699  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.910144  sev -14.790227112  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.906538  sev -14.772606493  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 55:  extrap ln   dxmx=-0.3200  |g|=1.34
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3532595  18.3389147  16.3833593  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2555295  18.4185356  16.1320326  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6942353  17.7489816  15.6334959  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.906521  sev -14.758825769  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.889157  sev -14.629409654  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.885629  sev -14.600246863  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 55:  brack ln  dxmx=-0.2565  |g|=1.51
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3459315  18.3357772  16.4101680  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2498372  18.4303582  16.1583254  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6769062  17.7388706  15.6970372  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.885617  sev -14.607785317  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.895156  sev -14.680329950  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.896810  sev -14.697776952  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 56:  new ln  dxmx=-0.1000  |g|=1.39
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4174368  18.3213038  16.4509335  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2541663  18.3888701  16.0950987  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6567048  17.7407418  15.5970372  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.896814  sev -14.690613233  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.885822  sev -14.790172316  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.878311  sev -14.837344512  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 57:  new ln  dxmx=0.10000  |g|=0.416
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4857798  18.4213038  16.4992064  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2997749  18.3976263  16.0410282  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6927977  17.7829400  15.5142279  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.878313  sev -14.783880885  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.835867  sev -14.568646657  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.832396  sev -14.508884066  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 57:  brack ln  dxmx=0.06641  |g|=0.86
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4628254  18.3877167  16.4829930  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2844563  18.3946854  16.0591889  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6806751  17.7687669  15.5420411  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.832395  sev -14.526587429  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.845918  sev -14.589087810  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.846435  sev -14.607966409  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 58:  new ln  dxmx=0.04605  |g|=0.512
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5088759  18.4204275  16.5155082  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3041651  18.3931151  16.0604467  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7135881  17.7951933  15.5147274  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.846435  sev -14.583409210  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.824081  sev -14.500011979  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.821025  sev -14.478096145  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 58:  extrap ln   dxmx=0.09210  |g|=0.288
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5549265  18.4531383  16.5480234  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3238739  18.3915448  16.0617045  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7465011  17.8216197  15.4874138  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.821025  sev -14.455260844  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.798196  sev -14.349303805  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795660  sev -14.323051636  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 59:  new ln  dxmx=0.04648  |g|=0.396
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5559446  18.4419490  16.5907350  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3130763  18.3680022  16.0903460  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7335931  17.7952713  15.5338935  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.795660  sev -14.330320881  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.799697  sev -14.372101802  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.798710  sev -14.384562851  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 60:  new ln  dxmx=0.02274  |g|=0.0609
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5586969  18.4317875  16.6134794  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3070030  18.3551086  16.1009478  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7321132  17.7853869  15.5448811  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.798712  sev -14.387551812  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.799477  sev -14.383228005  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.799094  sev -14.383784635  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 61:  new ln  dxmx=0.00843  |g|=0.0439
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5620668  18.4345229  16.6219086  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3063828  18.3578468  16.1058788  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7333364  17.7885180  15.5508834  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.799095  sev -14.382068740  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797597  sev -14.381649137  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797387  sev -14.381310287  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 62:  new ln  dxmx=0.00393  |g|=0.0186
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5631813  18.4373612  16.6258337  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3049357  18.3603526  16.1056252  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7326676  17.7913338  15.5506573  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.797388  sev -14.380075781  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796336  sev -14.374568436  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796294  sev -14.373180885  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 62:  extrap ln   dxmx=0.00785  |g|=0.0146
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5642957  18.4401996  16.6297588  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3034886  18.3628584  16.1053715  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7319988  17.7941495  15.5504312  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.796294  sev -14.371950407  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795245  sev -14.365934253  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795205  sev -14.364445292  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 62:  brack ln  dxmx=0.00578  |g|=0.0228
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5637087  18.4387045  16.6276913  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3042508  18.3615385  16.1055051  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7323511  17.7926663  15.5505503  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.795205  sev -14.365093685  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795728  sev -14.367606596  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795742  sev -14.368259320  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 63:  new ln  dxmx=-0.0045  |g|=0.0172
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5602263  18.4411081  16.6255977  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2999711  18.3650479  16.1023435  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7278775  17.7951545  15.5479498  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.795741  sev -14.368331389  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795971  sev -14.369601260  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796023  sev -14.369947371  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 63:  extrap ln   dxmx=-0.0089  |g|=0.00943
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5567438  18.4435117  16.6235040  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2956914  18.3685572  16.0991819  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7234039  17.7976427  15.5453493  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.796022  sev -14.370016335  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796243  sev -14.371068011  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796292  sev -14.371356463  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 63:  extrap ln   dxmx=-0.0143  |g|=0.00765
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5525649  18.4463960  16.6209917  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2905558  18.3727685  16.0953880  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7180356  17.8006285  15.5422287  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.796291  sev -14.371435090  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796553  sev -14.372676165  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796614  sev -14.373014616  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 63:  extrap ln   dxmx=-0.0208  |g|=0.016
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5475503  18.4498571  16.6179769  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2843931  18.3778220  16.0908353  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7115937  17.8042114  15.5384840  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.796613  sev -14.373103001  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796924  sev -14.374562345  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796999  sev -14.374957216  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 63:  extrap ln   dxmx=-0.0285  |g|=0.0287
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5415327  18.4540105  16.6143591  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2769977  18.3838862  16.0853721  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.7038633  17.8085110  15.5339903  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.796997  sev -14.375054644  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797365  sev -14.376762775  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797458  sev -14.377219885  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 63:  extrap ln   dxmx=-0.0378  |g|=0.0444
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5343115  18.4589946  16.6100177  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2681234  18.3911632  16.0788162  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6945869  17.8136704  15.5285979  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.797455  sev -14.377324299  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797890  sev -14.379312058  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.798004  sev -14.379835621  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 64:  new ln  dxmx=-0.0514  |g|=0.0633
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4963569  18.4907324  16.5811720  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2221346  18.4245728  16.0389787  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.6432228  17.8384898  15.4929438  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.797983  sev -14.379328518  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.798801  sev -14.384476740  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.799098  sev -14.385411971  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 64:  extrap ln   dxmx=-0.1027  |g|=0.0646
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4584022  18.5224703  16.5523262  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1761458  18.4579823  15.9991411  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5918588  17.8633091  15.4572897  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.799076  sev -14.384456329  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.799574  sev -14.387975368  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.799886  sev -14.388204405  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 64:  extrap ln   dxmx=-0.1644  |g|=0.072
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4128567  18.5605556  16.5177113  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1209593  18.4980737  15.9513361  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.5302219  17.8930923  15.4145048  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.799858  sev -14.386463359  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.800046  sev -14.388515603  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.800435  sev -14.388014258  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 65:  new ln  dxmx=-0.0916  |g|=0.0946
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3449756  18.6136356  16.4611495  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.0404138  18.5380701  15.8814881  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.4386054  17.9237378  15.3472901  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.800383  sev -14.386860188  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.799817  sev -14.385163667  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.799682  sev -14.384628429  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 65:  extrap ln   dxmx=-0.1832  |g|=0.0719
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2770945  18.6667156  16.4045877  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.9598684  18.5780665  15.8116401  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.3469889  17.9543832  15.2800754  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.799634  sev -14.382095427  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797893  sev -14.375028555  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797816  sev -14.372713268  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 65:  extrap ln   dxmx=-0.2932  |g|=0.0864
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1956373  18.7304115  16.3367136  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.8632139  18.6260621  15.7278225  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2370491  17.9911577  15.1994178  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.797754  sev -14.367876734  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.794148  sev -14.352022807  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.794128  sev -14.347394217  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 65:  brack ln  dxmx=-0.2519  |g|=0.15
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2262109  18.7065043  16.3621890  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.8994915  18.6080478  15.7592820  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.2783131  17.9773550  15.2296913  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.794131  sev -14.349478553  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795652  sev -14.355335223  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795641  sev -14.357104181  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 66:  new ln  dxmx=-0.0813  |g|=0.122
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1620299  18.7364484  16.3129707  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.8272369  18.6099486  15.7093534  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1969998  17.9768314  15.1790287  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.795610  sev -14.361818235  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796499  sev -14.360438240  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795676  sev -14.362587573  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 67:  new ln  dxmx=-0.0887  |g|=0.107
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0934112  18.7714551  16.2785515  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7422172  18.6426489  15.6595033  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.1082969  17.9975546  15.1371808  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.795649  sev -14.363700445  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796589  sev -14.365511168  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796769  sev -14.366093986  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 67:  extrap ln   dxmx=-0.1774  |g|=0.0465
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0247926  18.8064618  16.2441323  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6571976  18.6753493  15.6096531  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  16.0195939  18.0182779  15.0953328  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.796743  sev -14.366263696  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797211  sev -14.363939200  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797546  sev -14.362854261  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 68:  new ln  dxmx=-0.0748  |g|=0.0825
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9719624  18.8331578  16.2300798  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5833505  18.6914642  15.5758395  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.9448370  18.0287589  15.0677491  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.797530  sev -14.364765666  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797589  sev -14.353303956  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.797326  sev -14.351755048  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 69:  new ln  dxmx=-0.1000  |g|=0.108
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8961398  18.8706076  16.1908493  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4882844  18.7145574  15.5258913  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.8448370  18.0425684  15.0262690  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.797291  sev -14.352863840  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796773  sev -14.355552853  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.796367  sev -14.357067038  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 69:  extrap ln   dxmx=-0.2000  |g|=0.0516
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8203172  18.9080575  16.1516188  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3932183  18.7376506  15.4759432  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7448370  18.0563779  14.9847888  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.796333  sev -14.357079228  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795033  sev -14.355177054  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.794722  sev -14.354856902  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 70:  new ln  dxmx=-0.1000  |g|=0.0502
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7437471  18.9455560  16.1137249  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2997127  18.7590762  15.4242684  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6448370  18.0712123  14.9440782  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.794688  sev -14.353521941  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792313  sev -14.343205864  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791845  sev -14.341574385  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 70:  brack ln  dxmx=-0.0257  |g|=0.192
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8006329  18.9176975  16.1418772  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3691802  18.7431586  15.4626588  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.7191294  18.0601914  14.9743231  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791843  sev -14.342785792  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793774  sev -14.350897494  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.794076  sev -14.352530963  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 71:  new ln  dxmx=-0.0909  |g|=0.0219
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7299011  18.9486909  16.1085753  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2782374  18.7589441  15.4170065  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6329073  18.0729353  14.9333632  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.794047  sev -14.350678162  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790625  sev -14.326948683  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790202  sev -14.320953509  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 71:  brack ln  dxmx=-0.0559  |g|=0.0543
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7571523  18.9367499  16.1214057  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3132754  18.7528624  15.4345952  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6661265  18.0680254  14.9491440  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790205  sev -14.321800082  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791551  sev -14.330783570  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791688  sev -14.333030979  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 72:  new ln  dxmx=-0.1000  |g|=0.0364
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6937893  18.9447048  16.0956743  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2132754  18.7360402  15.3956430  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6085245  18.0882298  14.9053782  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791668  sev -14.328691299  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.781610  sev -14.305760922  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.778151  sev -14.301926177  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 72:  brack ln  dxmx=-0.0118  |g|=0.278
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7496694  18.9376893  16.1183669  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3014657  18.7508757  15.4299951  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6593239  18.0704115  14.9439755  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.778158  sev -14.305771471  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.787240  sev -14.327318382  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790296  sev -14.331138415  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 72:  brack ln  dxmx=-0.0091  |g|=0.0134
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7514114  18.9374706  16.1190744  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3042151  18.7513382  15.4310660  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.6609076  18.0698560  14.9451787  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790296  sev -14.331250184  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790420  sev -14.331599071  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790489  sev -14.331579081  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 73:  new ln  dxmx=-0.0780  |g|=0.0104
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6878421  18.9548811  16.0877975  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2276438  18.7668776  15.3908792  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5828949  18.0811253  14.9103282  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790464  sev -14.331199497  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790057  sev -14.334621669  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790076  sev -14.335276432  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 73:  extrap ln   dxmx=-0.1560  |g|=0.0155
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6242727  18.9722916  16.0565207  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1510725  18.7824170  15.3506923  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5048822  18.0923946  14.8754776  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790051  sev -14.333926798  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789033  sev -14.335219613  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789079  sev -14.334971956  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 73:  brack ln  dxmx=-0.1138  |g|=0.0258
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6587129  18.9628591  16.0734657  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1925567  18.7739982  15.3724645  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5471473  18.0862892  14.8943587  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.789081  sev -14.335834845  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789717  sev -14.335445751  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789692  sev -14.335698943  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 74:  new ln  dxmx=-0.0366  |g|=0.0204
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6265806  18.9591878  16.0605652  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1559713  18.7747236  15.3550102  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.5137488  18.0900275  14.8747934  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.789684  sev -14.336278068  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790166  sev -14.336663196  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790164  sev -14.336984577  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 74:  extrap ln   dxmx=-0.0732  |g|=0.019
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5944482  18.9555165  16.0476647  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1193859  18.7754490  15.3375560  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4803502  18.0937659  14.8552281  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790155  sev -14.337341581  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790504  sev -14.337188467  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790511  sev -14.337314833  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 74:  extrap ln   dxmx=-0.1171  |g|=0.017
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5558894  18.9511110  16.0321841  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0754834  18.7763196  15.3166109  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.4402720  18.0982519  14.8317497  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790500  sev -14.337449454  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790737  sev -14.336498060  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790757  sev -14.336337771  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 74:  extrap ln   dxmx=-0.1698  |g|=0.0146
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5096189  18.9458243  16.0136074  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0228004  18.7773642  15.2914768  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3921781  18.1036352  14.8035757  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790744  sev -14.336076691  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790767  sev -14.333875949  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790810  sev -14.333195078  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 74:  extrap ln   dxmx=-0.2330  |g|=0.0175
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4540942  18.9394803  15.9913153  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9595809  18.7786177  15.2613159  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.3344654  18.1100951  14.7697669  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790793  sev -14.332277244  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790443  sev -14.328155813  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790515  sev -14.326757329  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 74:  extrap ln   dxmx=-0.3088  |g|=0.0343
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3874646  18.9318675  15.9645649  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8837173  18.7801220  15.2251227  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.2652101  18.1178470  14.7291963  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790493  sev -14.324799411  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789538  sev -14.317637006  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789645  sev -14.315389366  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 75:  new ln  dxmx=-0.1000  |g|=0.0679
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2905287  18.8696119  15.9323504  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7837173  18.7612490  15.1804034  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.1857353  18.1240825  14.6667051  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.789610  sev -14.318733143  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.794236  sev -14.323747471  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.794724  sev -14.325856775  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 76:  new ln  dxmx=-0.1000  |g|=0.131
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1983670  18.8541502  15.8910503  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6837173  18.7597654  15.1325322  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0925816  18.1342627  14.6127925  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.794689  sev -14.321231961  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792032  sev -14.322325626  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791985  sev -14.321401460  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 76:  extrap ln   dxmx=-0.2000  |g|=0.0945
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1062052  18.8386885  15.8497502  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5837173  18.7582818  15.0846609  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9994280  18.1444429  14.5588799  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791953  sev -14.315240687  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.788060  sev -14.311743709  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.788043  sev -14.309439360  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 76:  brack ln  dxmx=-0.1466  |g|=0.081
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1553859  18.8469394  15.8717894  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6370808  18.7590735  15.1102067  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0491380  18.1390104  14.5876495  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.788039  sev -14.312940965  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790218  sev -14.314750321  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790215  sev -14.316059911  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 77:  new ln  dxmx=-0.0444  |g|=0.0849
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1151859  18.8024906  15.8521189  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5977410  18.7372595  15.0914710  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  15.0273811  18.1385531  14.5650014  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790210  sev -14.320375124  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793624  sev -14.349272166  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793303  sev -14.356809263  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 78:  new ln  dxmx=-0.1000  |g|=0.0735
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.0259017  18.7451292  15.8175984  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4977410  18.7149221  15.0444497  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9594186  18.1454414  14.5098146  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793279  sev -14.357493993  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.794646  sev -14.348009433  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.795075  sev -14.345304783  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 79:  new ln  dxmx=-0.1000  |g|=0.0457
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9348159  18.7100104  15.7777538  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3977410  18.6978155  14.9985247  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8822620  18.1530645  14.4546104  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.795048  sev -14.340673688  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791261  sev -14.318514493  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791176  sev -14.312536709  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 79:  brack ln  dxmx=-0.0464  |g|=0.127
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9835970  18.7288183  15.7990926  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4512961  18.7069770  15.0231199  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.9235833  18.1489819  14.4841750  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791175  sev -14.315198069  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793270  sev -14.326799243  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793281  sev -14.329964866  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 80:  new ln  dxmx=-0.0566  |g|=0.0673
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9361954  18.7132747  15.7760234  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3946596  18.6983720  14.9943464  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8778309  18.1499085  14.4570676  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793272  sev -14.327670817  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791930  sev -14.329981249  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791937  sev -14.329825088  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 80:  extrap ln   dxmx=-0.1133  |g|=0.0438
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8887938  18.6977312  15.7529542  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3380232  18.6897669  14.9655729  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8320786  18.1508350  14.4299602  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791927  sev -14.327154366  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790319  sev -14.327175975  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790362  sev -14.326403321  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 80:  brack ln  dxmx=-0.0816  |g|=0.0421
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9152708  18.7064133  15.7658400  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3696585  18.6945734  14.9816448  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8576344  18.1503175  14.4451016  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790363  sev -14.327947570  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791281  sev -14.327969703  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791251  sev -14.328431559  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 81:  new ln  dxmx=-0.0575  |g|=0.0401
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8603496  18.6747846  15.7390672  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3121851  18.6743544  14.9546235  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.8114010  18.1483119  14.4109408  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791238  sev -14.327938970  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790136  sev -14.325481799  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789736  sev -14.325134764  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 81:  extrap ln   dxmx=-0.1149  |g|=0.0405
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8054284  18.6431559  15.7122944  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2547116  18.6541354  14.9276021  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7651675  18.1463063  14.3767800  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.789723  sev -14.324219822  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.788296  sev -14.318466170  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.787960  sev -14.317040996  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 81:  brack ln  dxmx=-0.0881  |g|=0.103
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8310513  18.6579120  15.7247850  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2815253  18.6635684  14.9402087  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7867373  18.1472420  14.3927174  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.787960  sev -14.317533693  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.788688  sev -14.320600805  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.788835  sev -14.321414293  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 82:  new ln  dxmx=-0.1000  |g|=0.072
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7349700  18.5825832  15.6812246  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1815253  18.6262284  14.8913163  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7084805  18.1428172  14.3328834  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.788801  sev -14.323820684  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790556  sev -14.312964376  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790933  sev -14.310521942  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 82:  brack ln  dxmx=-0.0469  |g|=0.102
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7859492  18.6225514  15.7043370  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2345836  18.6460404  14.9172578  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7500022  18.1451649  14.3646303  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790928  sev -14.309378051  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790145  sev -14.316838983  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.789915  sev -14.318781189  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 82:  brack ln  dxmx=-0.0609  |g|=0.0637
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7725611  18.6120549  15.6982672  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2206495  18.6408374  14.9104451  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7390978  18.1445484  14.3562930  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.789914  sev -14.319108604  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790154  sev -14.317494515  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790208  sev -14.317116156  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 83:  new ln  dxmx=-0.0400  |g|=0.0685
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7350354  18.5759752  15.6784485  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1806937  18.6190118  14.8891592  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.7063027  18.1357725  14.3333821  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790201  sev -14.320469634  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792565  sev -14.331489778  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792552  sev -14.334449500  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 84:  new ln  dxmx=-0.0868  |g|=0.0148
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6577114  18.5295106  15.6392032  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.0938441  18.5892959  14.8451405  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6369689  18.1275139  14.2883755  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792529  sev -14.333262221  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791611  sev -14.331813115  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791660  sev -14.331006909  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 85:  new ln  dxmx=-0.0446  |g|=0.0206
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6180608  18.5006448  15.6180798  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.0492185  18.5682440  14.8223137  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.6024443  18.1189188  14.2657946  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791652  sev -14.331754104  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791937  sev -14.333977816  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791865  sev -14.334901395  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 85:  extrap ln   dxmx=-0.0893  |g|=0.0148
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5784101  18.4717791  15.5969565  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.0045928  18.5471922  14.7994869  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5679197  18.1103236  14.2432137  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791858  sev -14.335338843  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791954  sev -14.336085397  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791911  sev -14.336531680  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 86:  new ln  dxmx=-0.0250  |g|=0.0346
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5541313  18.4520055  15.5845980  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9795810  18.5333272  14.7870142  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5452964  18.1029108  14.2293933  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791907  sev -14.337458365  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792384  sev -14.340062528  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792351  sev -14.340883269  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 86:  extrap ln   dxmx=-0.0500  |g|=0.0163
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5298525  18.4322319  15.5722394  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9545691  18.5194621  14.7745415  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5226731  18.0954981  14.2155730  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792347  sev -14.341686328  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792723  sev -14.343871872  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792693  sev -14.344587203  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 87:  new ln  dxmx=-0.0777  |g|=0.0268
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4570553  18.3757900  15.5361248  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8768627  18.4821040  14.7360682  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4597062  18.0810079  14.1733863  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792672  sev -14.344584396  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792178  sev -14.332093401  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792335  sev -14.328356050  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 87:  brack ln  dxmx=-0.0165  |g|=0.0489
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5143517  18.4202137  15.5645495  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9380231  18.5115074  14.7663494  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5092655  18.0924127  14.2065902  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792325  sev -14.328472209  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792784  sev -14.338963318  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792656  sev -14.342159206  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 87:  brack ln  dxmx=-0.0250  |g|=0.0166
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5064205  18.4140644  15.5606149  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9295570  18.5074373  14.7621577  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.5024053  18.0908340  14.2019940  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792655  sev -14.342183466  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792631  sev -14.340830442  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792645  sev -14.340443447  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 88:  new ln  dxmx=-0.0161  |g|=0.0129
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4923127  18.4014674  15.5535674  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.9134110  18.4964698  14.7544369  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4914160  18.0852694  14.1950025  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792644  sev -14.341342247  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793075  sev -14.340791060  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793039  sev -14.341036536  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 89:  new ln  dxmx=-0.0347  |g|=0.0108
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4610581  18.3822768  15.5382308  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8787057  18.4801297  14.7377747  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4626987  18.0765518  14.1790136  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793035  sev -14.340294813  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792360  sev -14.338699057  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792324  sev -14.338141268  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 90:  new ln  dxmx=-0.0269  |g|=0.0197
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4364648  18.3673192  15.5274039  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8517974  18.4654227  14.7258533  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4401491  18.0666539  14.1686600  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792321  sev -14.338106383  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792188  sev -14.338447582  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792138  sev -14.338567634  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 90:  extrap ln   dxmx=-0.0538  |g|=0.0169
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4118714  18.3523616  15.5165771  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.8248892  18.4507157  14.7139319  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4175995  18.0567560  14.1583064  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792135  sev -14.338395900  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791932  sev -14.338491803  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791892  sev -14.338484663  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 90:  extrap ln   dxmx=-0.0861  |g|=0.0186
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3823594  18.3344125  15.5035849  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7925993  18.4330673  14.6996262  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3905400  18.0448785  14.1458821  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791888  sev -14.338098690  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791538  sev -14.337829510  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791502  sev -14.337652179  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 91:  new ln  dxmx=-0.0635  |g|=0.0226
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.3215872  18.2927234  15.4775732  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7291015  18.3954431  14.6722409  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3378167  18.0200266  14.1210715  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791488  sev -14.337552494  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791207  sev -14.333601327  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791201  sev -14.332476275  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 91:  extrap ln   dxmx=-0.1270  |g|=0.00899
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2608150  18.2510344  15.4515616  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6656037  18.3578188  14.6448557  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2850934  17.9951747  14.0962609  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791187  sev -14.331534868  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790394  sev -14.325565198  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790421  sev -14.323780476  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 91:  brack ln  dxmx=-0.0897  |g|=0.0219
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2964653  18.2754901  15.4668206  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7028529  18.3798900  14.6609205  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3160220  18.0097533  14.1108153  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790418  sev -14.324441700  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790946  sev -14.328038275  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790930  sev -14.329112097  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 92:  new ln  dxmx=-0.1000  |g|=0.00859
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1964653  18.2143397  15.4338074  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6058192  18.3115686  14.6280343  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2336262  17.9519174  14.0884946  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790901  sev -14.330080762  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791423  sev -14.328744599  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791294  sev -14.328865337  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 93:  new ln  dxmx=-0.0769  |g|=0.045
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1199177  18.1686721  15.4038500  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5288885  18.2635623  14.5981528  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1715185  17.9132266  14.0685732  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791276  sev -14.326640867  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790154  sev -14.323938349  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790228  sev -14.322708366  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 94:  new ln  dxmx=-0.0254  |g|=0.0176
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0945028  18.1564456  15.3955068  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5072300  18.2478625  14.5921491  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1574974  17.8950370  14.0724926  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790226  sev -14.323468320  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791470  sev -14.329348854  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791609  sev -14.330873600  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 94:  extrap ln   dxmx=-0.0508  |g|=0.0162
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0690879  18.1442190  15.3871636  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4855715  18.2321627  14.5861453  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1434762  17.8768473  14.0764121  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791608  sev -14.331629236  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792848  sev -14.337130843  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793005  sev -14.338574290  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 95:  new ln  dxmx=0.01365  |g|=0.0473
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0774850  18.1573984  15.3927306  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4992217  18.2428690  14.5943598  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1531653  17.8791653  14.0868796  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793004  sev -14.338987398  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793529  sev -14.344444162  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793524  sev -14.345994267  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 96:  new ln  dxmx=-0.0593  |g|=0.0206
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0181784  18.1298466  15.3739442  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4453518  18.2097681  14.5776241  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1074428  17.8459799  14.0802700  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793516  sev -14.343885457  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792441  sev -14.340561284  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792524  sev -14.339158457  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 96:  brack ln  dxmx=-0.0368  |g|=0.00662
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0407010  18.1403099  15.3810787  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4658098  18.2223387  14.5839798  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1248066  17.8585826  14.0827801  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792523  sev -14.340018735  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792983  sev -14.341180376  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792951  sev -14.341700538  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 97:  new ln  dxmx=-0.0092  |g|=0.00668
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0314751  18.1424526  15.3813899  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4610436  18.2187608  14.5860664  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1218630  17.8497211  14.0906043  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792951  sev -14.342292961  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793558  sev -14.343006454  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793599  sev -14.343331887  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 98:  new ln  dxmx=-0.0051  |g|=0.00553
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0263567  18.1470043  15.3818720  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4579752  18.2175896  14.5873690  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1196021  17.8450034  14.0953362  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793599  sev -14.343098660  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793460  sev -14.342501614  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793438  sev -14.342304444  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 98:  extrap ln   dxmx=-0.0102  |g|=0.00384
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0212383  18.1515559  15.3823540  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4549068  18.2164185  14.5886717  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1173412  17.8402858  14.1000681  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793438  sev -14.342106749  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793299  sev -14.341243761  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793278  sev -14.340978586  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 99:  new ln  dxmx=0.01110  |g|=0.00319
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0323412  18.1596224  15.3859887  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4653591  18.2244883  14.5920793  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1257110  17.8473791  14.1017172  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793278  sev -14.340754317  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793051  sev -14.340854438  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793016  sev -14.340841539  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 99:  extrap ln   dxmx=0.02221  |g|=0.00544
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0434441  18.1676889  15.3896233  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4758114  18.2325581  14.5954869  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1340809  17.8544724  14.1033662  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793016  sev -14.340593759  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792772  sev -14.340632013  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792738  sev -14.340594930  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 100:  new ln  dxmx=0.01297  |g|=0.0108
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0550379  18.1794840  15.3944172  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.4887821  18.2429914  14.6009496  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1452400  17.8610385  14.1092290  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792737  sev -14.340562266  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792785  sev -14.340814145  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792809  sev -14.340845561  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 100:  extrap ln   dxmx=0.02594  |g|=0.00916
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0666316  18.1912791  15.3992112  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5017528  18.2534247  14.6064122  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1563991  17.8676045  14.1150917  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792809  sev -14.340775540  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792835  sev -14.340903604  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792862  sev -14.340885251  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 100:  extrap ln   dxmx=0.04151  |g|=0.00714
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0805441  18.2054332  15.4049639  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5173176  18.2659446  14.6129674  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1697901  17.8754838  14.1221270  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792862  sev -14.340752204  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792862  sev -14.340743380  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792897  sev -14.340658882  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 100:  extrap ln   dxmx=0.06018  |g|=0.00518
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0972391  18.2224181  15.4118672  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5359955  18.2809684  14.6208337  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1858592  17.8849389  14.1305693  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792896  sev -14.340429011  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792853  sev -14.340182183  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792897  sev -14.339997237  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 100:  brack ln  dxmx=0.05223  |g|=0.00756
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.0901291  18.2151847  15.4089273  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5280411  18.2745702  14.6174836  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1790158  17.8809122  14.1269739  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792897  sev -14.340104944  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792923  sev -14.340233090  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792904  sev -14.340318651  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 101:  new ln  dxmx=0.01124  |g|=0.00576
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1006238  18.2236566  15.4133399  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5392799  18.2822862  14.6221357  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1879935  17.8868458  14.1301622  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792904  sev -14.340222011  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792716  sev -14.338835800  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792676  sev -14.338473091  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 101:  extrap ln   dxmx=0.02248  |g|=0.0012
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1111184  18.2321286  15.4177526  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5505188  18.2900022  14.6267878  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1969712  17.8927794  14.1333505  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792676  sev -14.338350183  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792472  sev -14.336891454  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792435  sev -14.336501915  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 101:  brack ln  dxmx=0.01611  |g|=0.00377
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1051689  18.2273257  15.4152510  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5441473  18.2856279  14.6241505  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1918817  17.8894156  14.1315430  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792435  sev -14.336574999  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792551  sev -14.337405240  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792572  sev -14.337627522  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 102:  new ln  dxmx=0.00643  |g|=0.00135
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1115945  18.2307735  15.4172657  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5504238  18.2895749  14.6261258  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.1972585  17.8929077  14.1327218  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792572  sev -14.337729760  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792641  sev -14.337979786  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792642  sev -14.338075067  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 102:  extrap ln   dxmx=0.01285  |g|=9.47e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1180202  18.2342212  15.4192804  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5567003  18.2935220  14.6281012  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2026353  17.8963999  14.1339005  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792642  sev -14.338170337  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792707  sev -14.338408731  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792708  sev -14.338500080  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 103:  new ln  dxmx=-0.0015  |g|=0.00233
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1165397  18.2338635  15.4188421  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5555281  18.2926233  14.6277914  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2017395  17.8951322  14.1342179  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792708  sev -14.338560252  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792768  sev -14.338705944  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792772  sev -14.338754579  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 103:  extrap ln   dxmx=-0.0030  |g|=0.00153
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1150592  18.2335058  15.4184038  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5543560  18.2917247  14.6274817  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2008436  17.8938644  14.1345353  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792772  sev -14.338815046  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792833  sev -14.338956232  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792838  sev -14.339004073  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 104:  new ln  dxmx=0.00181  |g|=0.00106
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1165516  18.2352747  15.4187206  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5561668  18.2929188  14.6279509  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2023983  17.8942756  14.1353199  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792838  sev -14.338974003  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792828  sev -14.339088797  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792829  sev -14.339106825  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 104:  extrap ln   dxmx=0.00362  |g|=5e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1180440  18.2370436  15.4190374  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5579776  18.2941128  14.6284201  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2039529  17.8946868  14.1361044  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792829  sev -14.339076355  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792819  sev -14.339182292  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792820  sev -14.339197575  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 104:  extrap ln   dxmx=0.00579  |g|=0.00105
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1198348  18.2391662  15.4194176  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5601505  18.2955456  14.6289831  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2058185  17.8951802  14.1370459  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792820  sev -14.339160488  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792807  sev -14.339280332  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792808  sev -14.339296466  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 104:  extrap ln   dxmx=0.00840  |g|=0.00205
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1219838  18.2417134  15.4198739  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5627581  18.2972651  14.6296587  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2080573  17.8957724  14.1381756  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792808  sev -14.339251210  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792791  sev -14.339384704  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792793  sev -14.339400923  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 105:  new ln  dxmx=0.00529  |g|=0.00326
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1265996  18.2450800  15.4202190  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5680513  18.2998797  14.6303858  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2128233  17.8970723  14.1392983  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792793  sev -14.339451703  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792835  sev -14.339765427  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792832  sev -14.339865701  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 105:  extrap ln   dxmx=0.01059  |g|=0.00354
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1312155  18.2484466  15.4205641  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5733445  18.3024944  14.6311128  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2175894  17.8983721  14.1404210  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792832  sev -14.339911981  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792872  sev -14.340211657  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792870  sev -14.340307712  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 105:  extrap ln   dxmx=0.01694  |g|=0.00424
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1367545  18.2524865  15.4209783  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5796963  18.3056320  14.6319853  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2233086  17.8999320  14.1417682  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792870  sev -14.340357313  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792913  sev -14.340692039  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792911  sev -14.340799535  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 105:  extrap ln   dxmx=0.02456  |g|=0.00534
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1434013  18.2573343  15.4214752  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5873185  18.3093971  14.6330323  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2301717  17.9018038  14.1433848  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792911  sev -14.340850510  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792958  sev -14.341217691  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792956  sev -14.341335536  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 106:  new ln  dxmx=0.01181  |g|=0.00678
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1527318  18.2648663  15.4199858  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.5991284  18.3140302  14.6328117  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2412946  17.9027766  14.1451832  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792956  sev -14.341310404  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792945  sev -14.341120569  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792944  sev -14.341066606  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 106:  extrap ln   dxmx=0.02362  |g|=0.00619
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1620622  18.2723983  15.4184963  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6109384  18.3186633  14.6325910  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2524175  17.9037493  14.1469815  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792944  sev -14.341023494  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792920  sev -14.340677838  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792922  sev -14.340570910  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 106:  extrap ln   dxmx=0.03779  |g|=0.00493
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1732588  18.2814366  15.4167089  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6251103  18.3242231  14.6323262  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2657649  17.9049166  14.1491395  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792922  sev -14.340495527  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792877  sev -14.339878976  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792883  sev -14.339683074  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 106:  extrap ln   dxmx=0.05480  |g|=0.00339
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1866946  18.2922826  15.4145641  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6421165  18.3308949  14.6320085  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2817819  17.9063173  14.1517290  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792883  sev -14.339558653  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792805  sev -14.338527681  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792817  sev -14.338197588  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 106:  brack ln  dxmx=0.04820  |g|=0.00583
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1814795  18.2880727  15.4153966  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6355155  18.3283052  14.6321318  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2755649  17.9057736  14.1507239  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792817  sev -14.338250431  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792849  sev -14.338689578  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792843  sev -14.338829667  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 107:  new ln  dxmx=-0.0306  |g|=0.00417
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1894251  18.2840730  15.3848430  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6522801  18.3157626  14.6062511  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.2965199  17.8880377  14.1351037  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792843  sev -14.339014634  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792855  sev -14.337762604  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792816  sev -14.337562901  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 107:  extrap ln   dxmx=-0.0611  |g|=0.00469
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1973707  18.2800733  15.3542893  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6690447  18.3032199  14.5803704  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3174750  17.8703018  14.1194836  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792816  sev -14.337592799  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792724  sev -14.334859699  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792707  sev -14.334157722  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 108:  new ln  dxmx=-0.0756  |g|=0.0169
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2136817  18.2511244  15.2787173  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6978498  18.2682710  14.5119676  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3572473  17.8358242  14.0669450  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792705  sev -14.333005531  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791777  sev -14.329902713  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791757  sev -14.328849856  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 109:  new ln  dxmx=-0.0537  |g|=0.0206
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1682644  18.1974438  15.2422825  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6491109  18.2218617  14.4742434  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3203691  17.8042173  14.0333499  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791746  sev -14.329173470  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792101  sev -14.333906295  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792125  sev -14.335309011  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 109:  brack ln  dxmx=-0.0375  |g|=0.013
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1819746  18.2136484  15.2532812  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6638238  18.2358713  14.4856313  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3315016  17.8137585  14.0434913  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792124  sev -14.335291024  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792069  sev -14.334060223  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792057  sev -14.333734985  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 110:  new ln  dxmx=-0.0157  |g|=0.00732
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1767926  18.2065775  15.2375750  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6620951  18.2244634  14.4718590  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3330845  17.7998396  14.0365695  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792056  sev -14.333970895  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792372  sev -14.334028169  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792440  sev -14.334057380  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 111:  new ln  dxmx=-0.0125  |g|=0.0154
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1790509  18.2028414  15.2250853  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6667059  18.2164064  14.4607633  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3389065  17.7882802  14.0313334  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792440  sev -14.334787759  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793118  sev -14.338203790  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.793151  sev -14.339096709  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 112:  new ln  dxmx=-0.0272  |g|=0.00985
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1808453  18.1940351  15.1979129  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6738268  18.2009199  14.4368146  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3493838  17.7696878  14.0158401  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.793150  sev -14.338796240  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792936  sev -14.337948359  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792936  sev -14.337637072  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 112:  extrap ln   dxmx=-0.0543  |g|=0.0148
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1826397  18.1852287  15.1707406  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6809476  18.1854333  14.4128659  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3598612  17.7510954  14.0003468  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792935  sev -14.337217844  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792630  sev -14.335341014  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792639  sev -14.334752889  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 112:  brack ln  dxmx=-0.0389  |g|=0.023
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1816230  18.1902184  15.1861365  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6769129  18.1942080  14.4264353  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3539247  17.7616299  14.0091253  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792639  sev -14.335004908  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792818  sev -14.336104620  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792812  sev -14.336444785  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 113:  new ln  dxmx=-0.0170  |g|=0.018
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1799676  18.1837045  15.1691416  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6782576  18.1825616  14.4117098  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3571831  17.7478361  13.9999795  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792811  sev -14.336355693  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792711  sev -14.337090695  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792670  sev -14.337316383  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 113:  extrap ln   dxmx=-0.0340  |g|=0.0115
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1783123  18.1771905  15.1521467  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6796022  18.1709151  14.3969844  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3604415  17.7340423  13.9908337  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792669  sev -14.337181847  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792539  sev -14.337503732  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792505  sev -14.337587776  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 113:  extrap ln   dxmx=-0.0544  |g|=0.00829
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1763259  18.1693738  15.1317528  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6812157  18.1569394  14.3793139  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3643516  17.7174898  13.9798587  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792505  sev -14.337366519  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792307  sev -14.337276535  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792276  sev -14.337217334  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 114:  new ln  dxmx=-0.1000  |g|=0.0079
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1660688  18.1307193  15.0317528  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6882591  18.0889180  14.2922530  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3850911  17.6347257  13.9249261  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792266  sev -14.335230845  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790889  sev -14.317157809  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.791125  sev -14.311663312  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 114:  brack ln  dxmx=-0.0041  |g|=0.135
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1759085  18.1678011  15.1276840  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6815023  18.1541717  14.3757715  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3651954  17.7141222  13.9776235  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.791115  sev -14.313588229  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792444  sev -14.331003610  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792231  sev -14.336322329  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 114:  brack ln  dxmx=-0.0079  |g|=0.00334
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1755167  18.1663243  15.1238636  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6817714  18.1515731  14.3724455  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3659878  17.7109604  13.9755249  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792231  sev -14.336272789  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792212  sev -14.335948289  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792215  sev -14.335850483  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 115:  new ln  dxmx=-0.1000  |g|=0.00302
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1651865  18.1276199  15.0238636  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6901620  18.0826813  14.2844763  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3854902  17.6288680  13.9213396  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792205  sev -14.333769531  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790687  sev -14.320546320  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.790802  sev -14.316622100  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 115:  brack ln  dxmx=-0.0020  |g|=0.0745
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1753088  18.1655454  15.1218512  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6819403  18.1501867  14.3706752  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3663802  17.7093083  13.9744345  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.790792  sev -14.318695733  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792294  sev -14.331353518  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792187  sev -14.335151090  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 115:  brack ln  dxmx=-0.0065  |g|=0.00213
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1748413  18.1637938  15.1173256  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6823200  18.1470689  14.3666941  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3672628  17.7055932  13.9719823  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792187  sev -14.335089093  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792148  sev -14.335144401  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792148  sev -14.335137871  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 116:  new ln  dxmx=-0.0063  |g|=0.00145
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1743286  18.1610099  15.1109839  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6830421  18.1428888  14.3612812  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3684600  17.6999062  13.9690602  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792148  sev -14.335267895  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792323  sev -14.336337555  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792348  sev -14.336620615  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 117:  new ln  dxmx=-0.0060  |g|=8.12e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1738017  18.1584280  15.1049734  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6838373  18.1381662  14.3562613  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3699561  17.6940965  13.9664491  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792348  sev -14.336810272  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792475  sev -14.337057961  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792472  sev -14.337172235  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 117:  extrap ln   dxmx=-0.0120  |g|=5.19e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1732747  18.1558461  15.0989629  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6846324  18.1334435  14.3512413  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3714523  17.6882867  13.9638379  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792472  sev -14.337356493  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792593  sev -14.337544272  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792590  sev -14.337644381  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 118:  new ln  dxmx=-0.0066  |g|=5.42e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1728151  18.1533208  15.0923313  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6851287  18.1285251  14.3453570  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3730567  17.6823553  13.9609473  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792590  sev -14.337734179  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792700  sev -14.338101062  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792717  sev -14.338207289  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 118:  brack ln  dxmx=-0.0046  |g|=9.79e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1729570  18.1541007  15.0943793  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6849754  18.1300440  14.3471742  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3725612  17.6841871  13.9618400  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792717  sev -14.338180225  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792685  sev -14.338083171  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792680  sev -14.338055006  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 119:  new ln  dxmx=3.08e-4  |g|=5.46e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1729298  18.1543074  15.0944009  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6850612  18.1300386  14.3472958  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3726642  17.6840641  13.9621477  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792680  sev -14.338088158  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792699  sev -14.338177276  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792697  sev -14.338206158  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 119:  extrap ln   dxmx=6.15e-4  |g|=2.79e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1729027  18.1545142  15.0944225  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6851469  18.1300332  14.3474174  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3727672  17.6839412  13.9624554  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792697  sev -14.338239367  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792716  sev -14.338336817  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792714  sev -14.338367694  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 119:  extrap ln   dxmx=9.85e-4  |g|=7.62e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1728701  18.1547623  15.0944485  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6852498  18.1300266  14.3475633  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3728908  17.6837937  13.9628246  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792714  sev -14.338407620  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792736  sev -14.338522397  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792734  sev -14.338558974  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 120:  new ln  dxmx=-0.0024  |g|=0.00146
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1724314  18.1547883  15.0920816  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6857421  18.1287438  14.3459032  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3736236  17.6816366  13.9625202  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792734  sev -14.338532090  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792706  sev -14.338331552  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792703  sev -14.338271529  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 120:  extrap ln   dxmx=-0.0047  |g|=0.00121
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1719928  18.1548142  15.0897148  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6862343  18.1274610  14.3442431  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3743564  17.6794795  13.9622159  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792703  sev -14.338245188  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792676  sev -14.338012429  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792674  sev -14.337943249  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 120:  extrap ln   dxmx=-0.0076  |g|=0.00116
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1714663  18.1548454  15.0868746  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6868250  18.1259217  14.3422510  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3752357  17.6768910  13.9618506  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792674  sev -14.337912366  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792641  sev -14.337602803  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792638  sev -14.337510941  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 121:  new ln  dxmx=0.00606  |g|=0.00163
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1716027  18.1597995  15.0929315  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6867158  18.1315190  14.3482219  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3744797  17.6821605  13.9670305  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792638  sev -14.337410734  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792589  sev -14.337731393  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792590  sev -14.337773625  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 121:  extrap ln   dxmx=0.01211  |g|=0.0011
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1717391  18.1647536  15.0989885  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6866066  18.1371164  14.3541927  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3737238  17.6874301  13.9722104  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792590  sev -14.337665722  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792535  sev -14.337973747  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792537  sev -14.338009468  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 121:  brack ln  dxmx=0.00968  |g|=0.00279
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1716843  18.1627639  15.0965558  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6866505  18.1348683  14.3517946  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3740274  17.6853137  13.9701300  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792537  sev -14.338053770  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792559  sev -14.337939044  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792558  sev -14.337926871  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 122:  new ln  dxmx=0.00213  |g|=0.00205
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1718761  18.1638867  15.0986839  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6865255  18.1365047  14.3536555  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3737218  17.6871269  13.9714139  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792558  sev -14.337921753  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792563  sev -14.337834230  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792569  sev -14.337801513  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 122:  extrap ln   dxmx=0.00426  |g|=0.00108
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1720679  18.1650096  15.1008120  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6864005  18.1381411  14.3555163  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3734162  17.6889402  13.9726978  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792569  sev -14.337795540  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792573  sev -14.337706632  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792579  sev -14.337672979  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 123:  new ln  dxmx=0.00414  |g|=1.94e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1724484  18.1669843  15.1049472  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6862419  18.1411660  14.3592219  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3727952  17.6923472  13.9751226  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792579  sev -14.337698390  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792593  sev -14.337641684  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792593  sev -14.337635748  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 123:  extrap ln   dxmx=0.00827  |g|=3.41e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1728290  18.1689591  15.1090824  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6860833  18.1441910  14.3629275  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3721741  17.6957542  13.9775474  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792593  sev -14.337658120  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792605  sev -14.337582593  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792605  sev -14.337570501  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 123:  brack ln  dxmx=0.00617  |g|=8.25e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1726355  18.1679552  15.1069801  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6861639  18.1426531  14.3610436  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3724899  17.6940221  13.9763147  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792605  sev -14.337559509  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792600  sev -14.337599252  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792599  sev -14.337606102  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 124:  new ln  dxmx=2.87e-4  |g|=5.64e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1727169  18.1681161  15.1072667  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6862332  18.1428569  14.3613296  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3725213  17.6942225  13.9765501  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792599  sev -14.337626946  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792613  sev -14.337701645  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792613  sev -14.337721696  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 124:  extrap ln   dxmx=5.73e-4  |g|=2.49e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1727983  18.1682771  15.1075532  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6863025  18.1430606  14.3616156  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3725528  17.6944229  13.9767855  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792613  sev -14.337742526  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792626  sev -14.337823742  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792626  sev -14.337845169  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 124:  extrap ln   dxmx=9.17e-4  |g|=1.31e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1728960  18.1684703  15.1078970  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6863856  18.1433052  14.3619589  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3725906  17.6946634  13.9770680  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792626  sev -14.337870146  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792642  sev -14.337966371  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792641  sev -14.337991827  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 125:  new ln  dxmx=1.16e-4  |g|=4.91e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1730119  18.1684442  15.1078804  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6864644  18.1433459  14.3619083  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3726649  17.6947520  13.9769572  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792641  sev -14.337977767  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792632  sev -14.337958760  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792633  sev -14.337950626  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 125:  extrap ln   dxmx=2.32e-4  |g|=3.88e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1731279  18.1684181  15.1078638  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6865431  18.1433865  14.3618577  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3727393  17.6948405  13.9768463  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792633  sev -14.337936576  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792624  sev -14.337906899  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792624  sev -14.337896976  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 125:  extrap ln   dxmx=3.71e-4  |g|=2.88e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1732670  18.1683867  15.1078438  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6866375  18.1434354  14.3617970  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3728286  17.6949468  13.9767133  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792624  sev -14.337880128  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792613  sev -14.337844259  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792614  sev -14.337832316  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 125:  extrap ln   dxmx=5.38e-4  |g|=1.74e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1734340  18.1683491  15.1078198  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6867509  18.1434940  14.3617242  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3729356  17.6950744  13.9765538  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792614  sev -14.337812117  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337768955  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337754605  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 125:  extrap ln   dxmx=7.38e-4  |g|=9.88e-5
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1736344  18.1683040  15.1077911  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6868869  18.1435643  14.3616368  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3730642  17.6952274  13.9763622  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792601  sev -14.337730394  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792586  sev -14.337678452  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792586  sev -14.337661210  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 125:  extrap ln   dxmx=9.79e-4  |g|=2.17e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1738748  18.1682499  15.1077566  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6870502  18.1436487  14.3615320  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3732184  17.6954111  13.9761324  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792586  sev -14.337632195  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792568  sev -14.337569654  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792569  sev -14.337548933  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 126:  new ln  dxmx=0.00170  |g|=4.28e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1754016  18.1689492  15.1075847  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6887514  18.1443909  14.3614705  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3748489  17.6960189  13.9761142  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792569  sev -14.337519914  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792550  sev -14.337478912  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792551  sev -14.337459845  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 126:  extrap ln   dxmx=0.00340  |g|=5.17e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1769283  18.1696486  15.1074129  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6904527  18.1451331  14.3614089  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3764794  17.6966267  13.9760959  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792551  sev -14.337430413  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792532  sev -14.337392465  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792532  sev -14.337373814  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 126:  extrap ln   dxmx=0.00544  |g|=6.1e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1787604  18.1704879  15.1072067  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6924942  18.1460238  14.3613351  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3784360  17.6973561  13.9760740  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792532  sev -14.337337953  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792509  sev -14.337291906  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792510  sev -14.337269301  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 126:  extrap ln   dxmx=0.00789  |g|=7.27e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1809589  18.1714950  15.1069592  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6949439  18.1470926  14.3612465  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3807840  17.6982314  13.9760477  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792510  sev -14.337225486  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792482  sev -14.337168674  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792483  sev -14.337141017  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 126:  extrap ln   dxmx=0.01083  |g|=8.73e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1835972  18.1727035  15.1066623  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.6978837  18.1483751  14.3611402  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3836015  17.6992817  13.9760161  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792483  sev -14.337087314  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792448  sev -14.337016891  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792449  sev -14.336982941  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 126:  extrap ln   dxmx=0.01436  |g|=0.00105
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1867630  18.1741537  15.1063060  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7014114  18.1499142  14.3610127  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3869826  17.7005420  13.9759782  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792449  sev -14.336916880  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792406  sev -14.336829129  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792408  sev -14.336787297  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 126:  extrap ln   dxmx=0.01859  |g|=0.00128
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.1905621  18.1758940  15.1058784  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7056446  18.1517610  14.3608596  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.3910398  17.7020545  13.9759327  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792408  sev -14.336705696  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792355  sev -14.336595722  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792356  sev -14.336543959  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 127:  new ln  dxmx=0.01887  |g|=0.00157
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2049685  18.1817323  15.0970677  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7243839  18.1541138  14.3551942  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4099099  17.7005653  13.9749208  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792356  sev -14.336554199  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792363  sev -14.336389210  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792364  sev -14.336349057  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 127:  extrap ln   dxmx=0.03774  |g|=0.00235
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2193749  18.1875705  15.0882570  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7431231  18.1564666  14.3495289  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4287800  17.6990761  13.9739089  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792364  sev -14.336306899  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792336  sev -14.335783947  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792344  sev -14.335620291  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 128:  new ln  dxmx=0.02222  |g|=0.00516
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2382297  18.2013874  15.0927329  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7653461  18.1694942  14.3565414  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4494428  17.7087074  13.9823063  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792342  sev -14.335941433  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792548  sev -14.336693960  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792536  sev -14.336991114  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 129:  new ln  dxmx=-0.0119  |g|=0.0021
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2426533  18.2003290  15.0808340  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7732659  18.1638957  14.3474014  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4583540  17.7000168  13.9785844  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792536  sev -14.337164353  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792648  sev -14.337070903  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792648  sev -14.337108283  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 130:  new ln  dxmx=0.00440  |g|=0.00362
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2458233  18.2009174  15.0774592  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7775602  18.1632932  14.3449951  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4627502  17.6984208  13.9777348  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792648  sev -14.337129926  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792662  sev -14.337580095  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792654  sev -14.337723558  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 130:  extrap ln   dxmx=0.00879  |g|=8.87e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2489934  18.2015058  15.0740845  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7818545  18.1626907  14.3425887  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4671463  17.6968249  13.9768852  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792654  sev -14.337741855  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792665  sev -14.338155547  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792657  sev -14.338287207  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 131:  new ln  dxmx=0.01176  |g|=0.00181
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2567711  18.2030710  15.0636984  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7930486  18.1605351  14.3348849  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4789096  17.6916177  13.9739443  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792657  sev -14.338135947  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792562  sev -14.337555225  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792571  sev -14.337350862  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 131:  brack ln  dxmx=0.00794  |g|=0.00109
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2542416  18.2025619  15.0670761  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7894081  18.1612362  14.3373903  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4750839  17.6933112  13.9749007  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792571  sev -14.337402735  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792604  sev -14.337609821  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792600  sev -14.337680896  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 132:  new ln  dxmx=-0.0030  |g|=3.04e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2529857  18.2008738  15.0640939  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7885186  18.1586441  14.3347340  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4745597  17.6904104  13.9732981  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792600  sev -14.337681235  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792603  sev -14.337667286  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792604  sev -14.337662105  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 133:  new ln  dxmx=-0.0013  |g|=2.38e-4
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2526889  18.2002301  15.0627544  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7883994  18.1576253  14.3335537  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4745816  17.6892439  13.9725788  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792604  sev -14.337652653  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792600  sev -14.337676675  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792600  sev -14.337679104  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 134:  new ln  dxmx=-1.6e-4  |g|=8.84e-5
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2527738  18.2002347  15.0625974  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7885324  18.1575687  14.3334387  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4747235  17.6891414  13.9725417  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792600  sev -14.337680890  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337696297  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337701096  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 135:  new ln  dxmx=1.26e-4  |g|=1.81e-5
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2528661  18.2002546  15.0625105  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7886562  18.1575570  14.3333776  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4748499  17.6891025  13.9725214  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792601  sev -14.337701689  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337704790  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337705936  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 136:  new ln  dxmx=2.07e-5  |g|=2.57e-6
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2528824  18.2002621  15.0625038  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7886768  18.1575612  14.3333743  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4748703  17.6891026  13.9725227  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792601  sev -14.337706012  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337705900  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337705900  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 137:  new ln  dxmx=2.47e-6  |g|=4.3e-7
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2528844  18.2002628  15.0625028  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7886793  18.1575616  14.3333737  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4748727  17.6891026  13.9725225  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+bz met T  tet F  ef -0.792601  sev -14.337705880  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337705716  zval 9.0 qval 9.0 dosef 11280
+bz met T  tet F  ef -0.792601  sev -14.337705669  zval 9.0 qval 9.0 dosef 11280
+ fp rlx ln 137:  cnvg  dxmx=2.47e-6  |g|=9.67e-8
+SITE  ATOM=O        POS=  14.5466972  16.0117158  16.1895173  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.2528864  18.2002635  15.0625019  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  13.7886818  18.1575620  14.3333731  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=H        POS=  14.4748752  17.6891027  13.9725223  RELAX= 1 1 1
+          DELTA=   0.00000000   0.00000000   0.00000000
+      ATOM=Cl       POS=   9.2346841  31.0493011   3.1820971  RELAX= 0 0 0
+          DELTA=   0.00000000   0.00000000   0.00000000
+ CPU time:  2.126s   Wall clock 2.162s  at  17:44:59 28.02.2020  on  tar

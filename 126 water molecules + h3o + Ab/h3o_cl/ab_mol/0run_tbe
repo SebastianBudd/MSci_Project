@@ -1,0 +1,14 @@
+module purge
+module load lmto libxc/4.3.4/intel/19.0.3 hdf5/1.10.5/openmpi/4.0.1/intel/19.0.3
+
+xt=cl
+
+
+rm -f {delta,save,band,bnds,hssn,log}.${xt}
+/home/seb/lm_lm/lm/b/intel-opt/tbe --pr31 --mv --xbs --wpos=pos1 -vnitq=100 --nit=100 -vzval=0 -vmol=t -vnbas=5 \
+                                                       -vdyn=0 -vrelax=5 -vstep=0.1 \
+                                                       ${xt} > out.${xt}
+
+rm ${xt}.{bs,mv}
+mv bs.${xt} ${xt}.bs
+mv mv.${xt} ${xt}.mv

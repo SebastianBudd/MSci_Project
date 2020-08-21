@@ -1,0 +1,5 @@
+0
+Traceback (most recent call last):
+  File "find_h3o.py", line 29, in <module>
+    X = float(x)
+ValueError: could not convert string to float: '\x00\x00\x00\x7f\x00\x00\x00'

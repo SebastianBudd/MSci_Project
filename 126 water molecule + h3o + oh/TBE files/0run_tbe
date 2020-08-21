@@ -1,0 +1,15 @@
+ module purge
+ module load hdf5/1.10.5/openmpi/3.1.0/gcc/8.1.0 libxc/4.3.4/gcc/8.1.0 intel/19.0.3
+ module list
+
+xt=128
+temp=100
+
+rm -f {delta,save,band,bnds,hssn,log,bs}.$128 
+mpirun -n 8 /home/shared/tbe_lm_branch/gcc-opt-mpi/tbe --pr20 --st --rpos=pos0 --md=1 --xyz=1 --flush -vio=1 -vpv=t \
+                                                       -vdyn=2 -vtime=10000 -vtemp=273 -vtstep=0.5\
+                                                       --wpos=pos1 -vnitq=100 \
+                                                       -vmetal=5 -vwsm=0.01 \
+                                                       -vbetamix=0.4 \
+                                                       $ctrl.128 > out.128
+mpirun -n 8 python3 find_h3o.py

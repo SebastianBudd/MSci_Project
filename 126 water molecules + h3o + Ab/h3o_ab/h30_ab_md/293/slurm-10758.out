@@ -1,0 +1,2 @@
+./0run_tbe: line 1: ≈çmodule: command not found
+slurmstepd: error: *** JOB 10758 ON tar CANCELLED AT 2020-03-04T20:55:14 ***

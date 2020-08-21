@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#SBATCH --job-name=h3o_MD_293
+#SBATCH --nodelist=tar
+#SBATCH -B 1:1:1
+
+
+#ulimit -l unlimited
+
+./0run_tbe

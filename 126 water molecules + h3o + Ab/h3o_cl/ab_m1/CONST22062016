@@ -1,0 +1,318 @@
+% const NdFe=7 V0at=79.76508 V0bcc=V0at*2 a0bcc=V0bcc^(1/3) ions=F H2mol=T
+        V0bcc={V0bcc} a0bcc={a0bcc}
+        RFe=2.2 RC=0.8 RO=0.8 RH=0.2
+# cut-offs in a.u.
+% ifdef scale
+        fixscale=abcc
+% else
+        fixscale=a0bcc
+% endif
+        r1CFs0=0.5278607028 rcCFs0=1.789982983
+        r1CFsp0=0.6109702668 rcCFsp0=1.643917618
+        r1CFd0=0.5945948286 rcCFd0=1.673566269
+        r1CFsau=r1CFs0*fixscale rcCFsau=rcCFs0*fixscale 
+        r1CFspau=r1CFs0*fixscale rcCFspau=rcCFs0*fixscale 
+        r1CFdau=r1CFd0*fixscale rcCFdau=rcCFd0*fixscale 
+        r1CFpp0=0.5007117092 rcCFpp0=1.507038147 
+        r1CFppau=r1CFpp0*fixscale rcCFppau=rcCFpp0*fixscale
+        r1HFau=0.8*fixscale rcHFau=2*fixscale
+        r1HFppau=0.75*fixscale rcHFppau=0.95*fixscale
+% ifdef CCHar
+        r1CC0=0.6 rcCC0=1
+        r1CCau=r1CC0*fixscale rcCCau=rcCC0*fixscale
+        CCrc1au=3.6 CCrc2au=5.42
+% else
+        r1CCau=3.0 rcCCau=4.55
+        CCrc1au=3.0 CCrc2au=4.55
+% endif
+        r1CHau=2.1 rcCHau=3.9
+        CHrc1au=2.1 CHrc2au=3.9
+        r1COau=4.0 rcCOau=5.0
+        COrc1au=5.0 COrc2au=5.0
+        r1OOau=8.0 rcOOau=11.0
+        OOrc1au=8.0 OOrc2au=11.0
+        r1CCau=3.0 rcCCau=4.55
+        CCrc1au=3.0 CCrc2au=4.55
+        r1OHau=2.1 rcOHau=5.5
+        OHrc1au=2.1 OHrc2au=5.5
+        r1ssau=1.1*fixscale rcssau=2*fixscale 
+        r1sdau=1.1*fixscale rcsdau=2*fixscale 
+        r1ddau={PRBModel?1.1:0.9}*fixscale rcddau=1.4*fixscale 
+        r1ppau={PRBModel?1.1:0.9}*fixscale rcppau=1.4*fixscale
+        cutmod={PRBModel?1:2} 
+# H - C
+        rchc1=2.1 rchc2=3.9
+% ifdef sd
+        rmaxhau=3*fixscale
+% else
+        rmaxhau=1.4*fixscale
+% endif
+        r1HHau=1.1*fixscale rcHHau=1.4*fixscale
+# Fe on-site
+        q0s={sd?1:0} q0p=0 q0dFe={sd?7:NdFe}
+        esFe=0.15 epFe=0.45 edFe=0 momFe={nsp==1?0:2}
+        U=1 Us=U Up=U UdFe=U stniFe={sd?0.055:0.05}
+# C on-site
+        q0sC=2 q0pC=2 
+% ifdef CCHar
+# for C in Fe PRB 87, 224110 (2013)
+        esC=-0.467663945 epC=0.08275667052 UC=1.238348985 
+% else
+# JPC 141, 044503 (2014):
+        esC=-1.8 epC=-0.95 UC=1.1
+% endif
+% ifdef CCHar
+# for H in Fe PRB 87, 224110 (2013)
+        q0H=1 esH=-0.085 UH=1.2 momH={nsp==1?0:1}
+% else
+# This from Sasha:
+#        esH=-0.8888049184 UH=1 momH=0
+# JPC 141, 044503 (2014):
+         esH=-1 UH=1 momH=0
+% endif
+# O on-site
+% ifdef ions
+        q0sO=2 q0pO=6
+% else
+        q0sO=2 q0pO=4
+% endif
+# This from Sasha:
+#       esO=-2.005196962 epO=-1.038
+#       UO=1.077532941 dsppO=-0.9429665886
+# JPC 141, 044503 (2014):
+        esO=-2.1164 epO=-1.1492
+        UO=1.0775 dsppO=-0.9430
+# H on-site 
+% ifdef ions
+        q0H=0
+% else
+        q0H=1
+% endif
+# Fe-Fe
+# hopping integrals
+        qsp=1 qpp=1 qpd=1
+        fsp=0 fpp=0 fpd=0
+        odds=0 oddp=0 oddd=0 opp=0 osp=0 opd=0
+        r0ff=0.5*sqrt(3)*V0bcc^(1/3)
+        qdds0=1 qddp0=1 qddd0=1 qss0=0.3 qsd0=0.57
+        fdd0=0.65  fss0=-0.35 fsd0=-0.5
+        fdds0=-fdd0*6 fddp0=fdd0*4.914539385 fddd0=fdd0*-2.232504465
+        qdds=0.9 qddp=0.9 qddd=0.9 qss=qss0 qsd=0.3
+        hddsr0=fdds0*exp(-qdds0*r0ff)
+        hddpr0=fddp0*exp(-qddp0*r0ff)
+        hdddr0=fddd0*exp(-qddd0*r0ff)
+        hssr0=fss0*exp(-qss0*r0ff)
+        hsdr0=fsd0*exp(-qsd0*r0ff)
+        fdds=hddsr0*exp(qdds*r0ff)
+        fddp=hddpr0*exp(qddp*r0ff)
+        fddd=hdddr0*exp(qddd*r0ff)
+        fss=hssr0*exp(qss*r0ff)
+        fsd=hsdr0*exp(qsd*r0ff)
+        qoss0=qss qosd0=qsd
+        oss0=0.45 osd0=0.5
+        ossr0=oss0*exp(-qoss0*r0ff)
+        osdr0=osd0*exp(-qosd0*r0ff)
+        qoss=qoss0 qosd=qosd0
+        oss=ossr0*exp(qoss*r0ff)
+        osd=osdr0*exp(qosd*r0ff)
+# Fe-C
+        r0CF=3.519361994
+        qCFss0=0.6 qCFsp0=0.6 qCFsd0=0.6 qCFpds0=0.7 qCFpdp0=0.7
+        fCFss0=-2 fCFsp0=2.25 fCFsd0=-0.5
+        fCFpds0=-1.5 fCFpdp0=1
+        hCFssr0=fCFss0*exp(-qCFss0*r0CF)
+        hCFspr0=fCFsp0*exp(-qCFsp0*r0CF)
+        hCFsdr0=fCFsd0*exp(-qCFsd0*r0CF)
+        hpdsr0=fCFpds0*exp(-qCFpds0*r0CF)
+        hpdpr0=fCFpdp0*exp(-qCFpdp0*r0CF)
+        qCFss=0.5654777585 qCFsp=0.7602419272 qCFsd=0.3024914302
+        qCFpds=0.6436211918 qCFpdp=0.6652876311 
+        fCFss=hCFssr0*exp(qCFss*r0CF)
+        fCFsp=hCFspr0*exp(qCFsp*r0CF)
+        fCFsd=hCFsdr0*exp(qCFsd*r0CF)
+        fCFpds=hpdsr0*exp(qCFpds*r0CF)
+        fCFpdp=hpdpr0*exp(qCFpdp*r0CF)
+        ofacCFss=0.5502992445 ofacCFsp=0.5487607608
+        ofacCFsd=0.3601562852 ofacCFpd=0.4335108427
+        qoCFss0=0.6 qoCFsp0=0.6 qoCFsd0=0.5 
+        qoCFpds0=0.5 qoCFpdp0=0.5
+        oCFss0=-ofacCFss*fCFss0 oCFsp0=-ofacCFsp*fCFsp0 
+        oCFsd0=-ofacCFsd*fCFsd0
+        oCFpds0=-ofacCFpd*fCFpds0 oCFpdp0=-ofacCFpd*fCFpdp0
+        oCFssr0=oCFss0*exp(-qoCFss0*r0CF)
+        oCFspr0=oCFsp0*exp(-qoCFsp0*r0CF)
+        oCFsdr0=oCFsd0*exp(-qoCFsd0*r0CF)
+        opdsr0=oCFpds0*exp(-qoCFpds0*r0CF)
+        opdpr0=oCFpdp0*exp(-qoCFpdp0*r0CF)
+        qoCFss=0.3010599981 qoCFsp=0.3911389194 qoCFsd=0.3408022068
+        qoCFpds=0.3063617442 qoCFpdp=0.4551807593
+        oCFss=oCFssr0*exp(qoCFss*r0CF)
+        oCFsp=oCFspr0*exp(qoCFsp*r0CF)
+        oCFsd=oCFsdr0*exp(qoCFsd*r0CF)
+        oCFpds=opdsr0*exp(qoCFpds*r0CF)
+        oCFpdp=opdpr0*exp(qoCFpdp*r0CF)
+# Fe-H
+        r0HF=1.453500953
+        qHFss0=0.592 qHFsd0=0.601
+        fHFss0=-0.8365709269 fHFsd0=-0.5041736305
+        hHFssr0=fHFss0*exp(-qHFss0*r0HF)
+        hHFsdr0=fHFsd0*exp(-qHFsd0*r0HF)
+        qHFss=0.7762840122 qHFsd=0.4544987809
+        fHFss=hHFssr0*exp(qHFss*r0HF)
+        fHFsd=hHFsdr0*exp(qHFsd*r0HF)
+
+        ofacHFss=0.4676030053 ofacHFsd=0.399106628
+        qoHFss0=0.552 qoHFsd0=0.412
+        oHFss0=-ofacHFss*fHFss0 oHFsd0=-ofacHFsd*fHFsd0
+        oHFssr0=oHFss0*exp(-qoHFss0*r0HF)
+        oHFsdr0=oHFsd0*exp(-qoHFsd0*r0HF)
+        qoHFss=0.2863260142 qoHFsd=0.473014452
+        oHFss=oHFssr0*exp(qoHFss*r0HF)
+        oHFsd=oHFsdr0*exp(qoHFsd*r0HF)
+
+#        fHHss=0 qHHss=0.5 
+        fHFsp=0 qHFsp=0
+        oHHss=0 oHFsp=0 qoHFsp=0
+# C-C
+% const Ry=13.61 au=0.529177 d0d=1.54/au
+# Harrison translated to exponential scaling
+#        vsss=-5/{Ry}*exp(2) vsps=4.7/{Ry}*exp(2) 
+#        vpps=5.5/{Ry}*exp(2) vppp=-1.55/{Ry}*exp(2)
+#        decayCC=2/d0d mCC=0 pCC=2*decayCC bCC=38 CCmode=2
+% ifdef CCHar
+# C-C for C in Fe PRB 87, 224110 (2013)
+# Harrison's power law (Xu, Wang, Chan and Ho, JPCM 4, 6047 (1992))
+        vsss=-5/{Ry}*{d0d}^2 vsps=4.7/{Ry}*{d0d}^2 
+        vpps=5.5/{Ry}*{d0d}^2 vppp=-1.55/{Ry}*{d0d}^2
+        decayCC=2 mCC=-4 pCC=0 bCC=43 CCmode=3
+        qssCC=decayCC qspCC=decayCC qppCC=decayCC
+        CCscal=1 oCCscal=0
+        fCCsss=CCscal*vsss fCCsps=CCscal*vsps
+        fCCpps=CCscal*vpps fCCppp=CCscal*vppp
+        oCCsss=-oCCscal*vsss oCCsps=-oCCscal*vsps
+        oCCpps=-oCCscal*vpps oCCppp=-oCCscal*vppp
+% else
+# Molecule C-C model (GSP) J. Chem. Phys., 141, 044503 (2014)
+        CCmode=5
+        CCsss=-0.37241 CCsps=0.48111 CCpps=0.4500 CCppp=-0.0600
+        CCnsss=2.95 CCnsps=2.7 CCnpps=2.9 CCnppp=2.9
+        CCnc=6.5 CCr0=2.90319 CCrc=4.11960
+        CCA=1.2980
+        CCnp=3.5094
+        CCncp=6.5796 CCr0p=CCr0 CCrcp=4.1196
+# Add a VdW term to the C-C pair potential (ppmode 32)
+        A2CC=-60 B2CC=-6
+# I got these earlier from Terence, I assume they're superseded by the above (must check)
+#        CCsss=-0.37241 CCsps=0.481098 CCpps=0.32075 CCppp=-0.06013
+#        CCnsss=2.95401 CCnsps=2.92818 CCnpps=2.93431 CCnppp=2.92822
+#        CCnc=6.5 CCr0=2.90319 CCrc=4.11960
+#        CCA=1.15575
+#        CCnp=3.69592 
+#        CCncp=5.96232 CCr0p=CCr0 CCrcp=4.1950
+% endif
+# Molecule O-O model (GSP) J. Chem. Phys., 141, 044504 (2014)
+        sssOO=-0.015 nssOO=2  ncssOO=6  r0ssOO=5.6    rcssOO=9
+        spsOO=0.002  nspOO=2  ncspOO=6  r0spOO=5.6    rcspOO=9
+        ppsOO=0.050  nppsOO=3 ncppsOO=6 r0ppsOO=5.6   rcppsOO=9
+        pppOO=-0.02  npppOO=3 ncpppOO=6 r0pppOO=5.6   rcpppOO=9
+# Molecule C-O model (GSP) J. Chem. Phys., 141, 044503 (2014)
+        COmode=5
+        COsss=-0.37241 COsps=0.481098 COpps=0.32075 COppp=-0.06013
+        COnsss=2.95401 COnsps=2.92818 COnpps=2.93431 COnppp=2.92822
+        COnc=6.5 COr0=2.90319 COrc=4.11960
+% ifdef CO2
+        COA=1.086
+% else
+        COA=1.15575
+% endif
+        COnp=3.69592 
+        COncp=5.96232 COr0p=COr0 COrcp=4.1950
+# H - C JCP, 141, 044503 (2014)
+        r0ch=2.0485 rcch=2.2679 nch=3.1955 
+        vsssCH=-0.6748 vspsCH=0.6356 
+        nCHsss=0.8007 nCHsps=0.8007 r0CH=2.0485 rcCH=2.2679
+# H - O (GSP rc=frc*d0)
+        nhosss=2.096344571 nhosps=1.501873927
+        vsssOH=-0.5017726192              
+        vspsOH=0.4361767834              
+
+# H - H
+% ifdef H2mol
+        R0H2=1.56 EBH2=-4.52/13.61 mHH=2.380 nHH=1.135
+        BHH=EBH2*R0H2^mHH/(1-mHH/nHH)
+        AHH=-0.5*BHH*R0H2^(nHH-mHH)*mHH/nHH
+#        r1HH=2*R0H2 r2HH=4*R0H2
+        r1HH=0.5 r2HH=1
+% else
+        AHH=0 nHH=0 BHH=1000 mHH=18 r1HH=2.9 r2HH=3.4
+% endif
+# Fe-Fe pair potential
+% ifdef sd
+%  ifdef scale
+%   ifdef PRBModel
+         b0=536 m0=0 p0=1.49 b1=-371.2 m1=0 p1=1.413111 
+%   else
+         b0=665.6 m0=0 p0=1.408429 b1=-536.8 m1=0 p1=1.362971
+%   endif
+%  else
+         b0=698.666667 m0=0 p0=1.52 b1=-517.466667 m1=0 p1=1.4576
+%  endif
+% else
+%  ifdef scale
+         b0=682.8 m0=0 p0=1.5165 b1=-466.8 m1=0 p1=1.435
+%  else
+         b0=683.1 m0=0 p0=1.5376 b1=-459.5 m1=0 p1=1.4544
+%  endif
+% endif
+# Fe - C pair potential
+        q0CF=2.396165226 n0CF=0 b0CFfac=0.7711879106 
+        q1CF=1.555534479  n1CF=0 b1CFfac=-0.01932497471
+        b0CF0=1000 b0CF=b0CF0*b0CFfac
+        b1CF0=1000 b1CF=b1CF0*b1CFfac
+# Fe - H pair potential
+        qHF=2.69224661 nHF=-1 bHFfac=0.2995633136
+        bHF0=1000 bHF=bHF0*bHFfac
+# O - O pair potential
+        A1OO=122252.8 B1OO=-10  C1OO=0
+        A2OO=-62.5    B2OO=-6   C2OO=0
+        A3OO=0        B3OO=0    C3OO=0
+# C - C pair potential
+# see C - C hopping above
+# cut-offs in alat units
+# H - C pair potential JCP, 141, 044503 (2014)
+        agsphc=1.2314 ngsphc=1.0717 ncgsphc=3.6543 r0gsphc=2.0485 rcgsphc=2.2679
+# H - O pair potential (GSP fitted to symmetric force constant FC)
+        d0OH=1.80941 FC=1.0288
+        Ep=3.0778142259  Epp=-4.8529246795
+        frc=2.099329699 mcOHh=4.056079003 mcOH=6.309640351
+        rcppOH=3.355049409 r0overrc=d0OH/rcppOH
+        alpha_pp=mcOH*r0overrc^mcOH beta_pp=(mcOH-1)*alpha_pp
+        mA=0.5*(d0OH/(1+alpha_pp))*Ep
+        mOH=(beta_pp-1-(d0OH^2/mA)*(Epp/2-FC))/(1+alpha_pp)^2
+        agspOH=mA/mOH
+
+% ifdef scale
+        ascale = alat
+% else
+        ascale = 1
+% endif
+        rmaxh=rmaxhau/ascale
+        r1CFs=r1CFsau/ascale rcCFs=rcCFsau/ascale 
+        r1CFsp=r1CFsau/ascale rcCFsp=rcCFsau/ascale 
+        r1CFd=r1CFdau/ascale rcCFd=rcCFdau/ascale 
+        r1CFpp=r1CFppau/ascale rcCFpp=rcCFppau/ascale
+        r1HF=r1HFau/ascale rcHF=rcHFau/ascale
+        r1CC=r1CCau/ascale rcCC=rcCCau/ascale
+        r1CO=r1COau/ascale rcCO=rcCOau/ascale
+        r1OO=r1OOau/ascale rcOO=rcOOau/ascale
+        r1OH=r1OHau/ascale rcOH=rcOHau/ascale
+        r1CH=r1CHau/ascale rcCH=rcCHau/ascale
+        r1ss=r1ssau/ascale rcss=rcssau/ascale r1sd=r1sdau/ascale rcsd=rcsdau/ascale 
+        r1dd=r1ddau/ascale rcdd=rcddau/ascale r1pp=r1ppau/ascale rcpp=rcppau/ascale
+        r1CFpp=r1CFppau/ascale rcCFpp=rcCFppau/ascale
+        r1HFpp=r1HFppau/ascale rcHFpp=rcHFppau/ascale
+        CCrc1=CCrc1au/ascale CCrc2=CCrc2au/ascale
+        COrc1=COrc1au/ascale COrc2=COrc2au/ascale
+        OOrc1=OOrc1au/ascale OOrc2=OOrc2au/ascale
+        OHrc1=OHrc1au/ascale OHrc2=OHrc2au/ascale
+        CHrc1=CHrc1au/ascale CHrc2=CHrc2au/ascale

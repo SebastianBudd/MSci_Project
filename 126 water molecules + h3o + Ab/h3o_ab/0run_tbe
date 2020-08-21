@@ -1,0 +1,10 @@
+module purge
+module load libxc/4.3.4/intel/19.0.3 hdf5/1.10.5/openmpi/4.0.1/intel/19.0.3
+
+xt=h3o_ab
+
+
+rm -f {delta,save,band,bnds,hssn,log}.${xt}
+/home/seb/lm_lm/lm/b/intel-opt/tbe --pr30 --xyz=10 --rpos=pos0 --wpos=pos1 -vnitq=100 --nit=200 -vmol=f \
+                                                       -vdyn=0 -vrelax=5 -vstep=0.01 -vh2=1 -vh3=1 -vab=0 -vo3=0 -vtstep=1\
+                                                       ${xt} > out.${xt}

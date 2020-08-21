@@ -1,0 +1,2 @@
+The oxygen atom with three protons nearest swaps 1 times.
+The mean temperature is 273.1111987015797K with standard deviation 32.51057340910836

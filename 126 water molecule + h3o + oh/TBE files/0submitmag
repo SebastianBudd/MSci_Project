@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#SBATCH --job-name=h3oohmd
+#SBATCH --nodelist=mag
+#SBATCH -B 1:4:2
+
+
+#ulimit -l unlimited
+
+./0run_tbe

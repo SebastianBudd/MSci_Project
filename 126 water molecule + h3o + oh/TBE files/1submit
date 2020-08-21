@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#SBATCH --job-name=findh3o
+#SBATCH --nodelist=tar
+#SBATCH -B 1:1:1
+
+
+#ulimit -l unlimited
+
+python3 find_h3o.py

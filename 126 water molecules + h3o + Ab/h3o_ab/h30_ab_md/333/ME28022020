@@ -1,0 +1,382 @@
+        2
+        Fe Fe MEMODE=2 PPMODE=10 POLY=5 CUTMOD=cutmod CUTPP=r1pp rcpp
+            | fss fsp fpp -fpp/2 fsd fpd -fpd/sqrt(3) 
+                                                 fdds fddp fddd
+        DECAY=qss qsp qpp qpp    qsd qpd  qpd    qdds qddp qddd
+        CUT=r1ss rcss 0 0 0 0 0 0 r1sd rcsd 0 0 0 0 r1dd rcdd r1dd rcdd r1dd rcdd
+            @ oss osp opp -opp/2 osd opd -opd/sqrt(3) 
+                                                 odds oddp oddd
+        DECAY=qoss qsp qpp qpp    qosd qpd  qpd    qdds qddp qddd
+        CUT=r1ss rcss 0 0 0 0 0 0 r1sd rcsd 0 0 0 0 r1dd rcdd r1dd rcdd r1dd rcdd
+            ! b0 m0 p0   b1 m1 p1   0 0 0
+        Fe C MEMODE=2 PPMODE=10 POLY=5 CUTMOD=cutmod CUTPP=r1CFpp rcCFpp
+            | fCFss  fCFsp  0  0 fCFsd fCFpds fCFpdp 0 0 0
+        DECAY=qCFss  qCFsp  0  0 qCFsd qCFpds qCFpdp 0 0 0
+        CUT=  r1CFs rcCFs r1CFsp rcCFsp 0 0 0 0
+              r1CFd rcCFd r1CFd  rcCFd r1CFd rcCFd 0 0 0 0 0 0 
+            @ oCFss  oCFsp  0  0 oCFsd oCFpds oCFpdp 0 0 0
+        DECAY=qoCFss qoCFsp  0  0 qoCFsd qoCFpds qoCFpdp 0 0 0
+        CUT=  r1CFs rcCFs r1CFsp rcCFsp 0 0 0 0
+              r1CFd rcCFd r1CFd  rcCFd r1CFd rcCFd 0 0 0 0 0 0 
+            ! b0CF n0CF q0CF   b1CF n1CF q1CF  0 0 0
+        C Fe MEMODE=2 PPMODE=10 POLY=5 CUTMOD=cutmod CUTPP=r1CFpp rcCFpp
+            | fCFss  fCFsp  0  0 fCFsd fCFpds fCFpdp 0 0 0
+        DECAY=qCFss  qCFsp  0  0 qCFsd qCFpds qCFpdp 0 0 0
+        CUT=  r1CFs rcCFs r1CFsp rcCFsp 0 0 0 0
+              r1CFd rcCFd r1CFd  rcCFd r1CFd rcCFd 0 0 0 0 0 0 
+            @ oCFss  oCFsp  0  0 oCFsd oCFpds oCFpdp 0 0 0
+        DECAY=qoCFss qoCFsp  0  0 qoCFsd qoCFpds qoCFpdp 0 0 0
+        CUT=  r1CFs rcCFs r1CFsp rcCFsp 0 0 0 0
+              r1CFd rcCFd r1CFd  rcCFd r1CFd rcCFd 0 0 0 0 0 0 
+            ! b0CF n0CF q0CF   b1CF n1CF q1CF  0 0 0
+        Fe H MEMODE=2 PPMODE=10 POLY=5 CUTMOD=cutmod CUTPP=r1HFpp rcHFpp
+            | fHFss fHFsp  0  0 fHFsd 0 0 0 0 0
+        DECAY=qHFss qHFsp  0  0 qHFsd 0 0 0 0 0
+        CUT= r1HF rcHF r1HF rcHF 0 0 0 0 r1HF rcHF 0 0 0 0 0 0 0 0 0 0
+            @ oHFss oHFsp  0  0 oHFsd 0 0 0 0 0
+        DECAY=qoHFss qoHFsp  0  0 qoHFsd 0 0 0 0 0
+        CUT= r1HF rcHF r1HF rcHF 0 0 0 0 r1HF rcHF 0 0 0 0 0 0 0 0 0 0
+            ! bHF nHF qHF  0 0 0   0 0 0
+        H Fe MEMODE=2 PPMODE=10 POLY=5 CUTMOD=cutmod CUTPP=r1HFpp rcHFpp
+            | fHFss fHFsp  0  0 fHFsd 0 0 0 0 0
+        DECAY=qHFss qHFsp  0  0 qHFsd 0 0 0 0 0
+        CUT= r1HF rcHF r1HF rcHF 0 0 0 0 r1HF rcHF 0 0 0 0 0 0 0 0 0 0
+            @ oHFss oHFsp  0  0 oHFsd 0 0 0 0 0
+        DECAY=qoHFss qoHFsp  0  0 qoHFsd 0 0 0 0 0
+        CUT= r1HF rcHF r1HF rcHF 0 0 0 0 r1HF rcHF 0 0 0 0 0 0 0 0 0 0
+            ! bHF nHF qHF  0 0 0  0 0 0
+        H H MEMODE=3 PPMODE=10 CUTMOD=2 CUTPP=r1HH r2HH
+           | AHH 0 0 0 0 0 0 0 0 0
+        DECAY= nHH 0 0 0 0 0 0 0 0 0
+        CUT= r1HH r2HH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+           @ 0 0 0 0 0 0 0 0 0 0
+        DECAY= 0 0 0 0 0 0 0 0 0 0
+        CUT= 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+           ! BHH -mHH 0  0 0 0  0 0 0
+        H C MEMODE=5 PPMODE=30 CUTMOD=2 CUTPP=r1CH rcCH
+           | vsssCH nCHsss nCH r0CH rcCH
+             vspsCH nCHsps nCH r0CH rcCH
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             CUT=CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2
+                 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2
+           @ 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2
+                 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2
+           ! agspHC 1 -1 ngspHC ncgspHC r0gspHC rcgspHC 0 0
+        C H MEMODE=5 PPMODE=30 CUTMOD=2 CUTPP=r1CH rcCH
+           | vsssCH nCHsss nCH r0CH rcCH
+             vspsCH nCHsps nCH r0CH rcCH
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             0 0 0 0 0
+             CUT=CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2
+                 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2
+           @ 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2
+                 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2 CHrc1 rchc2
+           ! agspHC 1 -1 ngspHC ncgspHC r0gspHC rcgspHC 0 0
+# C-C for C in Fe PRB 87, 224110 (2013)
+#        C C MEMODE=CCmode PPMODE=10 POLY=5 CUTMOD=2 CUTPP=r1CC rcCC
+#            | fCCsss fCCsps fCCpps fCCppp 0 0 0 0 0 0 
+#        DECAY=qssCC   qspCC    qppCC    qppCC     0 0 0 0 0 0
+#        CUT=  r1CC rcCC r1CC rcCC r1CC rcCC r1CC rcCC 
+#              0 0  0 0  0 0  0 0  0 0  0 0  
+#            @ oCCsss oCCsps oCCpps oCCppp 0 0 0 0 0 0
+#        DECAY=qssCC   qspCC    qppCC    qppCC     0 0 0 0 0 0
+#        CUT=  r1CC rcCC r1CC rcCC r1CC rcCC r1CC rcCC 
+#              0 0  0 0  0 0  0 0  0 0  0 0  
+#            ! bCC mCC pCC  0 0 0    0 0 0
+# Molecule C-C model (GSP) J. Chem. Phys., 141, 044503 (2014)
+       C C  MEMODE=CCmode PPMODE=32 POLY=5 CUTMOD=2 CUTPP=r1CC rcCC
+               | CCsss CCnsss CCnc CCr0 CCrc 
+                 CCsps CCnsps CCnc CCr0 CCrc 
+                 CCpps CCnpps CCnc CCr0 CCrc 
+                 CCppp CCnppp CCnc CCr0 CCrc  
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+               CUT= CCrc1 CCrc2 CCrc1 CCrc2 CCrc1 CCrc2 CCrc1 CCrc2
+                    0 0 0 0 0 0 0 0 0 0 0 0
+               @ 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+               CUT= CCrc1 CCrc2 CCrc1 CCrc2 CCrc1 CCrc2 CCrc1 CCrc2
+                    0 0 0 0 0 0 0 0 0 0 0 0
+               ! CCA 1 -1 CCnp CCncp CCr0p CCrcp A2CC B2CC
+# Molecule O-O model (GSP) J. Chem. Phys., 141, 044503 (2014)
+       O O MEMODE=5 PPMODE=10 CUTMOD=2 CUTPP=r1OO rcOO
+           | sssOO nssOO ncssOO r0ssOO  rcssOO
+             spsOO nspOO ncspOO r0spOO  rcspOO
+             ppsOO nppsOO ncppsOO r0ppsOO  rcppsOO
+             pppOO npppOO ncpppOO r0pppOO  rcpppOO
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+             CUT=OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2
+                 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2
+               @ 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+             CUT=OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2
+                 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2 OOrc1 OOrc2
+           ! A1OO B1OO C1OO A2OO B2OO C2OO A3OO B3OO C3OO
+# Molecule C-O model (GSP) J. Chem. Phys., 141, 044503 (2014)
+       C O  MEMODE=COmode PPMODE=30 POLY=5 CUTMOD=2 CUTPP=COrc1 COrc2   
+               | COsss COnsss COnc COr0 COrc 
+                 COsps COnsps COnc COr0 COrc 
+                 COpps COnpps COnc COr0 COrc 
+                 COppp COnppp COnc COr0 COrc  
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+               CUT= COrc1 COrc2 COrc1 COrc2 COrc1 COrc2 COrc1 COrc2
+                    0 0 0 0 0 0 0 0 0 0 0 0
+               @ 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+               CUT= COrc1 COrc2 COrc1 COrc2 COrc1 COrc2 COrc1 COrc2
+                    0 0 0 0 0 0 0 0 0 0 0 0
+               ! COA 1 -1 COnp COncp COr0p COrcp 0 0  
+# Molecule C-O model (GSP) J. Chem. Phys., 141, 044503 (2014)
+       O C  MEMODE=COmode PPMODE=30 POLY=5 CUTMOD=2 CUTPP=COrc1 COrc2   
+               | COsss COnsss COnc COr0 COrc 
+                 COsps COnsps COnc COr0 COrc 
+                 COpps COnpps COnc COr0 COrc 
+                 COppp COnppp COnc COr0 COrc  
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+               CUT= COrc1 COrc2 COrc1 COrc2 COrc1 COrc2 COrc1 COrc2
+                    0 0 0 0 0 0 0 0 0 0 0 0
+               @ 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+                 0 0 0 1 1
+               CUT= COrc1 COrc2 COrc1 COrc2 COrc1 COrc2 COrc1 COrc2
+                    0 0 0 0 0 0 0 0 0 0 0 0
+               ! COA 1 -1 COnp COncp COr0p COrcp 0 0  
+        O H MEMODE=5 PPMODE=30 CUTMOD=2 CUTPP=r1OH rcOH
+           | vsssOH nhosss mcOHh d0OH frc*d0OH
+             vspsOH nhosps mcOHh d0OH frc*d0OH
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           @ 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           ! agspOH 1 -1 mOH mcOH d0OH rcppOH  0 0
+        H O MEMODE=5 PPMODE=30 CUTMOD=2 CUTPP=r1OH rcOH
+           | vsssOH nhosss mcOHh d0OH frc*d0OH
+             vspsOH nhosps mcOHh d0OH frc*d0OH
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           @ 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           ! agspOH 1 -1 mOH mcOH d0OH rcppOH  0 0
+        O Ab MEMODE=5 PPMODE=10 CUTMOD=2 CUTPP=r1OH rcOH
+           | 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           @ 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           ! BClO -mClO 0  0 0 0  0 0 0
+        Ab O MEMODE=5 PPMODE=10 CUTMOD=2 CUTPP=r1OH rcOH
+           | 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           @ 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           ! BClO -mClO 0  0 0 0  0 0 0
+        H Ab MEMODE=5 PPMODE=10 CUTMOD=2 CUTPP=r1OH rcOH
+           | 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           @ 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           ! BClO -mClO 0  0 0 0  0 0 0
+        Ab H MEMODE=5 PPMODE=10 CUTMOD=2 CUTPP=r1OH rcOH
+           | 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           @ 0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             0 0 0 1 1
+             CUT=OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+                 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2 OHrc1 OHrc2
+           ! BClO -mClO 0  0 0 0  0 0 0
